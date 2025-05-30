@@ -72,7 +72,7 @@ class BrowserManager:
             self.page.goto(url)
             self._update_history(url)
             speak(f"Otworzyłem stronę: {url}")
-            logger.info(f"Otwarto stronę: {url}")
+            print(f"Otwarto stronę: {url}")
             return url
         except Exception as e:
             logger.error(f"Błąd otwierania strony: {e}")
@@ -89,12 +89,117 @@ class BrowserManager:
             self.page.goto(search_url)
             self._update_history(search_url)
             speak(f"Wyszukuję: {query}")
-            logger.info(f"Wyszukano: {query} -> {search_url}")
+            print(f"Wyszukano: {query} -> {search_url}")
             return search_url
         except Exception as e:
             logger.error(f"Błąd wyszukiwania: {e}")
             speak("Nie udało się wykonać wyszukiwania.")
             raise BrowserError(str(e))
+        
+    def read_search_results(self, max_results: int = 5) -> Optional[List[Dict]]:
+        """Odczytuje wyniki wyszukiwania z Google."""
+        try:
+            if not self.current_url or "google.com/search" not in self.current_url:
+                speak("Najpierw wykonaj wyszukiwanie.")
+                return None
+            page_data = self._get_page_data(self.current_url)
+            results = []
+            # Zakładamy, że scraper zwraca wyniki w formacie listy wyników wyszukiwania
+            search_results = self.page.query_selector_all('div.g')  # Standardowy selektor dla wyników Google
+            for i, result in enumerate(search_results[:max_results], 1):
+                title_elem = result.query_selector('h3')
+                link_elem = result.query_selector('a')
+                snippet_elem = result.query_selector('div.VwiC3b')  # Selektor dla opisu
+                title = title_elem.inner_text() if title_elem else "Brak tytułu"
+                link = link_elem.get_attribute('href') if link_elem else None
+                snippet = snippet_elem.inner_text() if snippet_elem else "Brak opisu"
+                if link and validate_url(link):
+                    results.append({"index": i, "title": title, "url": link, "snippet": snippet})
+            if not results:
+                speak("Nie znaleziono wyników wyszukiwania.")
+                return None
+            # Odczyt wyników
+            result_text = "\n".join(
+                [f"Wynik {r['index']}: {r['title']} - {r['snippet'][:100]}..." for r in results]
+            )
+            speak(f"Wyniki wyszukiwania:\n{result_text}")
+            logger.info(f"Odczytano {len(results)} wyników wyszukiwania")
+            return results
+        except Exception as e:
+            logger.error(f"Błąd odczytu wyników wyszukiwania: {e}")
+            speak("Nie udało się odczytać wyników wyszukiwania.")
+            return None
+    
+    def open_search_result(self, index: int) -> Optional[str]:
+        """Otwiera wynik wyszukiwania o podanym numerze."""
+        try:
+            results = self.read_search_results(max_results=10)  # Pobierz wyniki, aby mieć kontekst
+            if not results:
+                speak("Brak wyników wyszukiwania.")
+                return None
+            for result in results:
+                if result["index"] == index:
+                    url = result["url"]
+                    self.page.goto(url)
+                    self._update_history(url)
+                    speak(f"Otworzyłem wynik {index}: {url}")
+                    logger.info(f"Otwarto wynik wyszukiwania {index}: {url}")
+                    return url
+            speak(f"Nie znaleziono wyniku o numerze {index}.")
+            return None
+        except Exception as e:
+            logger.error(f"Błąd otwierania wyniku wyszukiwania: {e}")
+            speak("Nie udało się otworzyć wyniku wyszukiwania.")
+            return None
+
+    def read_page_links(self, max_links: int = 5) -> Optional[List[Dict]]:
+        """Odczytuje linki na bieżącej stronie."""
+        try:
+            if not self.current_url:
+                speak("Najpierw otwórz stronę.")
+                return None
+            page_data = self._get_page_data(self.current_url)
+            links = []
+            link_elements = self.page.query_selector_all('a')
+            for i, link_elem in enumerate(link_elements[:max_links], 1):
+                href = link_elem.get_attribute('href')
+                text = link_elem.inner_text().strip() or "Brak tekstu"
+                if href and validate_url(normalize_url(href, base_url=self.current_url)):
+                    links.append({"index": i, "text": text, "url": normalize_url(href, base_url=self.current_url)})
+            if not links:
+                speak("Nie znaleziono linków na stronie.")
+                return None
+            link_text = "\n".join([f"Link {l['index']}: {l['text']} - {l['url']}" for l in links])
+            speak(f"Linki na stronie:\n{link_text}")
+            logger.info(f"Odczytano {len(links)} linków na stronie")
+            return links
+        except Exception as e:
+            logger.error(f"Błąd odczytu linków: {e}")
+            speak("Nie udało się odczytać linków.")
+            return None
+
+    def open_page_link(self, index: int) -> Optional[str]:
+        """Otwiera link o podanym numerze na stronie."""
+        try:
+            links = self.read_page_links(max_links=10)  # Pobierz linki, aby mieć kontekst
+            if not links:
+                speak("Brak linków na stronie.")
+                return None
+            for link in links:
+                if link["index"] == index:
+                    url = link["url"]
+                    self.page.goto(url)
+                    self._update_history(url)
+                    speak(f"Otworzyłem link {index}: {url}")
+                    logger.info(f"Otwarto link {index}: {url}")
+                    return url
+            speak(f"Nie znaleziono linku o numerze {index}.")
+            return None
+        except Exception as e:
+            logger.error(f"Błąd otwierania linku: {e}")
+            speak("Nie udało się otworzyć linku.")
+            return None
+
 
     def go_back(self) -> Optional[str]:
         """Cofa się w historii przeglądania."""
@@ -104,7 +209,7 @@ class BrowserManager:
                 url = self.history[self.history_index]
                 self.page.goto(url)
                 speak(f"Wróciłem do: {url}")
-                logger.info(f"Cofnięto do: {url}")
+                print(f"Cofnięto do: {url}")
                 return url
             speak("Brak poprzednich stron.")
             return None
@@ -121,7 +226,7 @@ class BrowserManager:
                 url = self.history[self.history_index]
                 self.page.goto(url)
                 speak(f"Przeszedłem do: {url}")
-                logger.info(f"Przejście do przodu: {url}")
+                print(f"Przejście do przodu: {url}")
                 return url
             speak("Brak następnych stron.")
             return None
@@ -136,7 +241,7 @@ class BrowserManager:
             if self.current_url:
                 self.page.reload()
                 speak("Odświeżam stronę.")
-                logger.info(f"Odświeżono stronę: {self.current_url}")
+                print(f"Odświeżono stronę: {self.current_url}")
                 return self.current_url
             speak("Brak aktywnej strony.")
             return None

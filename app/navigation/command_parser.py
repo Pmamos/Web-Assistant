@@ -39,6 +39,10 @@ class CommandParser:
             r"przejdź do\s+(.*)": lambda url: self.browser_manager.open_page(url),
             r"zapytaj model\s+(.*)": lambda question: self._ask_model(question),
             r"znajdź na stronie\s+(.*)": lambda phrase: self._find_on_page(phrase),
+            r"przeczytaj wyniki wyszukiwania": self.browser_manager.read_search_results,
+            r"otwórz wynik\s+(\d+)": lambda index: self.browser_manager.open_search_result(int(index)),
+            r"przeczytaj linki": self.browser_manager.read_page_links,
+            r"otwórz link\s+(\d+)": lambda index: self.browser_manager.open_page_link(int(index)),
         }
     
     

@@ -1,3 +1,11 @@
 playwright==1.52.0
 playwright-stealth==1.0.6
 setuptools==80.9.0
+numpy==2.2.6
+sounddevice==0.5.2
+torch==2.7.0
+transformers==4.52.3
+SpeechRecognition==3.14.3
+PyAudio==0.2.14
+vosk==0.3.45
+Levenshtein==0.27.1
