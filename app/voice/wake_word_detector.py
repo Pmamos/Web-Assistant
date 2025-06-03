@@ -12,13 +12,13 @@ from voice.speech_recognition import SpeechRecognizer
 logger = logging.getLogger(__name__)
 
 class WakeWordDetector:
-    def __init__(self, wake_word: str = "komputer", sample_rate: int = 16000):
+    def __init__(self, recognizer, wake_word: str = "komputer", sample_rate: int = 16000):
         self.sample_rate = sample_rate
         self.wake_word_regex = re.compile(rf'\b{wake_word}\b', re.IGNORECASE)
         self.audio_buffer = np.array([], dtype=np.float32)
         self.stream = None
 
-        self.recognizer = SpeechRecognizer()
+        self.recognizer = recognizer
 
     def start_listening(self):
         """Rozpoczyna nasłuchiwanie mikrofonu."""

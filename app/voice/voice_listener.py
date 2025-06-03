@@ -16,8 +16,8 @@ class VoiceListener:
     
     def __init__(self, command_parser):
         self.command_parser = command_parser
-        self.wake_detector = WakeWordDetector()
         self.recognizer = SpeechRecognizer()
+        self.wake_detector = WakeWordDetector(self.recognizer)
         self.is_listening = False
         self.is_wake_up = False 
         self.stop_event = threading.Event()

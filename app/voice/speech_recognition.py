@@ -19,7 +19,6 @@ class SpeechRecognizer:
         r"wejdź na stronę\s+(.*)",
         r"otwórz przeglądarkę",
         r"otwórz stronę\s+(.*)",
-        r"wyszukaj\s+(.*)",
         r"cofnij",
         r"ponów",
         r"przeczytaj nagłówki",
@@ -41,13 +40,21 @@ class SpeechRecognizer:
         r"otwórz wynik\s+(\d+)",
         r"przeczytaj linki",
         r"otwórz link\s+(\d+)",
+        r"wyszukaj na wikipedii\s+(.*)",
+        r"pokaż sekcje artykułu",
+        r"przeczytaj sekcję\s+(.*)",
+        r"wyszukaj filmy na youtube\s+(.*)",
+        r"przeczytaj filmy",
+        r"otwórz film\s+(\d+)",
+        r"przeczytaj formularze",
+        r"wyszukaj\s+(.*)",
         r"komputer",
         r"stop"
     ]
 
+
     COMMANDS_VOSK = [
         r"otwórz przeglądarkę",
-        r"wyszukaj\s+(.*)",
         r"cofnij",
         r"ponów",
         r"przeczytaj nagłówki",
@@ -60,7 +67,13 @@ class SpeechRecognizer:
         r"przejdź do następnej strony",
         r"przejdź do poprzedniej strony",
         r"przeczytaj wyniki wyszukiwania",
+        r"otwórz wynik\s+(\d+)",
         r"przeczytaj linki",
+        r"otwórz link\s+(\d+)",
+        r"pokaż sekcje artykułu",
+        r"przeczytaj filmy",
+        r"otwórz film\s+(\d+)",
+        r"przeczytaj formularze",
         r"komputer",
         r"stop"
     ]
@@ -190,17 +203,17 @@ class SpeechRecognizer:
 
 
 
-if __name__ == "__main__":
+# if __name__ == "__main__":
 
-    # Inicjalizacja z Whisper
+#     # Inicjalizacja z Whisper
     
     
-    # Załóżmy, że mamy dane WAV z wcześniejszego nagrywania
-    with open("last_command.wav", "rb") as f:
-        audio_data = f.read()
+#     # Załóżmy, że mamy dane WAV z wcześniejszego nagrywania
+#     with open("last_command.wav", "rb") as f:
+#         audio_data = f.read()
     
-    # Przełącz na Vosk
-    recognizer = SpeechRecognizer()
-    text = recognizer.transcribe(audio_data)
-    recognizer = SpeechRecognizer(use_vosk=False)
-    text = recognizer.transcribe(audio_data)
+#     # Przełącz na Vosk
+#     recognizer = SpeechRecognizer()
+#     text = recognizer.transcribe(audio_data)
+#     recognizer = SpeechRecognizer(use_vosk=False)
+#     text = recognizer.transcribe(audio_data)

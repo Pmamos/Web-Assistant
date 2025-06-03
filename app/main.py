@@ -60,16 +60,48 @@ def main():
 
     try:
         # Główna pętla aplikacji
+        # while True:
+        #     # Przetwarzanie komend z kolejki
+        #     while not queue.empty():
+        #         try:
+        #             handler, args, kwargs = queue.get()
+        #             result = handler(*args, **kwargs)
+        #             print(f"Wynik: {result}")
+        #         except Exception as e:
+        #             print(f"Błąd wykonania: {e}")
+        #     time.sleep(0.1)
+
+
+        test_commands = [
+            "otwórz przeglądarkę",
+            "wyszukaj jak zrobić bigos",
+            "przeczytaj wyniki wyszukiwania",
+            "otwórz wynik 1",
+            "przeczytaj nagłówki",
+            "przejdź do sekcji składniki",
+            "odśwież stronę",
+            "cofnij",
+            "pokaż historię",
+            "domyślna strona",
+            "zamknij przeglądarkę"
+        ]
+
+        # Dodawanie komend do kolejki
+        for cmd in test_commands:
+            try:
+                parser.parse_command(cmd)
+            except Exception as e:
+    
+             print(f"Błąd parsowania: {e}")
         while True:
-            # Przetwarzanie komend z kolejki
-            while not queue.empty():
-                try:
-                    handler, args, kwargs = queue.get()
-                    result = handler(*args, **kwargs)
-                    print(f"Wynik: {result}")
-                except Exception as e:
-                    print(f"Błąd wykonania: {e}")
-            time.sleep(0.1)
+            try:
+                handler, args, kwargs = queue.get()
+                result = handler(*args, **kwargs)
+                print(f"Wynik: {result}")
+            except Exception as e:
+                print(f"Błąd wykonania: {e}")
+            time.sleep(10)  # Opóźnienie dla lepszej widoczności
+
             
     except KeyboardInterrupt:
         print("\nZamykanie aplikacji...")
@@ -78,4 +110,6 @@ def main():
         browser_manager.close_browser()
 
 if __name__ == "__main__":
+    # browser_manager = BrowserManager()
+    # browser_manager.kaczka()
     main()
