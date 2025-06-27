@@ -3,9 +3,10 @@ import logging
 import re
 from urllib.parse import urlparse, urljoin
 from typing import Dict, List, Optional
+from readability import Document
 
 from playwright.sync_api import Page, TimeoutError as PlaywrightTimeoutError
-from bs4 import BeautifulSoup
+from bs4 import BeautifulSoup, Tag, NavigableString
 
 from utils.url_utils import clean_text, normalize_url, validate_url
 
@@ -166,20 +167,26 @@ class WebScraper:
             # 2. Fallback na Readability
             if not main_content:
                 doc = Document(str(soup))
-                main_content = BeautifulSoup(doc.summary(), "html.parser")
+                main_html = doc.summary()
+                main_content = BeautifulSoup(main_html, "html.parser")
 
             # 3. Filtruj widoczny tekst
-            def is_visible(tag):
-                style = tag.attrs.get('style', '').lower().replace(' ', '')
-                hidden_styles = ['display:none', 'visibility:hidden', 'opacity:0']
-                return not any(hs in style for hs in hidden_styles)
+            def is_visible(tag: Tag) -> bool:
+                if not tag or not isinstance(tag, Tag):
+                    return False
+                style = tag.attrs.get('style', '').replace(' ', '').lower()
+                hidden = ['display:none', 'visibility:hidden', 'opacity:0']
+                return not any(h in style for h in hidden)
 
+            # 4. Zbieraj widoczny tekst
             visible_text_parts = []
             for elem in main_content.descendants:
-                if isinstance(elem, str) and elem.parent and is_visible(elem.parent):
-                    text = elem.strip()
-                    if text:
-                        visible_text_parts.append(text)
+                if isinstance(elem, NavigableString):
+                    parent = elem.parent
+                    if parent and is_visible(parent):
+                        text = str(elem).strip()
+                        if text:
+                            visible_text_parts.append(text)
 
             visible_text = ' '.join(visible_text_parts)
 
@@ -197,58 +204,128 @@ class WebScraper:
         """Ekstrahuje obrazy z sensownymi atrybutami alt, podpisami lub istotnymi nazwami."""
         images = []
         base_url = self.page.url
+        seen_srcs = set()
 
-        # 1. Ekstrahuj obrazy z <figure>
+        print(f"\n=== START: Ekstrakcja obrazów ze strony: {base_url} ===")
+
+        # 1. Ekstrahuj obrazy z <figure> z filtrowaniem rozmiaru
         figures = soup.find_all("figure")
-        for figure in figures:
+        print(f"Znaleziono {len(figures)} tagów <figure>")
+
+        for idx, figure in enumerate(figures, 1):
             img = figure.find("img")
+            # print(f"\n[{idx}] Przetwarzam <figure>: {figure}")
+
             if img and 'src' in img.attrs:
+                # print(f" - Znaleziono <img>: {img}")
+
                 src = normalize_url(img["src"], base_url=base_url)
+                
+                # Pomijaj małe obrazy i miniaturek
+                if 'crop=faces&fit=crop&h=32' in src or 'h=32' in src:
+                    # print(f" - Pominięto: obraz jest miniaturką (h=32)")
+                    continue
+                    
                 alt = img.get("alt", "")
                 caption = figure.find("figcaption")
+
                 if caption:
-                    alt += " - " + clean_text(caption.get_text())
-                if src and validate_url(src):
+                    caption_text = clean_text(caption.get_text())
+                    # print(f" - Znaleziono <figcaption>: {caption_text}")
+                    alt = f"{alt} - {caption_text}".strip() if alt else caption_text
+
+                if src and validate_url(src) and src not in seen_srcs:
+                    # print(f" - Dodaję obraz z <figure>: src={src}, alt={alt}")
+                    seen_srcs.add(src)
                     images.append({
                         "src": src,
                         "alt": alt,
-                        "is_meaningful_alt": len(alt.strip()) > 10
+                        "is_meaningful_alt": len(alt.strip()) > 20
                     })
+                else:
+                    reason = "nieprawidłowy src" if not src else "duplikat" if src in seen_srcs else "nie przechodzi walidacji"
+                    # print(f" - Pominięto: {reason}: {src}")
+            else:
+                 print(" - Brak <img> lub brak atrybutu src w <figure>")
 
-        # 2. Ekstrahuj inne obrazy z Playwright
+        # 2. Ekstrahuj inne obrazy z Playwright z lepszym filtrowaniem
+        print("\n--- Próba ekstrakcji obrazów z DOM za pomocą Playwright ---")
         try:
             other_images = self.page.evaluate("""
                 () => Array.from(document.images)
                     .filter(img => {
                         const alt = img.alt || '';
                         const src = img.src || '';
+                        
+                        // Odrzuć profile/avatary
+                        if (/\\b(profile|avatar|user)\\b/i.test(alt) || 
+                            /\\b(profile|avatar|user)\\b/i.test(src)) {
+                            return false;
+                        }
+                        
+                        // Odrzuć małe obrazy (szerokość lub wysokość < 100px)
+                        if (img.naturalWidth < 100 && img.naturalHeight < 100) {
+                            return false;
+                        }
+                        
+                        // Odrzuć obrazy z parametrami crop
+                        if (src.includes('crop=faces') || src.includes('fit=crop') || src.includes('h=32')) {
+                            return false;
+                        }
+                        
                         return (
                             alt.trim().length > 10 ||
-                            src.match(/(diagram|schemat|mapa|wykres|chart)/i) ||
+                            src.match(/(diagram|schemat|mapa|wykres|chart|infographic|illustration|photo|image)/i) ||
                             img.width >= 100
                         );
                     })
                     .map(img => ({
                         alt: img.alt || '',
                         src: img.src || '',
-                        width: img.width,
-                        height: img.height
+                        width: img.naturalWidth,
+                        height: img.naturalHeight
                     }))
             """)
-            for img in other_images:
+            # print(f"Znaleziono {len(other_images)} potencjalnych obrazów przez Playwright")
+
+            for idx, img in enumerate(other_images, 1):
                 src = normalize_url(img["src"], base_url=base_url)
-                if src and validate_url(src) and not any(i["src"] == src for i in images):
+                
+                # Dodatkowe filtrowanie po stronie Pythona
+                if any(kw in src for kw in ['profile-', 'avatar', 'user=', 'h=32', 'crop=faces']):
+                    # print(f" - Pominięto: URL wskazuje na miniaturkę: {src}")
+                    continue
+                    
+                if img['width'] < 100 and img['height'] < 100:
+                    # print(f" - Pominięto: obraz zbyt mały ({img['width']}x{img['height']}px): {src}")
+                    continue
+                    
+                alt = clean_text(img["alt"])
+                # print(f"\n[{idx}] Obraz z Playwright: src={src}, alt={alt}, width={img['width']}, height={img['height']}")
+
+                if src and validate_url(src) and src not in seen_srcs:
+                    # print(" - Dodaję obraz z Playwright")
+                    seen_srcs.add(src)
                     images.append({
                         "src": src,
-                        "alt": clean_text(img["alt"]),
-                        "width": img["width"],
-                        "height": img["height"],
-                        "is_meaningful_alt": len(img["alt"].strip()) > 10
+                        "alt": alt,
+                        "width": img['width'],
+                        "height": img['height'],
+                        "is_meaningful_alt": len(alt.strip()) > 20
                     })
-            logger.info(f"Znaleziono {len(images)} istotnych obrazów")
+                else:
+                    reason = "nieprawidłowy src" if not src else "duplikat" if src in seen_srcs else "nie przechodzi walidacji"
+                    # print(f" - Pominięto: {reason}")
+
+            print(f"\n>>> Łącznie znaleziono {len(images)} istotnych obrazów")
         except Exception as e:
+            print(f"Błąd ekstrakcji obrazów z Playwright: {e}")
             logger.error(f"Błąd ekstrakcji obrazów: {e}")
+
+        print("=== KONIEC ekstrakcji obrazów ===\n")
+        print(f"Znaleziono {len(images)} obrazów na stronie: {base_url}")
         return images
+
 
     def _extract_links(self, soup: BeautifulSoup) -> List[Dict]:
         """Ekstrahuje linki z tekstem i URL-ami, pomijając linki nawigacyjne."""

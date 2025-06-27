@@ -58,16 +58,6 @@ class WakeWordDetector:
             logger.error(f"Błąd rozpoznawania: {e}")
         
         
-
-    # def _convert_to_wav(self, audio: np.ndarray) -> bytes:
-    #     """Konwertuje numpy array do WAV."""
-    #     with io.BytesIO() as wav_buffer:
-    #         with wave.open(wav_buffer, 'wb') as wav_file:
-    #             wav_file.setnchannels(1)
-    #             wav_file.setsampwidth(2)
-    #             wav_file.setframerate(self.sample_rate)
-    #             wav_file.writeframes((audio * 32767).astype(np.int16).tobytes())
-    #         return wav_buffer.getvalue()
         
     def stop(self):
         if self.stream:

@@ -11,11 +11,11 @@ def clean_text(text: str) -> str:
 
 def normalize_url(url: str, base_url: Optional[str] = None) -> str:
     """Normalizuje URL, rozwiązując linki relatywne."""
+  
     if not url:
         return ""
     if base_url and not url.startswith(('http://', 'https://')):
         url = urljoin(base_url, url)
-    
     return url
 
 def validate_url(url: str) -> bool:

@@ -1,7 +1,8 @@
 import logging
 from typing import Dict, List, Optional
 from urllib.parse import quote_plus
-from ai.summarization import summarize_text
+from ai.page_assistant import PageAssistant
+from ai.image_describer import ImageDescriber
 from web.scraper import WebScraper
 from voice.text_to_speech import TTSWrapper
 from utils.url_utils import normalize_url, validate_url
@@ -17,11 +18,12 @@ class BrowserError(Exception):
     pass
 
 class BrowserManager:
-    def __init__(self):
+    def __init__(self, page_assistant: PageAssistant):
         self.playwright = None
         self.browser = None
         self.context = None
         self.page = None
+        self.page_assistant = page_assistant
         self.current_url: Optional[str] = None
         self.history: List[str] = []
         self.history_index: int = -1
@@ -32,6 +34,7 @@ class BrowserManager:
         self.scraper = None
         self.wiki = wikipediaapi.Wikipedia('WebAssistBot/1.0', 'pl')
         self.youtube_results = []
+        self.image_describer = ImageDescriber()  
 
     def initialize(self):
         """Inicjalizuje przeglądarkę w głównym wątku."""
@@ -41,20 +44,34 @@ class BrowserManager:
             self.playwright = sync_playwright().start()
             self.browser = self.playwright.chromium.launch(
                 headless=False,
-                args=["--disable-blink-features=AutomationControlled", "--disable-infobars"]
+                args=[
+                "--disable-blink-features=AutomationControlled",
+                "--disable-infobars",
+                "--no-sandbox",
+                "--disable-dev-shm-usage"
+            ]
             )
             self.context = self.browser.new_context(
                 user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36",
-                permissions=["geolocation"]
+                permissions=["geolocation"],
+                viewport={"width": 1920, "height": 1080},
+                java_script_enabled=True,
+                bypass_csp=True
             )
             self.page = self.context.new_page()
             stealth_sync(self.page)
+            self.page.set_extra_http_headers({
+                "DNT": "0",
+                "Accept-Language": "pl-PL,pl;q=0.9,en-US;q=0.8,en;q=0.7",
+                "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8"
+            })
             self.scraper = WebScraper(self.page)
             logger.info("Przeglądarka zainicjalizowana.")
         except Exception as e:
             logger.error(f"Błąd inicjalizacji przeglądarki: {e}")
             self.tts.speak("Nie udało się zainicjalizować przeglądarki.")
             raise BrowserError(str(e))
+            
 
     def _get_page_data(self, url: str) -> Dict:
         """Pobiera dane ze strony, używając cache'a jeśli dostępne."""
@@ -80,12 +97,16 @@ class BrowserManager:
     def open_page(self, url: str, isSpeak = True) -> Optional[str]:
         """Otwiera stronę po normalizacji i walidacji URL."""
         try:
+            print(f"Otwieranie strony: {url}")
             url = normalize_url(url)
             if not validate_url(url):
                 self.tts.speak("Nieprawidłowy adres URL.")
                 raise BrowserError("Nieprawidłowy adres URL.")
             self.page.goto(url, wait_until="domcontentloaded")
             self._update_history(url)
+            page_data = self._get_page_data(url)
+            text = page_data.get('content', {}).get('text', '')
+            self.page_assistant.load_context(text)
             if isSpeak:
                 self.tts.speak(f"Otworzono stronę: {url}")
             return url
@@ -104,6 +125,9 @@ class BrowserManager:
             search_url = f"{self.default_search_engine}{encoded_query}"
             self.page.goto(search_url, wait_until="domcontentloaded")
             self._update_history(search_url)
+            page_data = self._get_page_data(search_url)
+            text = page_data.get('content', {}).get('text', '')
+            self.page_assistant.load_context(text)
             self.tts.speak(f"Wyszukano: {query}")
             return search_url
         except Exception as e:
@@ -159,6 +183,9 @@ class BrowserManager:
                     url = result["url"]
                     self.page.goto(url, wait_until="domcontentloaded")
                     self._update_history(url)
+                    page_data = self._get_page_data(url)
+                    text = page_data.get('content', {}).get('text', '')
+                    self.page_assistant.load_context(text)
                     self.tts.speak(f"Otworzono wynik {index}: {result['title']}")
                     return url
             self.tts.speak(f"Nie znaleziono wyniku o numerze {index}.")
@@ -199,6 +226,9 @@ class BrowserManager:
                     url = link["url"]
                     self.page.goto(url, wait_until="domcontentloaded")
                     self._update_history(url)
+                    page_data = self._get_page_data(url)
+                    text = page_data.get('content', {}).get('text', '')
+                    self.page_assistant.load_context(text)
                     self.tts.speak(f"Otworzono link {index}: {link['text']}")
                     return url
             self.tts.speak(f"Nie znaleziono linku o numerze {index}.")
@@ -312,31 +342,6 @@ class BrowserManager:
             self.tts.speak("Nie udało się odczytać nagłówków.")
             return None
 
-    def summarize_page(self) -> Optional[str]:
-        """Streszcza treść bieżącej strony."""
-        try:
-            if not self.current_url:
-                self.tts.speak("Najpierw otwórz stronę.")
-                return None
-            if "wikipedia.org" in self.current_url:
-                wiki_page = self.wiki.page(self.current_url.split("/")[-1])
-                if wiki_page.exists():
-                    summary = wiki_page.summary[:500] + ("..." if len(wiki_page.summary) > 500 else "")
-                    self.tts.speak(f"Streszczenie artykułu z Wikipedii: {summary}")
-                    return summary
-            page_data = self._get_page_data(self.current_url)
-            text = page_data.get('content', {}).get('text', '')
-            if not text:
-                self.tts.speak("Brak treści do streszczenia.")
-                return None
-            summary = summarize_text(text)
-            self.tts.speak(f"Streszczenie strony: {summary}")
-            return summary
-        except Exception as e:
-            logger.error(f"Błąd streszczania strony: {e}")
-            self.tts.speak("Nie udało się streścić strony.")
-            return None
-
     def read_content(self) -> Optional[str]:
         """Odczytuje treść bieżącej strony."""
         try:
@@ -395,6 +400,9 @@ class BrowserManager:
             self.page = new_page
             self.scraper = WebScraper(self.page)
             self._update_history(url)
+            page_data = self._get_page_data(url)
+            text = page_data.get('content', {}).get('text', '')
+            self.page_assistant.load_context(text)
             self.tts.speak(f"Otworzono {url} w nowej karcie.")
             return url
         except Exception as e:
@@ -459,22 +467,52 @@ class BrowserManager:
             return None
 
     def describe_image(self, image_index: int) -> Optional[str]:
-        """Opisuje obraz o podanym numerze."""
+        """
+        Opisuje obraz o podanym numerze, korzystając z ImageDescriber i danych scrapera.
+
+        Args:
+            image_index (int): Numer obrazu (1-based indexing).
+
+        Returns:
+            Optional[str]: Opis obrazu lub None w przypadku błędu.
+        """
         try:
             if not self.current_url:
                 self.tts.speak("Najpierw otwórz stronę.")
                 return None
+
+            # Pobierz dane strony
             page_data = self._get_page_data(self.current_url)
             images = page_data.get('images', [])
-            if image_index < 1 or image_index > len(images):
-                self.tts.speak("Nieprawidłowy numer obrazu.")
+            
+            if not images:
+                self.tts.speak("Na stronie nie znaleziono obrazów.")
                 return None
+                
+            if image_index < 1 or image_index > len(images):
+                self.tts.speak(f"Nieprawidłowy numer obrazu. Dostępne obrazy: od 1 do {len(images)}.")
+                print(f"Nieprawidłowy indeks obrazu: {image_index}, dostępne: {len(images)}")
+                return None
+
             image = images[image_index - 1]
+            print(f"Opis obrazu {image_index}: {image}")
+
+            # Sprawdzenie, czy ImageDescriber jest dostępny
+            if self.image_describer:
+                description = self.image_describer.describe_image(image)
+                if description:
+                    self.tts.speak(f"Obraz {image_index}: {description}")
+                    return description
+                else:
+                    print(f"ImageDescriber nie zwrócił opisu dla obrazu {image_index}")
+            
+            # Fallback na tekst alt
             description = image.get('alt', 'Brak opisu')
             self.tts.speak(f"Obraz {image_index}: {description}")
             return description
+
         except Exception as e:
-            logger.error(f"Błąd opisywania obrazu: {e}")
+            logger.error(f"Błąd opisywania obrazu {image_index}: {e}")
             self.tts.speak("Nie udało się opisać obrazu.")
             return None
 
@@ -486,6 +524,9 @@ class BrowserManager:
                 next_button.click()
                 self.page.wait_for_load_state("domcontentloaded")
                 self._update_history(self.page.url)
+                page_data = self._get_page_data(self.page.url)
+                text = page_data.get('content', {}).get('text', '')
+                self.page_assistant.load_context(text)
                 self.page_data_cache.pop(self.current_url, None)
                 self.tts.speak("Przejście do następnej strony.")
                 return self.page.url
@@ -504,6 +545,9 @@ class BrowserManager:
                 prev_button.click()
                 self.page.wait_for_load_state("domcontentloaded")
                 self._update_history(self.page.url)
+                page_data = self._get_page_data(self.page.url)
+                text = page_data.get('content', {}).get('text', '')
+                self.page_assistant.load_context(text)
                 self.page_data_cache.pop(self.current_url, None)
                 self.tts.speak("Przejście do poprzedniej strony.")
                 return self.page.url
@@ -570,4 +614,65 @@ class BrowserManager:
         except Exception as e:
             logger.error(f"Błąd otwierania filmu YouTube: {e}")
             self.tts.speak("Nie udało się otworzyć filmu.")
+            return None
+    
+    def summarize_page(self) -> Optional[str]:
+        """Streszcza treść bieżącej strony."""
+        try:
+            if not self.current_url:
+                self.tts.speak("Najpierw otwórz stronę.")
+                return None
+            summary = self.page_assistant.summarize_page()
+            if summary:
+                self.tts.speak(f"Streszczenie strony: {summary}")
+                return summary
+            self.tts.speak("Nie udało się wygenerować streszczenia.")
+            return None
+        except Exception as e:
+            logger.error(f"Błąd streszczania strony: {e}")
+            self.tts.speak("Nie udało się streścić strony.")
+            return None
+    
+    def _ask_model(self, question: str) -> Optional[str]:
+        """Zadaje pytanie modelowi AI na podstawie treści strony."""
+        try:
+            page_data = self._get_page_data(self.current_url)
+            text = page_data.get('content', {}).get('text', '')
+            print(f"Zadawanie pytania modelowi: {question}")
+            if not text:
+                self.tts.speak("Brak treści do analizy.")
+                return None
+            self.page_assistant.load_context(text)
+            answer = self.page_assistant.answer_question(question)
+            if answer:
+                self.tts.speak(f"Odpowiedź: {answer}")
+                return answer
+            self.tts.speak("Nie udało się uzyskać odpowiedzi.")
+            return None
+        except Exception as e:
+            logger.error(f"Błąd zadawania pytania modelowi: {e}")
+            self.tts.speak("Nie udało się uzyskać odpowiedzi.")
+            return None
+        
+    def describe_structure(self) -> Optional[str]:
+        """Opisuje strukturę bieżącej strony."""
+        try:
+            if not self.current_url:
+                self.tts.speak("Najpierw otwórz stronę.")
+                return None
+            page_data = self._get_page_data(self.current_url)
+            headings = page_data.get('headings', [])
+            sections = page_data.get('sections', [])
+            if not headings or not sections:
+                self.tts.speak("Brak danych o strukturze strony.")
+                return None
+            description = self.page_assistant.get_page_data.describe_structure(headings, sections)
+            if description:
+                self.tts.speak(f"Struktura strony: {description}")
+                return description
+            self.tts.speak("Nie udało się wygenerować opisu struktury.")
+            return None
+        except Exception as e:
+            logger.error(f"Błąd opisu struktury strony: {e}")
+            self.tts.speak("Nie udało się opisać struktury strony.")
             return None

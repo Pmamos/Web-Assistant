@@ -201,19 +201,3 @@ class SpeechRecognizer:
             logger.error(f"Błąd transkrypcji: {e}")
             return None
 
-
-
-# if __name__ == "__main__":
-
-#     # Inicjalizacja z Whisper
-    
-    
-#     # Załóżmy, że mamy dane WAV z wcześniejszego nagrywania
-#     with open("last_command.wav", "rb") as f:
-#         audio_data = f.read()
-    
-#     # Przełącz na Vosk
-#     recognizer = SpeechRecognizer()
-#     text = recognizer.transcribe(audio_data)
-#     recognizer = SpeechRecognizer(use_vosk=False)
-#     text = recognizer.transcribe(audio_data)

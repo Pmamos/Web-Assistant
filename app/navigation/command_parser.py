@@ -6,6 +6,7 @@ import wikipediaapi
 from pytube import Search
 from urllib.parse import quote_plus
 
+from ai.image_describer import ImageDescriber
 from voice.text_to_speech import TTSWrapper
 from navigation.browser_manager import BrowserManager
 from navigation.thread_queue import ThreadSafeQueue
@@ -41,7 +42,7 @@ class CommandParser:
             r"przejdź do poprzedniej strony": self.browser_manager.previous_page,
             r"otwórz w nowej karcie\s+(.*)": lambda url: self.browser_manager.open_new_tab(url),
             r"przejdź do\s+(.*)": lambda url: self.browser_manager.open_page(url),
-            r"zapytaj model\s+(.*)": lambda question: self._ask_model(question),
+            r"zapytaj model\s+(.*)": self.browser_manager._ask_model,
             r"znajdź na stronie\s+(.*)": lambda phrase: self._find_on_page(phrase),
             r"przeczytaj wyniki wyszukiwania": self.browser_manager.read_search_results,
             r"otwórz wynik\s+(\d+)": lambda index: self.browser_manager.open_search_result(int(index)),
@@ -55,23 +56,25 @@ class CommandParser:
             r"otwórz film\s+(\d+)": lambda index: self._open_youtube_video(int(index)),
             r"przeczytaj formularze": self.browser_manager.read_forms,
             r"wyszukaj\s+(.*)": lambda query: self.browser_manager.search_web(query),
+            r"opisz strukturę strony": self.browser_manager.describe_structure,
         }
         self.current_wiki_page = None
         self.youtube_results = []
 
     def parse_command(self, command: str) -> None:
         """Parsuje komendę i dodaje ją do kolejki."""
-        command = command.lower().strip()
+        command = command.strip()  # usuwamy tylko nadmiarowe spacje, nie zmieniamy wielkości liter!
         for pattern, handler in self.command_patterns.items():
-            match = re.match(pattern, command)
+            match = re.match(pattern, command, re.IGNORECASE)  # jeśli potrzebne, dodaj flagę: re.match(pattern, command, re.IGNORECASE)
             if match:
                 args = match.groups()
                 self.command_queue.put((handler, args, {}))
-                logger.info(f"Sparsowano komendę: {command}")
+                print(f"Sparsowano komendę: {command}")
                 return
-        logger.warning(f"Nieznana komenda: {command}")
+        print(f"Nieznana komenda: {command}")
         self.tts.speak("Nie rozpoznano komendy.")
         raise CommandError(f"Nieznana komenda: {command}")
+
 
     def _search_wikipedia(self, query: str) -> Optional[str]:
         """Wyszukuje artykuł na Wikipedii i odczytuje jego streszczenie."""
@@ -185,22 +188,6 @@ class CommandParser:
             self.tts.speak("Nie udało się otworzyć filmu.")
             return None
 
-    def _ask_model(self, question: str) -> Optional[str]:
-        """Zadaje pytanie modelowi AI na podstawie treści strony."""
-        try:
-            page_data = self.browser_manager._get_page_data(self.browser_manager.current_url)
-            text = page_data.get('content', {}).get('text', '')
-            if not text:
-                self.tts.speak("Brak treści do analizy.")
-                return None
-            answer = ask_ai_model(question, text)
-            self.tts.speak(f"Odpowiedź: {answer}")
-            return answer
-        except Exception as e:
-            logger.error(f"Błąd zadawania pytania modelowi: {e}")
-            self.tts.speak("Nie udało się uzyskać odpowiedzi.")
-            return None
-
     def _find_on_page(self, phrase: str) -> Optional[str]:
         """Wyszukuje frazę na stronie."""
         try:
@@ -218,8 +205,4 @@ class CommandParser:
             logger.error(f"Błąd wyszukiwania frazy: {e}")
             self.tts.speak("Nie udało się wyszukać frazy.")
             return None
-
-# Placeholder dla integracji z modelem AI
-def ask_ai_model(question: str, context: str) -> str:
-    """Zadaje pytanie modelowi AI."""
-    return "Odpowiedź od modelu AI (placeholder)"
+        

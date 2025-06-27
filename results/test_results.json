@@ -1,0 +1,27 @@
+{
+  "bartowski/Mistral-7B-Instruct-v0.3-GGUF/Mistral-7B-Instruct-v0.3-Q4_K_M.gguf": {
+    "summaries": [],
+    "questions": [],
+    "structures": []
+  },
+  "speakleash/Bielik-4.5B-v3.0-Instruct-GGUF/Bielik-4.5B-v3.0-Instruct-f16.gguf": {
+    "summaries": [],
+    "questions": [],
+    "structures": []
+  },
+  "mradermacher/Krakowiak-7B-v3-GGUF/Krakowiak-7B-v3.Q4_K_M.gguf": {
+    "summaries": [],
+    "questions": [],
+    "structures": []
+  },
+  "mradermacher/Curie-7B-v1-GGUF/Curie-7B-v1.IQ4_XS.gguf": {
+    "summaries": [],
+    "questions": [],
+    "structures": []
+  },
+  "bartowski/Llama-3.2-3B-Instruct-GGUF/Llama-3.2-3B-Instruct-Q4_K_M.gguf": {
+    "summaries": [],
+    "questions": [],
+    "structures": []
+  }
+}

@@ -17,3 +17,8 @@ readability-lxml==0.8.4.1
 wikipedia==1.4.0
 Wikipedia-API==0.8.1
 pytube==15.0.0
+accelerate==1.7.0
+protobuf==6.31.1
+llama-cpp-python==0.3.9
+sentence-transformers==4.1.0
+sentencepiece==0.2.0

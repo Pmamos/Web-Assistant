@@ -1,979 +1,606 @@
 {
     "metadata": {
-        "title": "Bigos | AniaGotuje.pl",
-        "url": "https://aniagotuje.pl/przepis/bigos",
-        "language": "pl"
+        "title": "Teach, learn, and make with the Raspberry Pi Foundation",
+        "url": "https://www.raspberrypi.org/",
+        "language": "en"
     },
     "headings": [
         {
             "level": 1,
-            "text": "Bigos",
+            "text": "Enabling all young people to realise their full potential through computing",
             "aria_label": null
         },
         {
             "level": 2,
-            "text": "Bigos",
-            "aria_label": null
-        },
-        {
-            "level": 3,
-            "text": "Zobacz podobne przepisy",
+            "text": "Why kids still need to learn to code in the age of AI",
             "aria_label": null
         },
         {
             "level": 2,
-            "text": "Bigos",
+            "text": "Coding for kids",
             "aria_label": null
         },
         {
             "level": 3,
-            "text": "Bigos tradycyjny",
+            "text": "Learn to code",
             "aria_label": null
         },
         {
             "level": 3,
-            "text": "Bigos przepisy",
+            "text": "Coolest Projects",
             "aria_label": null
         },
         {
             "level": 3,
-            "text": "Bigos przepis",
+            "text": "Your code in space",
+            "aria_label": null
+        },
+        {
+            "level": 2,
+            "text": "Join or start a Code Club",
+            "aria_label": null
+        },
+        {
+            "level": 2,
+            "text": "Resources for teachers & schools",
             "aria_label": null
         },
         {
             "level": 3,
-            "text": "Przepis na bigos domowy",
+            "text": "Professional development for teachers",
+            "aria_label": null
+        },
+        {
+            "level": 3,
+            "text": "The Computing Curriculum",
+            "aria_label": null
+        },
+        {
+            "level": 3,
+            "text": "Experience AI",
+            "aria_label": null
+        },
+        {
+            "level": 3,
+            "text": "Ada Computer Science",
+            "aria_label": null
+        },
+        {
+            "level": 3,
+            "text": "Hello World",
+            "aria_label": null
+        },
+        {
+            "level": 2,
+            "text": "Research",
+            "aria_label": null
+        },
+        {
+            "level": 2,
+            "text": "News",
+            "aria_label": null
+        },
+        {
+            "level": 4,
+            "text": "Bringing data science to life for K–12 students with the ‘API Can Code’ curriculum",
+            "aria_label": null
+        },
+        {
+            "level": 4,
+            "text": "Astro Pi 2024/25: Another stellar year of space education concludes",
+            "aria_label": null
+        },
+        {
+            "level": 4,
+            "text": "Discover the incredible impact of Code Club: The Code Club annual survey report 2025",
+            "aria_label": null
+        },
+        {
+            "level": 4,
+            "text": "Join our free data science education workshop for teachers",
+            "aria_label": null
+        },
+        {
+            "level": 2,
+            "text": "“When I started coding, I started to discover that it was very fun, I could create anything I wanted. My imagination was running wild.”",
+            "aria_label": null
+        },
+        {
+            "level": 2,
+            "text": "Raspberry Pi computers",
             "aria_label": null
         }
     ],
     "search_results": [],
     "content": {
-        "text": "Drukuj Komentarze Przepisy dania mięsne Bigos Bigos Zobacz jak smakuje prawdziwy bigos tradycyjny . Poznaj mój sprawdzony przepis na bigos z dużą ilością różnych mięs, z suszonymi grzybami, śliwkami i idealnie dobranymi przyprawami. To danie, które Cię zachwyci. Czas przygotowania: 2 godziny Czas duszenia: 2 dni Liczba porcji: 5 kg bigosu W 100 g bigosu: Wartość energetyczna 190 kcal Dieta: bezglutenowa Składniki [ więcej ] 1 kg kapusty świeżej - pół średniej główki 2 kg kapusty kiszonej + 2,5 szklanki wody do gotowania 80 g suszonych grzybów + 500 ml wody do moczenia 500 g łopatki wieprzowej 300 g łopatki wołowej 500 g boczku surowego bez skóry 500 g schabu wieprzowego od karku 50 g smalcu wieprzowego 180 g kiełbasy myśliwskiej podwędzanej 150 g boczku surowego wędzonego 150 g boczku parzonego wędzonego 2 duże cebule - do 400 g 50 g suszonych śliwek bez pestek - lub więcej 1 szklanka czerwonego, wytrawnego wina - można pominąć przyprawy i zioła: 5 ziaren ziela angielskiego, łyżeczka czarnego pieprzu, 5 liści laurowych, 1 goździk, 2 ziarna jałowca Składniki: Kopiuj Ukryj zdjęcia Bigos Przed szykowaniem przepisu zachęcam też do przeczytania najpierw całego wpisu. W treści podaję bowiem dużo ciekawych porad dotyczących składników oraz ich zamienników. Być może zapragniesz coś zmienić, z czegoś zrezygnować lub dokupić jakąś przyprawę. Do duszenia bigosu polecam użyć garnka emaliowanego, żeliwnego emaliowanego lub garnka z mocną i nieprzywierającą powłoką o pojemności minimum siedmiu litrów. Nie używamy zaś garnków aluminiowych. Mój przepis na bigos domowy zawiera w składzie bardzo dużo mięsa. Zdaję sobie sprawę z tego, że większość z Was nie daje do bigosu tak dużej ilości mięs i wędzonek. Ja daję... ale jeśli Wy chcecie ograniczyć ilość mięsa w bigosie, to śmiało możecie zrezygnować np. z dodatku surowego schabu lub boczku oraz np. z boczku surowego wędzonego lub parzonego wędzonego. W bigosie będzie wówczas mniej mięsa, ale reszta składników (również przyprawy) pozostaje bez zmian. Krok 1: Namocz grzyby Szykowanie bigosu zacznij od namoczenia suszonych grzybów. 80 gramów suszonych grzybów, to trochę więcej niż dwie garście grzybków. Suszone grzyby umieść w większym naczyniu i zalej dwiema szklankami zimnej wody... może być woda z kranu. Miseczkę przykryj np. talerzykiem i odstaw w suche i chłodne miejsce na 12 godzin, a najlepiej na całą noc. Grzyby wchłoną część wody i zmiękną. Różnicę widać od razu. Woda zrobiła się ciemna, a grzyby ładnie napuchły. Krok 2: Posiekaj grzyby Odcedź grzyby z wody, ale wody nie wylewaj. Wodę z moczenia grzybów dodajemy potem do bigosu. Odcedzone grzyby posiekaj na drobne paski. Krok 3: Zacznij od kapusty kiszonej Dwa kilogramy kapusty kiszonej odciśnij dokładnie z wody a następnie posiekaj. Kapustę umieść w garnku. Wlej dwie i pół szklanki zwykłej wody z kranu lub wody filtrowanej (mniej lub więcej, ale tyle, by przykryć wodą kapustę). Kapusta kiszona z mojego przepisu będzie idealna o bigosu. Porada : Je nie płuczę kapusty kiszonej, ale odciskam ją ze słono kwaśnej wody. Dla mnie to taki kompromis smakowy. Jeśli wolisz bardziej kwaśny bigos, to nie odciskaj kapusty z wody. Jeśli zaś lubisz bigos bardzo łagodny, to możesz odciśniętą w wody kapustę kiszonką jeszcze dodatkowo przepłukać w zimnej wodzie i raz jeszcze odcisnąć. Zawsze polecam też najpierw sprawdzić smak kiszonej kapusty, bowiem jedne są mniej kwaśne i słone a inne bardziej. Krok 4: Dodaj kapustę białą Małą główkę białej kapusty lub też pół większej główki (łącznie jeden kilogram) posiekaj i umieść na sitku w zlewie. Sparz kapustę wrzątkiem z czajnika. Sparzoną kapustę umieść w garnku razem z kapustą kiszoną. Garnek przykryj przykrywką. Zagotuj całość a następnie zmniejsz moc palnika do takiej, by kapusty tylko lekko mrugały. Gotuj je tak przez godzinę pod przykrywką. Porada : Jeśli chcesz zrobić bigos wyłącznie z użyciem świeżej kapusty (główka kapusty \"słodkiej\") z pominięciem kapusty kiszonej, to wystarczy, że do bigosu dodasz około jednego kilograma tartych na tarce, kwaśnych i twardych jabłek. Np. na dwa kilogramy kapusty dajemy jeden kilogram jabłek. Jabłka dodajemy wówczas pod koniec szykowania bigosu. Krok 5: Przygotuj mięsa W trakcie gotowania się kapusty przygotuj mięso. Surowe mięsa pokrój na małe kawałki: 500 g łopatki wieprzowej, 300 g łopatki wołowej, 500 g schabu wieprzowego od karku, 500 g boczku surowego bez skóry. Przygotuj też 50 g smalcu wieprzowego. Im więcej różnych mięs, tym bogatszy smak bigosu. Jak jednak wspomniałam wcześniej, możesz śmiało zrezygnować nawet z połowy mięs. Wówczas wszystkie inne składniki dajemy w tych samym ilościach. Jeśli zaś masz dostęp do dobrej jakości dziczyzny (mięso z dzika, sarny, kaczki lub zająca), to polecam zrezygnować np. ze schabu wieprzowego, na rzecz dziczyzny. Krok 6: Gotuj bigos Smalec roztop na dużej patelni a następnie wyłóż też razem wszystkie rodzaje pokrojonego mięsa. Mięso podsmażaj tak na średniej mocy palnika przez 40 minut. Co kilka minut zamieszaj całość przy pomocy drewnianej łyżki. Po godzinie gotowania kapustę razem z wodą przełóż do bardzo dużego garnka. Dodaj wszystkie przyprawy i zioła: 5 ziaren ziela angielskiego, łyżeczka czarnego pieprzu, 5 liści laurowych, 1 goździk, 2 ziarna jałowca. Wlej też wodę, która została z moczenia grzybów (jeśli nie jest gorzka) oraz dodaj posiekane grzyby. Dokładnie wszystko wymieszaj. Porada : Do bigosu możesz też śmiało dodać (oprócz wyżej wymienionych przypraw) gotową mieszankę przypraw do bigosu. To dobry sposób na doprawienie bigosu, gdy brakuje nam np. jałowca lub goździków. W gotowych mieszankach zazwyczaj je znajdziecie. Wystarczy jedna saszetka o wadze 20 gramów. Jeśli zaś dysponujesz wyłącznie mieszanką przypraw, to możesz dodać do 40 gramów mieszanki przypraw do bigosu. Krok 7: Dodaj mięsa Kolejno dodaj też podsmażone na patelni mięso. Całość wymieszaj i przykryj przykrywką. Bigos gotuj cały czas na bardzo małej mocy palnika. Mieszaj, by się nie przypalił. Krok 8: Podsmaż cebulę z boczkiem Na samym końcu przygotuj cebule oraz wędzonki. Potrzebujesz dwie duże cebule, po 150 gramów boczku wędzonego surowego i parzonego oraz 180 g kiełbasy myśliwskiej podwędzanej. W pierwszej kolejności pokrój w kostkę boczek parzony i umieść go na patelni po mięsie. Gdy wytopisz już z boczku tłuszcz dodaj posiekaną cebulę. Po pięciu minutach podsmażania dodaj też pokrojony w kostkę boczek surowy wędzony. Podsmażaj całość dziesięć minut. Porada : Możesz też użyć wyłącznie kiełbasy a najlepiej po kawałku różnych kiełbas (Kiełbas nie trzeba wcześniej podsmażać... szczególnie tych podsuszanych). Możesz też użyć wyłącznie boczku wędzonego. Całkowicie dozwolone jest też dodanie pokrojonych w kosteczkę kawałków pieczeni, które zostały Ci z poprzednich obiadów np. pieczony schab lub karkówka. Krok 9: Dokończ bigos Po tym czasie całą zawartość patelni przełóż do garnka z gotującym się bigosem. Kiełbasę pokrój w kostkę i dodaj go bigosu. Posiekaj też drobno minimum 50 gramów suszonych śliwek. Jeśli nie masz śliwek suszonych, to bardzo dobrze sprawdzą się też domowe powidła śliwkowe. Wszystko bardzo dokładnie wymieszaj. Bigos gotuj na minimalnej mocy palnika przez cztery godziny. Jeśli planujesz dodać do bigosu czerwone wino, to zrób to pierwszego lub ostatniego dnia gotowania bigosu. Szklankę dobrego czerwonego wina lub też madery wlej do bigosu zaraz po dodaniu ostatnich składników lub też na dwie godziny przed wyłączeniem bigosu w dniu w którym chcesz go podać. Przynajmniej co 30 minut zaglądaj do bigosu i mieszaj go przy pomocy drewnianej łyżki, bowiem bigos lubi się przypalać. Następnego dnia ponownie podgrzewaj bigos przez przynajmniej dwie godziny. Bigos gotowy jest do jedzenia już pierwszego dnia, jednak podgrzewany drugiego lub nawet trzeciego, czy czwartego dnia robi się coraz lepszy. Pod koniec gotowania bigosu można też dodać przecier pomidorowy, jednak kuchnia staropolska nie znała kiedyś takiego dodatku. Ja przecieru nie dodaję, ale jeśli macie ochotę, to możecie wzbogacić smak bigosu o kila łyżek przecieru lub koncentratu z pomidorów, czy też posiekanych świeżych pomidorów bez skórki. Jeśli lubisz bardziej tłusty bigos, to śmiało.. dodaj więcej dobrej jakości smalcu wieprzowego lub też smalcu z gęsi. W razie potrzeby dodaj też do bigosu trochę soli lub też pieprzu, czy cukru. Jest jeszcze kwestia sporna, czyli szykowanie zasmażki do bigosu. Według mnie nie ma takiej potrzeby. Bogaty w składniki i długo duszony bigos będzie gęsty i zawiesisty bez zasmażki. Bigos polecam podawać bardzo gorący. Domowy bigos najlepiej smakuje z ciemnym pieczywem, ziemniakami oraz różnymi kluskami z ziemniaków. Koniecznie piszcie jakie są Wasze sprawdzone sposoby na pyszny bigos oraz smaczny sposób podania. Powodzenia! Średnia 4.8 / 5 ( 7586 ocen) Oceń! Drukuj Przepis Zapisz Przepis Dodaj Notatkę Dodaj Komentarz Dziękuję za wspólne gotowanie. Będzie mi miło jeżeli dodasz komentarz ze zdjęciem. Ania dania mięsne boczek surowy · cebula · goździk · grzyby · grzyby suszone · jałowiec · kapusta · kapusta kiszona · kapusta świeża · kiełbasa · kiełbasa myśliwska · liście laurowe · łopatka wieprzowa · łopatka wołowa · pieprz czarny · schab wieprzowy · śliwki · śliwki suszone · smalec wieprzowy · wieprzowina · wino czerwone · wołowina · ziele angielskie Powrót Zobacz podobne przepisy Zostaw mi swój email, a 2 - 3 razy w miesiącu wyślę Ci moje ulubione przepisy. × Adres e-mail Dodaj nowy komentarz",
-        "length": 9443,
+        "text": "Enabling all young people to realise their full potential through computing Why kids still need to learn to code in the age of AI Rapid advances in generative AI are reshaping how we live and work. We argue that learning to code is essential to build the creative and critical thinking skills that young people need to thrive. Our new position paper lays out five key reasons. Read the paper open_in_new Coding for kids Awesome activities to help young people learn to code and become tech creators. Learn to code Easy-to-follow guides to help kids learn how to build their own games, animations, apps, and websites with different software and hardware. Discover projects open_in_new Coolest Projects Online showcases and in-person events for young tech creators to share their projects, get feedback, and be inspired. View showcase gallery open_in_new Your code in space The Astro Pi Challenge gives young people the opportunity to write programs and experiments that run on the International Space Station. Explore Astro Pi open_in_new Join or start a Code Club Code Club is a global movement of coding clubs where young people develop the confidence to get creative with digital technologies. “The best part of it is being able to interact with other people and to share ideas on projects.” – Young person, Liverpool Central Library Code Club Visit Code Club open_in_new Resources for teachers & schools We support teachers and schools with free, high-quality curricula, classroom resources, and professional development. Professional development for teachers open_in_new Free training and PD to help you develop the skills, knowledge, and confidence to teach computing. The Computing Curriculum arrow_forward A complete set of evidence-based classroom resources to teach computing. Experience AI open_in_new Lessons and practical activities to help young people understand AI and how it is changing the world. Ada Computer Science open_in_new A platform with everything you need to teach and learn computer science. Hello World arrow_forward The magazine for computing educators to share research, knowledge, and resources. Research Discover insights from the world’s leading computing education research, including teaching and learning of programming, gender balance, culturally relevant pedagogy, and AI education. Explore our research News Research [if IE 9]><video style='display: none;'><![endif] [if IE 9]></video><![endif] Bringing data science to life for K–12 students with the ‘API Can Code’ curriculum 12th Jun 2025 Astro Pi [if IE 9]><video style='display: none;'><![endif] [if IE 9]></video><![endif] Astro Pi 2024/25: Another stellar year of space education concludes 11th Jun 2025 Clubs [if IE 9]><video style='display: none;'><![endif] [if IE 9]></video><![endif] Discover the incredible impact of Code Club: The Code Club annual survey report 2025 10th Jun 2025 Education [if IE 9]><video style='display: none;'><![endif] [if IE 9]></video><![endif] Join our free data science education workshop for teachers 9th Jun 2025 See all blog posts “When I started coding, I started to discover that it was very fun, I could create anything I wanted. My imagination was running wild.” Watch Jay’s story to see how this amazing young person is learning and teaching coding inspired by our initiatives. Read transcript Watch more stories Raspberry Pi computers From industries large and small, to the kitchen table tinkerer, to the classroom coder, Raspberry Pi Holdings plc make computing accessible and affordable for everybody. Visit raspberrypi.com open_in_new",
+        "length": 3578,
         "semantic_tags": [
             "div",
-            "meta",
-            "meta",
-            "meta",
-            "meta",
-            "meta",
-            "meta",
-            "meta",
-            "meta",
-            "meta",
-            "meta",
-            "meta",
-            "meta",
-            "meta",
+            "section",
             "div",
             "div",
             "img",
-            "div",
-            "div",
-            "i",
-            "div",
-            "div",
-            "a",
-            "i",
-            "div",
-            "ol",
-            "li",
-            "a",
-            "span",
-            "meta",
-            "li",
-            "a",
-            "span",
-            "meta",
-            "li",
-            "a",
-            "span",
-            "meta",
-            "div",
             "h1",
-            "div",
-            "div",
-            "p",
-            "strong",
-            "div",
-            "div",
-            "ins",
-            "div",
-            "p",
-            "strong",
-            "br",
-            "strong",
-            "br",
-            "strong",
-            "br",
-            "span",
-            "span",
-            "span",
-            "i",
-            "span",
-            "span",
-            "span",
-            "span",
-            "strong",
-            "link",
-            "br",
-            "div",
-            "p",
-            "strong",
-            "span",
-            "ul",
-            "li",
-            "i",
-            "span",
-            "span",
-            "li",
-            "i",
-            "span",
-            "span",
-            "li",
-            "i",
-            "span",
-            "span",
-            "li",
-            "i",
-            "span",
-            "span",
-            "li",
-            "i",
-            "span",
-            "span",
-            "li",
-            "i",
-            "span",
-            "span",
-            "li",
-            "i",
-            "span",
-            "span",
-            "li",
-            "i",
-            "span",
-            "span",
-            "li",
-            "i",
-            "span",
-            "span",
-            "li",
-            "i",
-            "span",
-            "span",
-            "li",
-            "i",
-            "span",
-            "span",
-            "li",
-            "i",
-            "span",
-            "span",
-            "li",
-            "i",
-            "span",
-            "span",
-            "li",
-            "i",
-            "span",
-            "span",
-            "li",
-            "i",
-            "span",
-            "span",
+            "section",
             "div",
             "div",
             "div",
             "div",
-            "i",
-            "span",
-            "div",
-            "div",
-            "div",
-            "i",
             "div",
             "h2",
             "p",
             "p",
+            "div",
+            "a",
+            "span",
+            "div",
+            "img",
+            "section",
+            "div",
+            "div",
+            "div",
+            "div",
+            "div",
+            "div",
+            "h2",
             "p",
-            "strong",
-            "br",
-            "div",
-            "div",
-            "img",
-            "div",
-            "div",
-            "meta",
-            "link",
-            "div",
-            "span",
-            "div",
-            "p",
-            "p",
-            "br",
-            "div",
-            "div",
-            "img",
-            "br",
-            "br",
-            "div",
-            "div",
-            "img",
-            "hr",
-            "div",
-            "meta",
-            "link",
-            "div",
-            "span",
-            "div",
-            "p",
-            "br",
-            "div",
-            "div",
-            "img",
-            "hr",
-            "div",
-            "meta",
-            "link",
-            "div",
-            "span",
-            "div",
-            "p",
-            "a",
-            "br",
-            "br",
-            "em",
-            "br",
-            "div",
-            "div",
-            "img",
-            "hr",
-            "div",
-            "meta",
-            "link",
-            "div",
-            "span",
-            "div",
-            "p",
-            "br",
-            "br",
-            "em",
-            "br",
-            "div",
-            "div",
-            "img",
-            "hr",
-            "div",
-            "meta",
-            "link",
-            "div",
-            "span",
-            "div",
-            "p",
-            "br",
-            "br",
-            "br",
-            "div",
-            "div",
-            "img",
-            "hr",
-            "div",
-            "meta",
-            "link",
-            "div",
-            "span",
-            "div",
-            "p",
-            "br",
-            "br",
-            "br",
-            "br",
-            "em",
-            "br",
-            "div",
-            "div",
-            "img",
-            "hr",
-            "div",
-            "meta",
-            "link",
-            "div",
-            "span",
-            "div",
-            "p",
-            "br",
-            "div",
-            "div",
-            "img",
-            "hr",
-            "div",
-            "meta",
-            "link",
-            "div",
-            "span",
-            "div",
-            "p",
-            "br",
-            "br",
-            "em",
-            "br",
-            "div",
-            "div",
-            "img",
-            "hr",
-            "div",
-            "meta",
-            "link",
-            "div",
-            "span",
-            "div",
-            "p",
-            "br",
-            "br",
-            "br",
-            "br",
-            "div",
-            "div",
-            "img",
-            "hr",
-            "div",
-            "div",
-            "ins",
             "div",
             "div",
             "div",
             "img",
-            "br",
-            "br",
-            "br",
-            "br",
-            "br",
-            "strong",
-            "br",
-            "div",
-            "div",
-            "i",
-            "span",
-            "span",
-            "span",
-            "meta",
-            "span",
-            "span",
-            "i",
-            "i",
-            "i",
-            "i",
-            "i",
-            "span",
-            "div",
-            "div",
-            "div",
-            "i",
-            "span",
-            "div",
-            "i",
-            "span",
-            "div",
-            "i",
-            "span",
-            "div",
-            "a",
-            "i",
-            "span",
-            "div",
-            "div",
-            "div",
-            "div",
-            "canvas",
-            "div",
-            "div",
-            "i",
-            "span",
-            "span",
-            "a",
-            "div",
-            "i",
-            "span",
-            "span",
-            "a",
-            "span",
-            "span",
-            "a",
-            "span",
-            "span",
-            "a",
-            "span",
-            "span",
-            "a",
-            "span",
-            "span",
-            "a",
-            "span",
-            "span",
-            "a",
-            "span",
-            "span",
-            "a",
-            "span",
-            "span",
-            "a",
-            "span",
-            "span",
-            "a",
-            "span",
-            "span",
-            "a",
-            "span",
-            "span",
-            "a",
-            "span",
-            "span",
-            "a",
-            "span",
-            "span",
-            "a",
-            "span",
-            "span",
-            "a",
-            "span",
-            "span",
-            "a",
-            "span",
-            "span",
-            "a",
-            "span",
-            "span",
-            "a",
-            "span",
-            "span",
-            "a",
-            "span",
-            "span",
-            "a",
-            "span",
-            "span",
-            "a",
-            "span",
-            "span",
-            "a",
-            "span",
-            "span",
-            "a",
-            "span",
-            "span",
-            "a",
-            "div",
-            "a",
-            "i",
-            "i",
-            "span",
-            "div",
-            "div",
-            "div",
-            "ins",
-            "div",
             "div",
             "div",
             "h3",
-            "div",
-            "div",
-            "div",
-            "a",
-            "img",
-            "div",
-            "div",
+            "p",
             "div",
             "a",
-            "img",
-            "div",
-            "div",
-            "div",
-            "a",
-            "img",
-            "div",
-            "div",
-            "div",
-            "a",
-            "img",
-            "div",
-            "div",
-            "div",
-            "a",
-            "img",
-            "div",
-            "div",
-            "div",
-            "a",
-            "img",
-            "div",
-            "div",
-            "div",
-            "div",
-            "img",
-            "div",
-            "div",
-            "button",
             "span",
             "div",
-            "form",
-            "div",
-            "input",
-            "label",
-            "div",
-            "input",
-            "i",
-            "div",
-            "meta",
-            "meta",
+            "img",
             "div",
             "div",
+            "h3",
+            "p",
+            "div",
+            "a",
+            "span",
+            "div",
+            "img",
             "div",
             "div",
-            "ins",
+            "h3",
+            "p",
             "div",
-            "button"
+            "a",
+            "span",
+            "section",
+            "div",
+            "div",
+            "div",
+            "div",
+            "div",
+            "h2",
+            "p",
+            "p",
+            "div",
+            "a",
+            "span",
+            "div",
+            "img",
+            "section",
+            "div",
+            "div",
+            "div",
+            "div",
+            "div",
+            "h2",
+            "p",
+            "div",
+            "div",
+            "div",
+            "div",
+            "a",
+            "div",
+            "h3",
+            "span",
+            "p",
+            "div",
+            "a",
+            "div",
+            "h3",
+            "span",
+            "p",
+            "div",
+            "a",
+            "div",
+            "h3",
+            "span",
+            "p",
+            "div",
+            "a",
+            "div",
+            "h3",
+            "span",
+            "p",
+            "div",
+            "a",
+            "div",
+            "h3",
+            "span",
+            "p",
+            "div",
+            "img",
+            "section",
+            "div",
+            "div",
+            "div",
+            "div",
+            "div",
+            "h2",
+            "p",
+            "div",
+            "a",
+            "div",
+            "img",
+            "section",
+            "div",
+            "div",
+            "div",
+            "div",
+            "div",
+            "h2",
+            "div",
+            "a",
+            "div",
+            "picture",
+            "source",
+            "source",
+            "source",
+            "img",
+            "h4",
+            "time",
+            "a",
+            "div",
+            "picture",
+            "source",
+            "source",
+            "source",
+            "img",
+            "h4",
+            "time",
+            "a",
+            "div",
+            "picture",
+            "source",
+            "source",
+            "source",
+            "img",
+            "h4",
+            "time",
+            "a",
+            "div",
+            "picture",
+            "source",
+            "source",
+            "source",
+            "img",
+            "h4",
+            "time",
+            "div",
+            "a",
+            "section",
+            "div",
+            "div",
+            "div",
+            "h2",
+            "p",
+            "div",
+            "div",
+            "div",
+            "a",
+            "img",
+            "div",
+            "a",
+            "div",
+            "a",
+            "section",
+            "div",
+            "div",
+            "div",
+            "div",
+            "div",
+            "h2",
+            "p",
+            "div",
+            "a",
+            "span",
+            "div",
+            "img",
+            "div"
         ],
         "aria_roles": []
     },
     "images": [
         {
-            "src": "https://cdn.aniagotuje.com/app/client/static/imgs/ania/ania_kolo_216.jpg",
-            "alt": "Ania Gotuje",
-            "width": 108,
-            "height": 108,
+            "src": "https://www.raspberrypi.org/assets/components/site/header/foundation-logo-b0f19781e462be54d3371c3da03431bb6dc407fca9f36820d27a7ff4e673406e.svg",
+            "alt": "Raspberry Pi Foundation",
+            "width": 165,
+            "height": 50,
             "is_meaningful_alt": true
         },
         {
-            "src": "https://cdn.aniagotuje.com/pictures/articles/2020/02/2211608-v-1500x1500.jpg",
-            "alt": "Bigos",
-            "width": 960,
-            "height": 960,
+            "src": "https://www.raspberrypi.org/assets/components/site/full_width_hero/rpf-logo-white-77144e351379684ff495ec234fa2aa602d6438d74e0884b655ad1b5aa78f7fac.svg",
+            "alt": "Raspberry Pi Foundation",
+            "width": 214,
+            "height": 64,
+            "is_meaningful_alt": true
+        },
+        {
+            "src": "https://images.ctfassets.net/oshmmv7kdjgm/4VWEuUg1AA69dMe5VSMn0D/6d86cad993c265e67f43aae391dede01/-10846_Web_1420x998_2.png?fm=webp&h=484&w=690",
+            "alt": "Cover of the 'Why kids still need to learn to code in the age of AI' position paper.",
+            "width": 689,
+            "height": 484,
+            "is_meaningful_alt": true
+        },
+        {
+            "src": "https://images.ctfassets.net/oshmmv7kdjgm/5ZR4fKaIfxqzn4xXy9iTKZ/529fbfcdd2809e13c612afb8ae341891/projects.png?fm=webp&h=206&w=330",
+            "alt": "",
+            "width": 329,
+            "height": 206,
             "is_meaningful_alt": false
         },
         {
-            "src": "https://cdn.aniagotuje.com/pictures/articles/2020/02/2210552-v-1080x1338.jpg",
-            "alt": "Namocz grzyby",
-            "width": 0,
-            "height": 0,
-            "is_meaningful_alt": true
+            "src": "https://images.ctfassets.net/oshmmv7kdjgm/qjUn8BbTqTSatH5jThVFV/23df9f376afdaa3182a850f12cfd82f9/coolest-projects.png?fm=webp&h=206&w=330",
+            "alt": "",
+            "width": 329,
+            "height": 206,
+            "is_meaningful_alt": false
         },
         {
-            "src": "https://cdn.aniagotuje.com/pictures/articles/2020/02/2210566-v-1080x1575.jpg",
-            "alt": "Namocz grzyby",
-            "width": 0,
-            "height": 0,
-            "is_meaningful_alt": true
+            "src": "https://images.ctfassets.net/oshmmv7kdjgm/6lMQertB2DyaUsmnS8QbsJ/397e5f758c426dee2d1582aefa63e04d/astro-pi.png?fm=webp&h=206&w=330",
+            "alt": "",
+            "width": 329,
+            "height": 206,
+            "is_meaningful_alt": false
         },
         {
-            "src": "https://cdn.aniagotuje.com/pictures/articles/2020/02/2210585-v-1080x1832.jpg",
-            "alt": "Posiekaj grzyby",
-            "width": 0,
-            "height": 0,
-            "is_meaningful_alt": true
+            "src": "https://images.ctfassets.net/oshmmv7kdjgm/1zazSs47ecAnU6QZoEVlO5/c61e86f7ac827fcea0c54bcc7c0f3a43/Code_club_hero_image.png?fm=webp&h=517&w=690",
+            "alt": "",
+            "width": 690,
+            "height": 517,
+            "is_meaningful_alt": false
         },
         {
-            "src": "https://cdn.aniagotuje.com/pictures/articles/2020/02/2210636-v-1080x1375.jpg",
-            "alt": "Zacznij od kapusty kiszonej",
-            "width": 0,
-            "height": 0,
-            "is_meaningful_alt": true
+            "src": "https://images.ctfassets.net/oshmmv7kdjgm/3vg9o734FMGd9xoUzCETRs/b089ec4088dfc24d20fa15e72a8b9ddf/resources_image.png?fm=webp&h=869&w=580",
+            "alt": "",
+            "width": 580,
+            "height": 869,
+            "is_meaningful_alt": false
         },
         {
-            "src": "https://cdn.aniagotuje.com/pictures/articles/2020/02/2211439-v-1080x1315.jpg",
-            "alt": "Dodaj kapustę białą",
-            "width": 0,
-            "height": 0,
-            "is_meaningful_alt": true
+            "src": "https://images.ctfassets.net/oshmmv7kdjgm/6TXCh7VmYXqccABO1KjxAo/7164f590d044a5520af7caebb47f56f9/research_image.png?fm=webp&h=472&w=690",
+            "alt": "",
+            "width": 690,
+            "height": 472,
+            "is_meaningful_alt": false
         },
         {
-            "src": "https://cdn.aniagotuje.com/pictures/articles/2020/02/2211478-v-1080x1568.jpg",
-            "alt": "Przygotuj mięsa",
-            "width": 0,
-            "height": 0,
-            "is_meaningful_alt": true
+            "src": "https://images.ctfassets.net/oshmmv7kdjgm/38xdCcmorkH9WvRnJouzsE/37b58627c8b7dcb9a442cb7fbe0e8ef5/jay.png?fm=webp&h=372&w=664",
+            "alt": "Jay's story",
+            "width": 663,
+            "height": 372,
+            "is_meaningful_alt": false
         },
         {
-            "src": "https://cdn.aniagotuje.com/pictures/articles/2020/02/2211465-v-1080x1442.jpg",
-            "alt": "Gotuj bigos",
-            "width": 0,
-            "height": 0,
-            "is_meaningful_alt": true
-        },
-        {
-            "src": "https://cdn.aniagotuje.com/pictures/articles/2020/02/2211492-v-1080x1409.jpg",
-            "alt": "Dodaj mięsa",
-            "width": 0,
-            "height": 0,
-            "is_meaningful_alt": true
-        },
-        {
-            "src": "https://cdn.aniagotuje.com/pictures/articles/2020/02/2211518-v-1080x1366.jpg",
-            "alt": "Podsmaż cebulę z boczkiem",
-            "width": 0,
-            "height": 0,
-            "is_meaningful_alt": true
-        },
-        {
-            "src": "https://cdn.aniagotuje.com/pictures/articles/2020/02/2211576-v-1080x1418.jpg",
-            "alt": "Dokończ bigos",
-            "width": 0,
-            "height": 0,
-            "is_meaningful_alt": true
-        },
-        {
-            "src": "https://cdn.aniagotuje.com/pictures/articles/2018/09/657735-v-360x360.jpg",
-            "alt": "Kluski z mięsem",
-            "width": 0,
-            "height": 0,
-            "is_meaningful_alt": true
-        },
-        {
-            "src": "https://cdn.aniagotuje.com/pictures/articles/2021/03/12897133-v-360x360.jpg",
-            "alt": "Gulasz wołowy",
-            "width": 0,
-            "height": 0,
-            "is_meaningful_alt": true
-        },
-        {
-            "src": "https://cdn.aniagotuje.com/pictures/articles/2017/11/650954-v-360x360.jpg",
-            "alt": "Gulasz węgierski",
-            "width": 0,
-            "height": 0,
-            "is_meaningful_alt": true
-        },
-        {
-            "src": "https://cdn.aniagotuje.com/pictures/articles/2020/02/2260617-v-360x360.jpg",
-            "alt": "Gulasz wieprzowy",
-            "width": 0,
-            "height": 0,
-            "is_meaningful_alt": true
-        },
-        {
-            "src": "https://cdn.aniagotuje.com/pictures/articles/2021/09/19331911-v-360x360.jpg",
-            "alt": "Bitki wołowe",
-            "width": 0,
-            "height": 0,
-            "is_meaningful_alt": true
-        },
-        {
-            "src": "https://cdn.aniagotuje.com/pictures/articles/2018/08/657084-v-360x360.jpg",
-            "alt": "Naleśniki z mięsem",
-            "width": 0,
-            "height": 0,
-            "is_meaningful_alt": true
-        },
-        {
-            "src": "https://cdn.aniagotuje.com/app/client/static/imgs/ania/profile/ania-80x80.jpg",
-            "alt": "Ania z AniaGotuje.pl",
-            "width": 80,
-            "height": 80,
-            "is_meaningful_alt": true
+            "src": "https://images.ctfassets.net/oshmmv7kdjgm/4BpWyY1M5EyzGdXpsDUeXd/4548269375bf9b8c5ee9342e0a4d2190/rpi5.png?fm=webp&h=388&w=690",
+            "alt": "A Raspberry Pi 5",
+            "width": 690,
+            "height": 388,
+            "is_meaningful_alt": false
         }
     ],
     "links": [
         {
-            "text": "Logowanie",
-            "url": "https://aniagotuje.pl/user/login"
+            "text": "Accessibility statement and help",
+            "url": "https://www.raspberrypi.org/accessibility/"
         },
         {
-            "text": "Współpraca",
-            "url": "https://aniagotuje.pl/info/wspolpraca"
+            "text": "Raspberry Pi Foundation",
+            "url": "https://www.raspberrypi.org/"
         },
         {
-            "text": "Facebook",
-            "url": "https://www.facebook.com/AniaGotuje"
+            "text": "Donate",
+            "url": "https://www.raspberrypi.org/donate/"
         },
         {
-            "text": "Instagram",
-            "url": "https://www.instagram.com/aniagotujepl/"
+            "text": "Log out",
+            "url": "https://www.raspberrypi.org/auth/logout"
         },
         {
-            "text": "Ania Gotuje",
-            "url": "https://aniagotuje.pl/"
+            "text": "Read the paperopen_in_new",
+            "url": "https://static.raspberrypi.org/files/about/Why-kids-still-need-to-learn-to-code-in-the-age-of-AI-2025-Raspberry-Pi-Foundation-position-paper.pdf"
         },
         {
-            "text": "Serniki na zimno",
-            "url": "https://aniagotuje.pl/przepisy/serniki/na-zimno?sortBy=popularity"
+            "text": "Discover projectsopen_in_new",
+            "url": "https://projects.raspberrypi.org/"
         },
         {
-            "text": "kolacja",
-            "url": "https://aniagotuje.pl/pomysl-na/kolacja"
+            "text": "View showcase galleryopen_in_new",
+            "url": "https://online.coolestprojects.org/events/cp-2024/gallery?utm_source=rpf&utm_medium=website&utm_campaign=homepage"
         },
         {
-            "text": "serniki",
-            "url": "https://aniagotuje.pl/przepisy/serniki"
+            "text": "Explore Astro Piopen_in_new",
+            "url": "https://astro-pi.org/?utm_source=rpf&utm_medium=website&utm_campaign=homepage"
         },
         {
-            "text": "szarlotka",
-            "url": "https://aniagotuje.pl/szukaj?s=szarlotka"
+            "text": "Visit Code Clubopen_in_new",
+            "url": "https://codeclub.org/en/?utm_source=rpf&utm_medium=website&utm_campaign=homepage"
         },
         {
-            "text": "szparagi",
-            "url": "https://aniagotuje.pl/szukaj?s=szparagi"
+            "text": "Professional development for teachersopen_in_newFree training and PD to help you develop the skills, knowledge, and confidence to teach computing.",
+            "url": "https://www.edx.org/school/raspberrypifoundation?utm_source=rpf-homepage&utm_medium=website"
         },
         {
-            "text": "truskawki",
-            "url": "https://aniagotuje.pl/tag/truskawki?sortBy=popularity"
+            "text": "The Computing Curriculumarrow_forwardA complete set of evidence-based classroom resources to teach computing.",
+            "url": "https://www.raspberrypi.org/curriculum"
         },
         {
-            "text": "Przepisy",
-            "url": "https://aniagotuje.pl/"
+            "text": "Experience AIopen_in_newLessons and practical activities to help young people understand AI and how it is changing the world.",
+            "url": "https://experience-ai.org/?utm_source=rpf_homepage&utm_medium=website&utm_campaign=expai-2024&utm_id=Experience+AI"
         },
         {
-            "text": "dania mięsne",
-            "url": "https://aniagotuje.pl/przepisy/dania-miesne"
+            "text": "Ada Computer Scienceopen_in_newA platform with everything you need to teach and learn computer science.",
+            "url": "https://adacomputerscience.org/?utm_source=rpf-homepage&utm_medium=website"
         },
         {
-            "text": "Bigos",
-            "url": "https://aniagotuje.pl/przepis/bigos"
+            "text": "Hello Worldarrow_forwardThe magazine for computing educators to share research, knowledge, and resources.",
+            "url": "https://www.raspberrypi.org/hello-world"
         },
         {
-            "text": "Kapusta kiszona",
-            "url": "https://aniagotuje.pl/przepis/kapusta-kiszona"
+            "text": "Explore our research",
+            "url": "https://www.raspberrypi.org/research/"
         },
         {
-            "text": "dania mięsne",
-            "url": "https://aniagotuje.pl/przepisy/dania-miesne"
+            "text": "ResearchBringing data science to life for K–12 students with the ‘API Can Code’ curriculum12th Jun 2025",
+            "url": "https://www.raspberrypi.org/blog/bringing-data-science-to-life-for-k-12-students-with-the-api-can-code-curriculum/"
         },
         {
-            "text": "boczek surowy",
-            "url": "https://aniagotuje.pl/tag/boczek-surowy"
+            "text": "Astro PiAstro Pi 2024/25: Another stellar year of space education concludes11th Jun 2025",
+            "url": "https://www.raspberrypi.org/blog/astro-pi-2024-25-another-stellar-year-of-space-education-concludes/"
         },
         {
-            "text": "cebula",
-            "url": "https://aniagotuje.pl/tag/cebula"
+            "text": "ClubsDiscover the incredible impact of Code Club: The Code Club annual survey report 202510th Jun 2025",
+            "url": "https://www.raspberrypi.org/blog/discover-the-incredible-impact-of-code-club-the-code-club-annual-survey-report-2025/"
         },
         {
-            "text": "goździk",
-            "url": "https://aniagotuje.pl/tag/gozdzik"
+            "text": "EducationJoin our free data science education workshop for teachers9th Jun 2025",
+            "url": "https://www.raspberrypi.org/blog/join-our-free-data-science-education-workshop-for-teachers/"
         },
         {
-            "text": "grzyby",
-            "url": "https://aniagotuje.pl/tag/grzyby"
+            "text": "See all blog posts",
+            "url": "https://www.raspberrypi.org/blog"
         },
         {
-            "text": "grzyby suszone",
-            "url": "https://aniagotuje.pl/tag/grzyby-suszone"
+            "text": "Jay's story",
+            "url": "https://youtu.be/YKseSCYwoc4"
         },
         {
-            "text": "jałowiec",
-            "url": "https://aniagotuje.pl/tag/jalowiec"
+            "text": "Read transcript",
+            "url": "https://www.raspberrypi.org/videos/jays-story"
         },
         {
-            "text": "kapusta",
-            "url": "https://aniagotuje.pl/tag/kapusta"
+            "text": "Watch more stories",
+            "url": "https://www.raspberrypi.org/community-stories/"
         },
         {
-            "text": "kapusta kiszona",
-            "url": "https://aniagotuje.pl/tag/kapusta-kiszona"
-        },
-        {
-            "text": "kapusta świeża",
-            "url": "https://aniagotuje.pl/tag/kapusta-swieza"
-        },
-        {
-            "text": "kiełbasa",
-            "url": "https://aniagotuje.pl/tag/kielbasa"
-        },
-        {
-            "text": "kiełbasa myśliwska",
-            "url": "https://aniagotuje.pl/tag/kielbasa-mysliwska"
-        },
-        {
-            "text": "liście laurowe",
-            "url": "https://aniagotuje.pl/tag/liscie-laurowe"
-        },
-        {
-            "text": "łopatka wieprzowa",
-            "url": "https://aniagotuje.pl/tag/lopatka-wieprzowa"
-        },
-        {
-            "text": "łopatka wołowa",
-            "url": "https://aniagotuje.pl/tag/lopatka-wolowa"
-        },
-        {
-            "text": "pieprz czarny",
-            "url": "https://aniagotuje.pl/tag/pieprz-czarny"
-        },
-        {
-            "text": "schab wieprzowy",
-            "url": "https://aniagotuje.pl/tag/schab-wieprzowy"
-        },
-        {
-            "text": "śliwki",
-            "url": "https://aniagotuje.pl/tag/sliwki"
-        },
-        {
-            "text": "śliwki suszone",
-            "url": "https://aniagotuje.pl/tag/sliwki-suszone"
-        },
-        {
-            "text": "smalec wieprzowy",
-            "url": "https://aniagotuje.pl/tag/smalec-wieprzowy"
-        },
-        {
-            "text": "wieprzowina",
-            "url": "https://aniagotuje.pl/tag/wieprzowina"
-        },
-        {
-            "text": "wino czerwone",
-            "url": "https://aniagotuje.pl/tag/wino-czerwone"
-        },
-        {
-            "text": "wołowina",
-            "url": "https://aniagotuje.pl/tag/wolowina"
-        },
-        {
-            "text": "ziele angielskie",
-            "url": "https://aniagotuje.pl/tag/ziele-angielskie"
-        },
-        {
-            "text": "Powrót",
-            "url": "https://aniagotuje.pl/"
-        },
-        {
-            "text": "Kluski z mięsem",
-            "url": "https://aniagotuje.pl/przepis/kluski-z-miesem"
-        },
-        {
-            "text": "Gulasz wołowy",
-            "url": "https://aniagotuje.pl/przepis/gulasz-wolowy"
-        },
-        {
-            "text": "Gulasz węgierski",
-            "url": "https://aniagotuje.pl/przepis/gulasz-wegierski"
-        },
-        {
-            "text": "Gulasz wieprzowy",
-            "url": "https://aniagotuje.pl/przepis/gulasz-wieprzowy"
-        },
-        {
-            "text": "Bitki wołowe",
-            "url": "https://aniagotuje.pl/przepis/bitki-wolowe"
-        },
-        {
-            "text": "Naleśniki z mięsem",
-            "url": "https://aniagotuje.pl/przepis/nalesniki-z-miesem"
-        },
-        {
-            "text": "placki ziemniaczane",
-            "url": "https://aniagotuje.pl/przepis/tradycyjne-placki-ziemniaczane"
-        },
-        {
-            "text": "fasolka po bretońsku",
-            "url": "https://aniagotuje.pl/przepis/fasolka-po-bretonsku"
-        },
-        {
-            "text": "Bigos z cukinii",
-            "url": "https://aniagotuje.pl/przepis/bigos-z-cukinii"
-        },
-        {
-            "text": "zakwas na żur",
-            "url": "https://aniagotuje.pl/przepis/jak-zrobic-zakwas-na-zur-i-zurek"
-        },
-        {
-            "text": "kopytka",
-            "url": "https://aniagotuje.pl/przepis/tradycyjne-kopytka-z-bulka-tarta"
-        },
-        {
-            "text": "Kluski śląskie",
-            "url": "https://aniagotuje.pl/przepis/jak-zrobic-kluski-slaskie"
+            "text": "Visit raspberrypi.comopen_in_new",
+            "url": "https://www.raspberrypi.com/"
         }
     ],
     "sections": [
         {
-            "name": "menu",
+            "name": "Raspberry Pi Home page",
             "id": "",
             "role": "unknown",
             "description": "nieznana rola"
         },
         {
-            "name": "Wyszukiwanie przepisów",
-            "id": "",
-            "role": "search",
-            "description": "wyszukiwarka"
-        },
-        {
-            "name": "fraza wyszukiwania",
-            "id": "",
-            "role": "searchbox",
-            "description": "nieznana rola"
-        },
-        {
-            "name": "Postęp nagrywania",
-            "id": "",
-            "role": "progressbar",
-            "description": "nieznana rola"
-        },
-        {
-            "name": "Sugestie wyszukiwania",
-            "id": "search-autocomplete",
-            "role": "listbox",
-            "description": "nieznana rola"
-        },
-        {
-            "name": "szukaj",
-            "id": "",
-            "role": "button",
-            "description": "nieznana rola"
-        },
-        {
-            "name": "popularne",
+            "name": "Navigation",
             "id": "",
             "role": "unknown",
             "description": "nieznana rola"
         },
         {
-            "name": "email",
-            "id": "subemail",
+            "name": "Free resources for young people to learn to code a",
+            "id": "",
+            "role": "navigation",
+            "description": "nawigacja"
+        },
+        {
+            "name": "Free training, resources, and guidance to help you",
+            "id": "",
+            "role": "navigation",
+            "description": "nawigacja"
+        },
+        {
+            "name": "Deepen your understanding of how young people lear",
+            "id": "",
+            "role": "navigation",
+            "description": "nawigacja"
+        },
+        {
+            "name": "Raspberry Pi computers and accessories, software a",
+            "id": "",
+            "role": "navigation",
+            "description": "nawigacja"
+        },
+        {
+            "name": "We enable young people to realise their full poten",
+            "id": "",
+            "role": "navigation",
+            "description": "nawigacja"
+        },
+        {
+            "name": "Open Navigation",
+            "id": "",
             "role": "unknown",
             "description": "nieznana rola"
         },
         {
-            "name": "zapisanie na newsletter",
+            "name": "Enabling all young people to realise their full po",
+            "id": "",
+            "role": "unknown",
+            "description": "nieznana rola"
+        },
+        {
+            "name": "Why kids still need to learn to code in the age of",
+            "id": "",
+            "role": "unknown",
+            "description": "nieznana rola"
+        },
+        {
+            "name": "Coding for kidsAwesome activities to help young pe",
+            "id": "",
+            "role": "unknown",
+            "description": "nieznana rola"
+        },
+        {
+            "name": "Join or start a Code ClubCode Club is a global mov",
+            "id": "",
+            "role": "unknown",
+            "description": "nieznana rola"
+        },
+        {
+            "name": "Resources for teachers & schoolsWe support teacher",
+            "id": "",
+            "role": "unknown",
+            "description": "nieznana rola"
+        },
+        {
+            "name": "ResearchDiscover insights from the world’s leading",
+            "id": "",
+            "role": "unknown",
+            "description": "nieznana rola"
+        },
+        {
+            "name": "NewsResearchBringing data science to life for K–12",
+            "id": "",
+            "role": "unknown",
+            "description": "nieznana rola"
+        },
+        {
+            "name": "“When I started coding, I started to discover that",
+            "id": "",
+            "role": "unknown",
+            "description": "nieznana rola"
+        },
+        {
+            "name": "Raspberry Pi computersFrom industries large and sm",
             "id": "",
             "role": "unknown",
             "description": "nieznana rola"
         }
     ],
-    "forms": [
-        {
-            "action": "",
-            "method": "GET",
-            "fields": [
-                {
-                    "type": "input",
-                    "name": "s",
-                    "label": "fraza wyszukiwania",
-                    "value": ""
-                }
-            ],
-            "submit_buttons": [
-                {
-                    "text": "",
-                    "type": "submit"
-                }
-            ]
-        },
-        {
-            "action": "",
-            "method": "GET",
-            "fields": [
-                {
-                    "type": "input",
-                    "name": "email",
-                    "label": "email",
-                    "value": ""
-                },
-                {
-                    "type": "input",
-                    "name": "",
-                    "label": "zapisanie na newsletter",
-                    "value": "Zapisuję się!"
-                }
-            ],
-            "submit_buttons": []
-        }
-    ]
+    "forms": []
 }

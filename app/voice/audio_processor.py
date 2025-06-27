@@ -7,22 +7,6 @@ import io
 
 class AudioProcessor:
     """Przetwarzanie i konwersja danych audio"""
-    
-    # @staticmethod
-    # def record_audio(duration: float = 0.3, sample_rate: int = 16000) -> np.ndarray:
-    #     """Nagrywanie krótkiego fragmentu audio"""
-    #     try:
-    #         recording = sd.rec(
-    #             int(duration * sample_rate),
-    #             samplerate=sample_rate,
-    #             channels=1,
-    #             dtype='float32',
-    #             blocking=True
-    #         )
-    #         return recording.flatten()
-    #     except Exception as e:
-    #         logging.error(f"Błąd nagrywania audio: {e}")
-    #         return np.array([])
 
     
     @staticmethod
