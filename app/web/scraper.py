@@ -4,10 +4,8 @@ import re
 from urllib.parse import urlparse, urljoin
 from typing import Dict, List, Optional
 from readability import Document
-
-from playwright.sync_api import Page, TimeoutError as PlaywrightTimeoutError
 from bs4 import BeautifulSoup, Tag, NavigableString
-
+from playwright.sync_api import Page, TimeoutError as PlaywrightTimeoutError
 from utils.url_utils import clean_text, normalize_url, validate_url
 
 logger = logging.getLogger(__name__)
@@ -155,51 +153,148 @@ class WebScraper:
         return results
 
     def _extract_content(self, soup: BeautifulSoup) -> Dict:
-        """Ekstrahuje główną treść strony z użyciem Readability i semantycznych tagów."""
+        """Ekstrahuje główną treść strony, w tym ceny, dane kontaktowe i specyfikacje, eliminując reklamy i nieistotne elementy."""
         try:
-            # 1. Szukaj semantycznych tagów (main, article, role="main")
-            main_content = (
-                soup.select_one('main') or
-                soup.select_one('article') or
-                soup.select_one('[role="main"]')
-            )
+            def is_visible(tag: Tag) -> bool:
+                if not tag or not isinstance(tag, Tag):
+                    return False
+                # Check for hidden elements via style attributes
+                style = tag.attrs.get('style', '').replace(' ', '').lower()
+                hidden = ['display:none', 'visibility:hidden', 'opacity:0']
+                if any(h in style for h in hidden):
+                    return False
+                # Exclude non-content tags
+                if tag.name in ['script', 'style', 'noscript', 'svg', 'meta', 'head']:
+                    return False
+                # Exclude advertisement and category-related elements
+                ad_category_classes = ['ad', 'banner', 'sponsored', 'advertisement', 'category', 'tag', 'references', 'source']
+                class_list = tag.get('class', [])
+                if any(c in cls.lower() for cls in class_list for c in ad_category_classes):
+                    return False
+                return True
 
-            # 2. Fallback na Readability
-            if not main_content:
+            def get_main_candidate(soup: BeautifulSoup) -> Tag:
+                """Zwraca najbardziej prawdopodobny tag zawierający treść, w tym ceny i specyfikacje."""
+                candidates = [
+                    soup.select_one('main'),
+                    soup.select_one('article'),
+                    soup.select_one('[role="main"]'),
+                    soup.select_one('#content'),
+                    soup.select_one('.content'),
+                    soup.select_one('.description'),
+                    soup.select_one('[itemprop="articleBody"]')
+                ]
+                for c in candidates:
+                    if c and len(clean_text(c.get_text(strip=True))) > 100:  # Lowered threshold to include prices/specs
+                        return c
+
+                # Fallback: select div with significant text, avoiding ads/categories
+                max_div = max(
+                    (div for div in soup.find_all('div') if is_visible(div)),
+                    key=lambda d: len(clean_text(d.get_text(strip=True))),
+                    default=None
+                )
+                return max_div
+
+            main_content = get_main_candidate(soup)
+
+            # Fallback to Readability if main content is insufficient
+            if not main_content or len(clean_text(main_content.get_text(strip=True))) < 100:
                 doc = Document(str(soup))
                 main_html = doc.summary()
                 main_content = BeautifulSoup(main_html, "html.parser")
 
-            # 3. Filtruj widoczny tekst
-            def is_visible(tag: Tag) -> bool:
-                if not tag or not isinstance(tag, Tag):
-                    return False
-                style = tag.attrs.get('style', '').replace(' ', '').lower()
-                hidden = ['display:none', 'visibility:hidden', 'opacity:0']
-                return not any(h in style for h in hidden)
-
-            # 4. Zbieraj widoczny tekst
+            # Collect meaningful content, including prices, contact info, and specs
             visible_text_parts = []
-            for elem in main_content.descendants:
-                if isinstance(elem, NavigableString):
-                    parent = elem.parent
-                    if parent and is_visible(parent):
-                        text = str(elem).strip()
-                        if text:
-                            visible_text_parts.append(text)
+            paragraphs = []
+            headings = []
+            links = []
+            lists = {'ordered': [], 'unordered': []}
+            base_url = self.page.url
 
-            visible_text = ' '.join(visible_text_parts)
+            for elem in main_content.find_all(True):
+                if not is_visible(elem):
+                    continue
+
+                # Headings
+                if elem.name in ['h1', 'h2', 'h3', 'h4', 'h5', 'h6']:
+                    text = clean_text(elem.get_text(strip=True))
+                    if text:
+                        headings.append({
+                            'level': int(elem.name[1]),
+                            'text': text,
+                            'aria_label': elem.get('aria-label', None)
+                        })
+                        visible_text_parts.append(text)
+
+                # Paragraphs
+                elif elem.name == 'p':
+                    text = clean_text(elem.get_text(strip=True))
+                    if text:
+                        paragraphs.append(text)
+                        visible_text_parts.append(text)
+
+                # Links (collect but don't add to text to avoid noise)
+                elif elem.name == 'a' and elem.get('href'):
+                    href = normalize_url(elem['href'], base_url=base_url)
+                    text = clean_text(elem.get_text(strip=True))
+                    if href and validate_url(href):
+                        links.append({
+                            'text': text or 'Link bez tekstu',
+                            'url': href
+                        })
+
+                # Lists (include specs or contact info)
+                elif elem.name in ['ul', 'ol']:
+                    list_type = 'ordered' if elem.name == 'ol' else 'unordered'
+                    items = [clean_text(li.get_text(strip=True)) for li in elem.find_all('li') if clean_text(li.get_text(strip=True))]
+                    if items:
+                        lists[list_type].append(items)
+                        visible_text_parts.extend(items)
+
+                # Divs and other elements (include prices, specs, contact info)
+                elif is_visible(elem):
+                    text = clean_text(elem.get_text(strip=True))
+                    if text:
+                        visible_text_parts.append(text)
+
+            # Combine visible text, remove duplicates, and ensure clean formatting
+            visible_text = ' '.join(list(dict.fromkeys(visible_text_parts)))  # Remove duplicates while preserving order
+
+            word_count = len(visible_text.split())
+            sentence_count = len(re.split(r'[.!?]+', visible_text)) - 1 if visible_text else 0
+            main_language = self.page.evaluate("document.documentElement.lang") or "unknown"
 
             return {
                 "text": clean_text(visible_text),
                 "length": len(visible_text),
-                "semantic_tags": [tag.name for tag in main_content.find_all(True) if tag.name],
-                "aria_roles": [role for role in main_content.get('role', '').split() if role]
+                "word_count": word_count,
+                "sentence_count": sentence_count,
+                "language": main_language,
+                "paragraphs": paragraphs,
+                "headings": headings,
+                "links": links,
+                "lists": lists,
+                "semantic_tags": list(set(tag.name for tag in main_content.find_all(True) if is_visible(tag))),
+                "aria_roles": [role for role in main_content.get('role', '').split() if role] if main_content.has_attr('role') else []
             }
+
         except Exception as e:
             logger.error(f"Błąd ekstrakcji treści: {e}")
-            return {"text": "", "length": 0, "semantic_tags": [], "aria_roles": []}
-
+            return {
+                "text": "",
+                "length": 0,
+                "word_count": 0,
+                "sentence_count": 0,
+                "language": "unknown",
+                "paragraphs": [],
+                "headings": [],
+                "links": [],
+                "lists": {'ordered': [], 'unordered': []},
+                "semantic_tags": [],
+                "aria_roles": []
+            }
+    
     def _extract_images(self, soup: BeautifulSoup) -> List[Dict]:
         """Ekstrahuje obrazy z sensownymi atrybutami alt, podpisami lub istotnymi nazwami."""
         images = []
@@ -214,16 +309,10 @@ class WebScraper:
 
         for idx, figure in enumerate(figures, 1):
             img = figure.find("img")
-            # print(f"\n[{idx}] Przetwarzam <figure>: {figure}")
-
             if img and 'src' in img.attrs:
-                # print(f" - Znaleziono <img>: {img}")
-
                 src = normalize_url(img["src"], base_url=base_url)
                 
-                # Pomijaj małe obrazy i miniaturek
                 if 'crop=faces&fit=crop&h=32' in src or 'h=32' in src:
-                    # print(f" - Pominięto: obraz jest miniaturką (h=32)")
                     continue
                     
                 alt = img.get("alt", "")
@@ -231,24 +320,17 @@ class WebScraper:
 
                 if caption:
                     caption_text = clean_text(caption.get_text())
-                    # print(f" - Znaleziono <figcaption>: {caption_text}")
                     alt = f"{alt} - {caption_text}".strip() if alt else caption_text
 
                 if src and validate_url(src) and src not in seen_srcs:
-                    # print(f" - Dodaję obraz z <figure>: src={src}, alt={alt}")
                     seen_srcs.add(src)
                     images.append({
                         "src": src,
                         "alt": alt,
                         "is_meaningful_alt": len(alt.strip()) > 20
                     })
-                else:
-                    reason = "nieprawidłowy src" if not src else "duplikat" if src in seen_srcs else "nie przechodzi walidacji"
-                    # print(f" - Pominięto: {reason}: {src}")
-            else:
-                 print(" - Brak <img> lub brak atrybutu src w <figure>")
 
-        # 2. Ekstrahuj inne obrazy z Playwright z lepszym filtrowaniem
+        # 2. Ekstrahuj inne obrazy z Playwright
         print("\n--- Próba ekstrakcji obrazów z DOM za pomocą Playwright ---")
         try:
             other_images = self.page.evaluate("""
@@ -256,23 +338,16 @@ class WebScraper:
                     .filter(img => {
                         const alt = img.alt || '';
                         const src = img.src || '';
-                        
-                        // Odrzuć profile/avatary
                         if (/\\b(profile|avatar|user)\\b/i.test(alt) || 
                             /\\b(profile|avatar|user)\\b/i.test(src)) {
                             return false;
                         }
-                        
-                        // Odrzuć małe obrazy (szerokość lub wysokość < 100px)
                         if (img.naturalWidth < 100 && img.naturalHeight < 100) {
                             return false;
                         }
-                        
-                        // Odrzuć obrazy z parametrami crop
                         if (src.includes('crop=faces') || src.includes('fit=crop') || src.includes('h=32')) {
                             return false;
                         }
-                        
                         return (
                             alt.trim().length > 20 ||
                             src.match(/(diagram|schemat|mapa|wykres|chart|infographic|illustration|photo|image)/i) ||
@@ -286,25 +361,16 @@ class WebScraper:
                         height: img.naturalHeight
                     }))
             """)
-            # print(f"Znaleziono {len(other_images)} potencjalnych obrazów przez Playwright")
 
             for idx, img in enumerate(other_images, 1):
                 src = normalize_url(img["src"], base_url=base_url)
-                
-                # Dodatkowe filtrowanie po stronie Pythona
                 if any(kw in src for kw in ['profile-', 'avatar', 'user=', 'h=32', 'crop=faces']):
-                    # print(f" - Pominięto: URL wskazuje na miniaturkę: {src}")
                     continue
-                    
                 if img['width'] < 100 and img['height'] < 100:
-                    # print(f" - Pominięto: obraz zbyt mały ({img['width']}x{img['height']}px): {src}")
                     continue
                     
                 alt = clean_text(img["alt"])
-                # print(f"\n[{idx}] Obraz z Playwright: src={src}, alt={alt}, width={img['width']}, height={img['height']}")
-
                 if src and validate_url(src) and src not in seen_srcs:
-                    # print(" - Dodaję obraz z Playwright")
                     seen_srcs.add(src)
                     images.append({
                         "src": src,
@@ -313,9 +379,6 @@ class WebScraper:
                         "height": img['height'],
                         "is_meaningful_alt": len(alt.strip()) > 20
                     })
-                else:
-                    reason = "nieprawidłowy src" if not src else "duplikat" if src in seen_srcs else "nie przechodzi walidacji"
-                    # print(f" - Pominięto: {reason}")
 
             print(f"\n>>> Łącznie znaleziono {len(images)} istotnych obrazów")
         except Exception as e:
@@ -325,7 +388,6 @@ class WebScraper:
         print("=== KONIEC ekstrakcji obrazów ===\n")
         print(f"Znaleziono {len(images)} obrazów na stronie: {base_url}")
         return images
-
 
     def _extract_links(self, soup: BeautifulSoup) -> List[Dict]:
         """Ekstrahuje linki z tekstem i URL-ami, pomijając linki nawigacyjne."""

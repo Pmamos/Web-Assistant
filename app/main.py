@@ -108,7 +108,7 @@ def main():
         #     time.sleep(0.1)
 
 
-    # # Lista komend testowych
+    # # # Lista komend testowych
     # test_commands = [
     #         "otwórz przeglądarkę",
     #         "otwórz stronę https://aniastarmach.pl/przepis/pierogi-ruskie/",
@@ -225,14 +225,10 @@ def main():
     #     # Inicjalizacja przeglądarki
     #     "otwórz przeglądarkę",
         
-    #     # Test 1: Strona z wieloma obrazami (np. galeria)
-    #     "otwórz stronę https://unsplash.com",
-    #     "opisz obraz 1",
-    #     "opisz obraz 20",
-    #     "opisz obraz 24",
+
         
     #     # Test 2: Strona z obrazami produktowymi
-    #     "otwórz stronę https://www.ikea.com/pl/pl/",
+    #     "otwórz stronę https://www.ikea.com/pl/pl/rooms/dining/",
     #     "opisz obraz 1",
     #     "opisz obraz 2",
     #     "opisz obraz 3",
@@ -240,30 +236,12 @@ def main():
     #     "opisz obraz 5",
     #     "opisz obraz 6",
     #     "opisz obraz 7",
+    #     "opisz obraz 8",
+    #     "opisz obraz 9",
+    #     "opisz obraz 10",
+    #     "opisz obraz 11",
+
         
-    #     # Test 3: Strona z infografikami
-    #     "otwórz stronę https://www.nationalgeographic.com",
-    #     "opisz obraz 1",
-    #     "opisz obraz 2",
-    #     "opisz obraz 3",
-    #     "opisz obraz 4",
-        
-    #     # Test 4: Wikipedia z obrazami historycznymi
-    #     "otwórz stronę https://pl.wikipedia.org/wiki/Warszawa",
-    #     "opisz obraz 1",
-    #     "opisz obraz 2",
-    #     "opisz obraz 6",
-        
-    #     # Test 5: Strona z diagramami technicznymi
-    #     "otwórz stronę https://www.raspberrypi.org",
-    #     "opisz obraz 1",
-    #     "opisz obraz 2",
-    #     "opisz obraz 3",
-        
-        
-    #     # Test 8: Nieprawidłowe przypadki
-    #     "opisz obraz 0",  # Nieprawidłowy indeks
-    #     "opisz obraz 999",  # Indeks poza zakresem
         
     #     # Zamknięcie przeglądarki
     #     "zamknij przeglądarkę"
@@ -275,6 +253,7 @@ def main():
     #     # voice_listener.stop()
     #     # browser_manager.close_browser()
     #     print("Aplikacja zamknięta.")
+
     queue = ThreadSafeQueue()
     page_assistant = PageAssistant(
                      model_repo_id="speakleash/Bielik-4.5B-v3.0-Instruct-GGUF",
@@ -289,14 +268,7 @@ def main():
     # test_commands = [
     #     # Inicjalizacja przeglądarki
     #     "otwórz przeglądarkę",
-    #     "gdzie jestem",  # Sprawdzenie, na jakiej stronie jesteśmy
-
-    #     # Test 1: Strona z linkami i nawigacją
-    #     "otwórz stronę https://www.wikipedia.org",
-    #     "przeczytaj linki",
-    #     "kliknij link 1",  # Kliknięcie pierwszego linku (np. do polskiej Wikipedii)
-    #     "gdzie jestem",  # Sprawdzenie, czy nawigacja działa
-
+ 
     #     # Test 2: Strona z formularzem (np. wyszukiwanie na Google)
     #     "otwórz stronę https://www.google.com",
     #     "przeczytaj formularze",
@@ -304,15 +276,6 @@ def main():
     #     "kliknij przycisk 1",  # Kliknięcie przycisku wyszukiwania
     #     "gdzie jestem",  # Sprawdzenie, czy przeszliśmy do wyników wyszukiwania
 
-    #     # Test 3: Strona z wieloma kartami
-    #     "otwórz w nowej karcie https://www.python.org",
-    #     "otwórz w nowej karcie https://www.github.com",
-    #     "przełącz na kartę 1",  # Powrót do pierwszej karty
-    #     "gdzie jestem",
-    #     "przełącz na kartę 2",  # Przełączenie na drugą kartę
-    #     "gdzie jestem",
-    #     "zamknij kartę",  # Zamknięcie bieżącej karty
-    #     "gdzie jestem",  # Sprawdzenie, na jakiej karcie jesteśmy
 
     #     # Test 4: Strona z przyciskami (np. strona z paginacją)
     #     "otwórz stronę https://www.bbc.com/news",
@@ -320,21 +283,68 @@ def main():
     #     "kliknij link 1",  # Kliknięcie linku do artykułu
     #     "gdzie jestem",
 
-    #     # Test 5: Strona z formularzem kontaktowym
-    #     "otwórz stronę https://www.example.com",  # Przykład strony z formularzem
-    #     "przeczytaj formularze",
-    #     "wypełnij pole name: Jan Kowalski",  # Wypełnienie pola formularza
-    #     "wypełnij pole email: jan@example.com",
-    #     "kliknij przycisk 1",  # Kliknięcie przycisku wysyłania formularza
-    #     "gdzie jestem",
-
-    #     # Test 6: Nieprawidłowe przypadki
-    #     "kliknij link 999",  # Nieprawidłowy indeks linku
-    #     "kliknij przycisk 999",  # Nieprawidłowy indeks przycisku
-    #     "wypełnij pole nieistnieje: test",  # Nieistniejące pole
-    #     "przełącz na kartę 999",  # Nieistniejąca karta
-
     #     # Zamknięcie przeglądarki
+    #     "zamknij przeglądarkę"
+    # ]
+
+    # test_commands = [
+    #     # Inicjalizacja przeglądarki
+    #     "otwórz przeglądarkę",
+    #     # # "szukaj na wikipedii Józef Stalin",
+    #     # # "streść stronę",
+    #     # # "zapytaj model gdzie urodził się Józef Stalin",
+    #     # # "zapytaj model jakie były jego najważniejsze osiągnięcia",
+    #     # # "zapytaj model w jakich latach był przywódcą ZSRR",
+
+    #     # "otwórz stronę https://zpe.gov.pl/a/ochrona-srodowiska-w-polsce/DF1PcYKMb",
+    #     # # "streść stronę",
+    #     # "zapytaj model jakie są działania na rzecz ochrony środowiska w Polsce",
+    #     # "zapytaj model czym jest neutralność klimatyczna",
+
+    #     # "otwórz stronę https://www.mediaexpert.pl/komputery-i-tablety/laptopy-i-ultrabooki/laptopy/laptop-lenovo-yoga-slim-7-14q8x9-14-5-oled-snapdragon-x-elite-16gb-ram-512gb-ssd-windows-11-home",
+    #     # "streść stronę",
+    #     # "zapytaj model jaki to model laptopa",
+    #     # "zapytaj model czy ten laptop ma kartę graficzną dedykowaną",
+    #     # "zapytaj model czy laptop nadaje się do gier",
+    #     # "otwórz stronę https://www.wojsko-polskie.pl/bitwa-pod-grunwaldem/",
+    #     # "streść stronę",
+    #     # "zapytaj model kiedy była bitwa pod Grunwaldem",
+    #     # "zapytaj model jakie miała znaczenie dla historii Polski",
+    #     # "otwórz stronę https://www.mediaexpert.pl/smartfony-i-zegarki/smartfony/smartfon-motorola-moto-g86-5g-8-256gb-6-67-120hz-grafitowy",
+    #     # "streść stronę",
+    #     # "zapytaj model jakie są główne funkcje tego telefonu",
+    #     # "zapytaj model czy ten telefon ma dual sim",
+    #     # "zapytaj model czy produkt jest obecnie w promocji",
+
+    #     # "otwórz stronę https://www.zalando.pl/adidas-performance-adizero-evo-sl-obuwie-do-biegania-treningowe-footwear-whitecore-black-ad542a5du-a11.html",
+    #     # "streść stronę",
+    #     # "zapytaj model jakie rozmiary są dostępne",
+    #     # "zapytaj model jakie materiały zostały użyte do produkcji",
+    #     # "szukaj na wikipedii wojna stuletnia",
+    #     # "streść stronę",
+    #     # "zapytaj model jakie były przyczyny wojny stuletniej",
+    #     # "zapytaj model kto brał udział w wojnie stuletniej",
+    #     # "zapytaj model czym różni się wojna stuletnia od wojny trzydziestoletniej",
+
+    #     "otwórz stronę https://muzeum1939.pl/",
+    #     "streść stronę",
+    #     "zapytaj model jakie wystawy są dostępne w muzeum",
+    #     "zapytaj model jakie są godziny otwarcia",
+
+    #     "otwórz stronę https://www.ikea.com/pl/pl/p/malm-komoda-4-szuflady-bialy-30403571/",
+    #     "streść stronę",
+    #     "zapytaj model jakie są wymiary komody",
+    #     "zapytaj model czy wymaga samodzielnego montażu",
+
+    #     "otwórz stronę https://www.lonelyplanet.com/italy",
+    #     "streść stronę",
+    #     "zapytaj model jakie są top atrakcje Włoch",
+    #     "zapytaj model jaka jest najlepsza pora na zwiedzanie",
+
+    #     "otwórz stronę https://lubimyczytac.pl/ksiazka/5190929/rok-1984",
+    #     "streść stronę",
+    #     "zapytaj model jakie są główne tematy powieści 1984",
+    #     "zapytaj model kiedy została napisana",
     #     "zamknij przeglądarkę"
     # ]
     # for cmd in test_commands:
@@ -346,7 +356,7 @@ def main():
                 try:
                     handler, args, kwargs = queue.get()
                     result = handler(*args, **kwargs)
-                    with open("result_test_28_06_2025_kacper.txt", "a", encoding="utf-8") as f:
+                    with open("result_test_lipiec.txt", "a", encoding="utf-8") as f:
                         timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
                         f.write(f"[{timestamp}] Wynik komendy: {result}\n")
                     print(f"Wynik: {result}")

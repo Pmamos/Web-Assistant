@@ -94,7 +94,7 @@ class BrowserManager:
         self.history_index = len(self.history) - 1
         self.current_url = url
 
-    def open_page(self, url: str, isSpeak = True) -> Optional[str]:
+    def open_page(self, url: str, isSpeak = True, isWikipedia = False, wikipediaText = "") -> Optional[str]:
         """Otwiera stronę po normalizacji i walidacji URL."""
         try:
             print(f"Otwieranie strony: {url}")
@@ -104,9 +104,17 @@ class BrowserManager:
                 raise BrowserError("Nieprawidłowy adres URL.")
             self.page.goto(url, wait_until="domcontentloaded")
             self._update_history(url)
-            page_data = self._get_page_data(url)
-            text = page_data.get('content', {}).get('text', '')
-            self.page_assistant.load_context(text)
+            if not isWikipedia:
+                page_data = self._get_page_data(url)
+                content = page_data.get('content', {})
+                if not content or not isinstance(content, dict):
+                    logger.error("Brak lub nieprawidłowe dane treści strony.")
+                    self.tts.speak("Nie udało się pobrać treści strony.")
+                    raise BrowserError("Brak lub nieprawidłowe dane treści strony.")
+                logger.info(f"Ładowanie kontekstu z danymi: {list(content.keys())}")
+                self.page_assistant.load_context(content)
+            else:
+                self.page_assistant.load_context(wikipediaText)
             if isSpeak:
                 self.tts.speak(f"Otworzono stronę: {url}")
             return url
@@ -126,7 +134,7 @@ class BrowserManager:
             self.page.goto(search_url, wait_until="domcontentloaded")
             self._update_history(search_url)
             page_data = self._get_page_data(search_url)
-            text = page_data.get('content', {}).get('text', '')
+            text = page_data.get('content', {})
             self.page_assistant.load_context(text)
             self.tts.speak(f"Wyszukano: {query}")
             return search_url
@@ -184,7 +192,7 @@ class BrowserManager:
                     self.page.goto(url, wait_until="domcontentloaded")
                     self._update_history(url)
                     page_data = self._get_page_data(url)
-                    text = page_data.get('content', {}).get('text', '')
+                    text = page_data.get('content', {})
                     self.page_assistant.load_context(text)
                     self.tts.speak(f"Otworzono wynik {index}: {result['title']}")
                     return url
@@ -227,7 +235,7 @@ class BrowserManager:
                     self.page.goto(url, wait_until="domcontentloaded")
                     self._update_history(url)
                     page_data = self._get_page_data(url)
-                    text = page_data.get('content', {}).get('text', '')
+                    text = page_data.get('content', {})
                     self.page_assistant.load_context(text)
                     self.tts.speak(f"Otworzono link {index}: {link['text']}")
                     return url
@@ -400,7 +408,7 @@ class BrowserManager:
             self.scraper = WebScraper(self.page)
             self._update_history(url)
             page_data = self._get_page_data(url)
-            text = page_data.get('content', {}).get('text', '')
+            text = page_data.get('content', {})
             self.page_assistant.load_context(text)
             self.tts.speak(f"Otworzono {url} w nowej karcie.")
             return url
@@ -524,7 +532,7 @@ class BrowserManager:
                 self.page.wait_for_load_state("domcontentloaded")
                 self._update_history(self.page.url)
                 page_data = self._get_page_data(self.page.url)
-                text = page_data.get('content', {}).get('text', '')
+                text = page_data.get('content', {})
                 self.page_assistant.load_context(text)
                 self.page_data_cache.pop(self.current_url, None)
                 self.tts.speak("Przejście do następnej strony.")
@@ -545,7 +553,7 @@ class BrowserManager:
                 self.page.wait_for_load_state("domcontentloaded")
                 self._update_history(self.page.url)
                 page_data = self._get_page_data(self.page.url)
-                text = page_data.get('content', {}).get('text', '')
+                text = page_data.get('content', {})
                 self.page_assistant.load_context(text)
                 self.page_data_cache.pop(self.current_url, None)
                 self.tts.speak("Przejście do poprzedniej strony.")
@@ -615,13 +623,24 @@ class BrowserManager:
             self.tts.speak("Nie udało się otworzyć filmu.")
             return None
     
-    def summarize_page(self) -> Optional[str]:
+    def summarize_page(self, wikipage) -> Optional[str]:
         """Streszcza treść bieżącej strony."""
         try:
             if not self.current_url:
                 self.tts.speak("Najpierw otwórz stronę.")
                 return None
-            summary = self.page_assistant.summarize_page()
+            if "wikipedia.org" in self.current_url:
+                print(f"Streszczanie strony Wikipedia: {self.current_url}")
+                print(f"Sprawdzanie strony Wikipedia: {wikipage}")
+                if wikipage.exists():
+                    summary = wikipage.summary
+                    print(f"Streszczenie strony Wikipedia: {summary}")
+                    self.tts.speak(f"Streszczenie strony: {summary}")
+                    return summary
+                self.tts.speak("Nie znaleziono streszczenia strony.")
+                return None
+            else:
+                summary = self.page_assistant.summarize_page()
             if summary:
                 self.tts.speak(f"Streszczenie strony: {summary["text"]}")
                 return summary
@@ -636,7 +655,7 @@ class BrowserManager:
         """Zadaje pytanie modelowi AI na podstawie treści strony."""
         try:
             page_data = self._get_page_data(self.current_url)
-            text = page_data.get('content', {}).get('text', '')
+            text = page_data.get('content', {})
             print(f"Zadawanie pytania modelowi: {question}")
             if not text:
                 self.tts.speak("Brak treści do analizy.")
@@ -690,7 +709,7 @@ class BrowserManager:
             self.current_url = self.page.url
             self._update_history(self.current_url)
             page_data = self._get_page_data(self.current_url)
-            text = page_data.get('content', {}).get('text', '')
+            text = page_data.get('content', {})
             self.page_assistant.load_context(text)
             self.tts.speak(f"Kliknięto link {index}.")
         except Exception as e:
@@ -714,12 +733,12 @@ class BrowserManager:
                 self.current_url = new_url
                 self._update_history(self.current_url)
                 page_data = self._get_page_data(self.current_url)
-                text = page_data.get('content', {}).get('text', '')
+                text = page_data.get('content', {})
                 self.page_assistant.load_context(text)
                 self.tts.speak(f"Kliknięto przycisk {index}, przejście do nowej strony.")
             else:
                 page_data = self._get_page_data(self.current_url)
-                text = page_data.get('content', {}).get('text', '')
+                text = page_data.get('content', {})
                 self.page_assistant.load_context(text)
                 self.tts.speak(f"Kliknięto przycisk {index}.")
         except Exception as e:

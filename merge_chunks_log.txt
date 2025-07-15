@@ -1,0 +1,67 @@
+
+Łączenie fragmentów strony do maksymalnie 28000 znaków...
+Liczba fragmentów do połączenia: 66
+Połączono w 3 grup fragmentów strony
+Długość połączonych fragmentów: 66803 tokenów
+
+================================================================================
+Łączenie fragmentów strony do maksymalnie 8000 znaków...
+Liczba fragmentów do połączenia: 66
+Połączono w 10 grup fragmentów strony
+Długość połączonych fragmentów: 66796 tokenów
+
+================================================================================
+Łączenie fragmentów strony do maksymalnie 28000 znaków...
+Liczba fragmentów do połączenia: 3
+Połączono w 1 grup fragmentów strony
+Długość połączonych fragmentów: 1133 tokenów
+
+================================================================================
+Łączenie fragmentów strony do maksymalnie 28000 znaków...
+Liczba fragmentów do połączenia: 7
+Połączono w 1 grup fragmentów strony
+Długość połączonych fragmentów: 7056 tokenów
+
+================================================================================
+Łączenie fragmentów strony do maksymalnie 28000 znaków...
+Liczba fragmentów do połączenia: 3
+Połączono w 1 grup fragmentów strony
+Długość połączonych fragmentów: 1017 tokenów
+
+================================================================================
+Łączenie fragmentów strony do maksymalnie 28000 znaków...
+Liczba fragmentów do połączenia: 59
+Połączono w 3 grup fragmentów strony
+Długość połączonych fragmentów: 59663 tokenów
+
+================================================================================
+Łączenie fragmentów strony do maksymalnie 28000 znaków...
+Liczba fragmentów do połączenia: 59
+Połączono w 3 grup fragmentów strony
+Długość połączonych fragmentów: 59663 tokenów
+
+================================================================================
+Łączenie fragmentów strony do maksymalnie 28000 znaków...
+Liczba fragmentów do połączenia: 9
+Połączono w 1 grup fragmentów strony
+Długość połączonych fragmentów: 8395 tokenów
+
+================================================================================
+Łączenie fragmentów strony do maksymalnie 28000 znaków...
+Liczba fragmentów do połączenia: 6
+Połączono w 1 grup fragmentów strony
+Długość połączonych fragmentów: 5946 tokenów
+
+================================================================================
+Łączenie fragmentów strony do maksymalnie 28000 znaków...
+Liczba fragmentów do połączenia: 12
+Połączono w 1 grup fragmentów strony
+Długość połączonych fragmentów: 11380 tokenów
+
+================================================================================
+Łączenie fragmentów strony do maksymalnie 28000 znaków...
+Liczba fragmentów do połączenia: 89
+Połączono w 4 grup fragmentów strony
+Długość połączonych fragmentów: 90740 tokenów
+
+================================================================================

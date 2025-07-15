@@ -13,13 +13,7 @@ logger = logging.getLogger(__name__)
 class ImageDescriber:
     def __init__(self, caption_model_id: str = "microsoft/git-large-textcaps",
                  translator_model_id: str = "facebook/nllb-200-distilled-600M"):
-        """
-        Initializes the image description class for accessibility, compatible with a scraper.
 
-        Args:
-            caption_model_id (str): Hugging Face model ID for image captioning.
-            translator_model_id (str): Hugging Face model ID for translation (English to Polish).
-        """
         try:
             self.device = "cuda" if torch.cuda.is_available() else "cpu"
             print(f"Using device: {self.device}")
@@ -45,15 +39,7 @@ class ImageDescriber:
             raise
 
     def translate_text(self, text: str) -> str:
-        """
-        Translates English text to Polish.
 
-        Args:
-            text (str): Text to translate.
-
-        Returns:
-            str: Translated text in Polish.
-        """
         if not text:
             print("Empty text provided for translation")
             return ""
@@ -80,16 +66,8 @@ class ImageDescriber:
             logger.error(f"Translation error: {e}")
             return text  # Fallback to original text if translation fails
 
-    def describe_image(self, image_data: Dict, max_tokens: int = 200) -> Optional[str]:
-        """
-        Generates a detailed image description for blind users if the alt text is insufficient.
-        Args:
-            image_data (Dict): Dictionary with image data: {'src': str, 'alt': str, 'is_meanful_alt': bool}.
-            max_tokens (int: Maximum number of tokens for the generated description.
+    def describe_image(self, image_data: Dict, max_tokens: int = 500) -> Optional[str]:
 
-        Returns:
-            Optional[str]: Image description or None if an error occurs.
-        """
         try:
             src = image_data.get("src","")
             alt = clean_text(image_data.get("alt", ""))
@@ -121,7 +99,7 @@ class ImageDescriber:
                 generated_ids = self.caption_model.generate(
                     pixel_values=inputs["pixel_values"],
                     max_length=max_tokens,
-                    num_beams=5,
+                    num_beams=30,
                     early_stopping=True
                 )
 
@@ -134,15 +112,7 @@ class ImageDescriber:
             return None
 
     def describe_images(self, images: List[Dict]) -> List[Dict]:
-        """
-        Generates descriptions for a list of images from a scraper.
 
-        Args:
-            images (List[Dict]): List of dictionaries with image data [{'src': str, 'alt': str, 'is_meaningful_alt': bool}].
-
-        Returns:
-            List[Dict]: List of dictionaries with added 'description' field.
-        """
         results = []
         for i, image_data in enumerate(images):
             print(f"Processing image {i+1}/{len(images)}")

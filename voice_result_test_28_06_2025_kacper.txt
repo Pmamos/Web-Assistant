@@ -1,0 +1,98 @@
+[2025-06-29 23:33:38] Wynik komendy: Przeglądarka uruchomiona.
+[2025-06-29 23:33:50] Wynik komendy: Wyszukuję na Wikipedii: kazimierz deczyński.
+[2025-06-29 23:33:51] Wynik komendy: Nie znaleziono artykułu na temat: kazimierz deczyński.
+[2025-06-29 23:33:59] Wynik komendy: Nie rozpoznano komendy.
+[2025-06-29 23:34:07] Wynik komendy: Nie udało się zamknąć przeglądarki.
+[2025-06-29 23:37:12] Wynik komendy: Wyszukuję na Wikipedii: Kazimierz deczyński.
+[2025-06-29 23:37:12] Wynik komendy: Nie znaleziono artykułu na temat: Kazimierz deczyński.
+[2025-06-29 23:37:26] Wynik komendy: Przeglądarka uruchomiona.
+[2025-06-29 23:37:36] Wynik komendy: Przeglądarka zamknięta.
+[2025-06-29 23:37:43] Wynik komendy: Przeglądarka zamknięta.
+[2025-06-29 23:39:27] Wynik komendy: Przeglądarka uruchomiona.
+[2025-06-29 23:39:37] Wynik komendy: Wyszukuję na Wikipedii: Kazimierz Deczyński.
+[2025-06-29 23:39:37] Wynik komendy: Nie znaleziono artykułu na temat: Kazimierz Deczyński.
+[2025-06-29 23:40:02] Wynik komendy: Przeglądarka zamknięta.
+[2025-06-29 23:44:11] Wynik komendy: Przeglądarka uruchomiona.
+[2025-06-29 23:44:20] Wynik komendy: Wyszukuję na Wikipedii: Kazimierz Deszyński
+[2025-06-29 23:44:20] Wynik komendy: Nie znaleziono artykułu na temat: Kazimierz Deszyński
+[2025-06-29 23:44:31] Wynik komendy: Wyszukuję na Wikipedii: Kazimierz Daczyński
+[2025-06-29 23:44:31] Wynik komendy: Nie znaleziono artykułu na temat: Kazimierz Daczyński
+[2025-06-29 23:44:42] Wynik komendy: Wyszukuję na Wikipedii: Kazimierz Deczyński
+[2025-06-29 23:44:42] Wynik komendy: Streszczenie artykułu z Wikipedii: Kazimierz Deczyński (ur. 5 marca 1800 w Brodni, zm. 27 grudnia 1838 w Mâcon we Francji) – polski pamiętnikarz pochodzenia chłopskiego, uczestnik powstania listopadowego, jeden z najbardziej znanych burzycieli chłopskich.
+[2025-06-29 23:44:46] Wynik komendy: Nie rozpoznano komendy.
+[2025-06-29 23:45:22] Wynik komendy: Nie udało się zamknąć przeglądarki.
+[2025-06-30 00:32:27] Wynik komendy: Przeglądarka uruchomiona.
+[2025-06-30 00:32:40] Wynik komendy: Wyszukuję na Wikipedii: Kazimierz Deszyński
+[2025-06-30 00:32:40] Wynik komendy: Nie znaleziono artykułu na temat: Kazimierz Deszyński
+[2025-06-30 00:32:51] Wynik komendy: Nie rozpoznano komendy.
+[2025-06-30 00:33:02] Wynik komendy: Wyszukuję na Wikipedii: Kazimierz Deczyński
+[2025-06-30 00:33:03] Wynik komendy: Krótkie streszczenie artykułu z Wikipedii: Kazimierz Deczyński (ur. 5 marca 1800 w Brodni, zm. 27 grudnia 1838 w Mâcon we Francji) – polski pamiętnikarz pochodzenia chłopskiego, uczestnik powstania listopadowego, jeden z najbardziej znanych burzycieli chłopskich.
+[2025-06-30 00:33:33] Wynik komendy: Nie znaleziono streszczenia strony.
+[2025-06-30 00:33:41] Wynik komendy: Nie rozpoznano komendy.
+[2025-06-30 00:33:59] Wynik komendy: Nie rozpoznano komendy.
+[2025-06-30 00:34:08] Wynik komendy: Nie rozpoznano komendy.
+[2025-06-30 00:34:17] Wynik komendy: Nie rozpoznano komendy.
+[2025-06-30 00:36:17] Wynik komendy: Odpowiedź: 1800
+[2025-06-30 00:36:32] Wynik komendy: Odpowiedź: None
+[2025-06-30 00:37:18] Wynik komendy: Odpowiedź: Braki informacji.
+[2025-06-30 00:37:33] Wynik komendy: Odpowiedź: Szkoła Podstawowa w Pęczniewie.
+[2025-06-30 00:37:43] Wynik komendy: Nie rozpoznano komendy.
+[2025-06-30 00:37:49] Wynik komendy: Odpowiedź: None
+[2025-06-30 00:38:05] Wynik komendy: Odpowiedź: None
+[2025-06-30 00:38:38] Wynik komendy: Nie udało się zamknąć przeglądarki.
+[2025-06-30 00:39:23] Wynik komendy: Przeglądarka uruchomiona.
+[2025-06-30 00:39:32] Wynik komendy: Wyszukuję na Wikipedii: Kazimierz Deczeński
+[2025-06-30 00:39:32] Wynik komendy: Nie znaleziono artykułu na temat: Kazimierz Deczeński
+[2025-06-30 00:39:43] Wynik komendy: Wyszukuję na Wikipedii: Kazimierz Deczyński
+[2025-06-30 00:39:44] Wynik komendy: Krótkie streszczenie artykułu z Wikipedii: Kazimierz Deczyński (ur. 5 marca 1800 w Brodni, zm. 27 grudnia 1838 w Mâcon we Francji) – polski pamiętnikarz pochodzenia chłopskiego, uczestnik powstania listopadowego, jeden z najbardziej znanych burzycieli chłopskich.
+[2025-06-30 00:40:07] Wynik komendy: Nie znaleziono streszczenia strony.
+[2025-06-30 00:40:14] Wynik komendy: Nie rozpoznano komendy.
+[2025-06-30 00:40:21] Wynik komendy: Nie rozpoznano komendy.
+[2025-06-30 00:40:22] Wynik komendy: Nie udało się zamknąć przeglądarki.
+[2025-06-30 00:45:09] Wynik komendy: Najpierw otwórz stronę.
+[2025-06-30 00:45:27] Wynik komendy: Przeglądarka uruchomiona.
+[2025-06-30 00:45:37] Wynik komendy: Wyszukuję na Wikipedii: Kazimierz Deczyński
+[2025-06-30 00:45:38] Wynik komendy: Krótkie streszczenie artykułu z Wikipedii: Kazimierz Deczyński (ur. 5 marca 1800 w Brodni, zm. 27 grudnia 1838 w Mâcon we Francji) – polski pamiętnikarz pochodzenia chłopskiego, uczestnik powstania listopadowego, jeden z najbardziej znanych burzycieli chłopskich.
+[2025-06-30 00:46:22] Wynik komendy: Nie rozpoznano komendy.
+[2025-06-30 00:46:42] Wynik komendy: Nie rozpoznano komendy.
+[2025-06-30 00:46:51] Wynik komendy: Przeglądarka zamknięta.
+[2025-06-30 00:47:28] Wynik komendy: Najpierw otwórz stronę.
+[2025-06-30 00:47:58] Wynik komendy: Przeglądarka uruchomiona.
+[2025-06-30 00:48:07] Wynik komendy: Nie rozpoznano komendy.
+[2025-06-30 00:48:15] Wynik komendy: Wyszukuję na Wikipedii: Kazimierz Daczyński
+[2025-06-30 00:48:15] Wynik komendy: Nie znaleziono artykułu na temat: Kazimierz Daczyński
+[2025-06-30 00:48:23] Wynik komendy: Wyszukuję na Wikipedii: Kazimierz Deczyński
+[2025-06-30 00:48:23] Wynik komendy: Krótkie streszczenie artykułu z Wikipedii: Kazimierz Deczyński (ur. 5 marca 1800 w Brodni, zm. 27 grudnia 1838 w Mâcon we Francji) – polski pamiętnikarz pochodzenia chłopskiego, uczestnik powstania listopadowego, jeden z najbardziej znanych burzycieli chłopskich.
+[2025-06-30 00:48:56] Wynik komendy: Nie rozpoznano komendy.
+[2025-06-30 00:49:11] Wynik komendy: Nie rozpoznano komendy.
+[2025-06-30 00:50:15] Wynik komendy: Nie rozpoznano komendy.
+[2025-06-30 00:51:18] Wynik komendy: Przeglądarka zamknięta.
+[2025-06-30 00:52:18] Wynik komendy: Przeglądarka uruchomiona.
+[2025-06-30 00:52:31] Wynik komendy: Wyszukuję na Wikipedii: Kazimierz Daczyński
+[2025-06-30 00:52:32] Wynik komendy: Nie znaleziono artykułu na temat: Kazimierz Daczyński
+[2025-06-30 00:52:39] Wynik komendy: Nie rozpoznano komendy.
+[2025-06-30 00:52:46] Wynik komendy: Wyszukuję na Wikipedii: Kazimierz Deczyński
+[2025-06-30 00:52:47] Wynik komendy: Krótkie streszczenie artykułu z Wikipedii: Kazimierz Deczyński (ur. 5 marca 1800 w Brodni, zm. 27 grudnia 1838 w Mâcon we Francji) – polski pamiętnikarz pochodzenia chłopskiego, uczestnik powstania listopadowego, jeden z najbardziej znanych burzycieli chłopskich.
+[2025-06-30 00:53:12] Wynik komendy: Streszczenie strony: Kazimierz Deczyński (ur. 5 marca 1800 w Brodni, zm. 27 grudnia 1838 w Mâcon we Francji) – polski pamiętnikarz pochodzenia chłopskiego, uczestnik powstania listopadowego, jeden z najbardziej znanych burzycieli chłopskich.
+[2025-06-30 00:53:37] Wynik komendy: Wyszukuję na Wikipedii: Bitwa Pod Grunwaldem
+[2025-06-30 00:53:37] Wynik komendy: Nie znaleziono artykułu na temat: Bitwa Pod Grunwaldem
+[2025-06-30 00:53:56] Wynik komendy: Nie rozpoznano komendy.
+[2025-06-30 00:54:13] Wynik komendy: Nie rozpoznano komendy.
+[2025-06-30 00:54:19] Wynik komendy: Nie rozpoznano komendy.
+[2025-06-30 00:54:26] Wynik komendy: Nie rozpoznano komendy.
+[2025-06-30 00:54:37] Wynik komendy: Wyszukuję na Wikipedii: Jan Paweł Ii
+[2025-06-30 00:54:37] Wynik komendy: Nie znaleziono artykułu na temat: Jan Paweł Ii
+[2025-06-30 00:54:48] Wynik komendy: Wyszukuję na Wikipedii: Lech Wałęsa
+[2025-06-30 00:54:49] Wynik komendy: Krótkie streszczenie artykułu z Wikipedii: Lech Wałęsa (ur. 29 września 1943 w Popowie) – polski robotnik, działacz związkowy i polityk, Prezydent Rzeczypospolitej Polskiej w latach 1990–1995.
+Dysydent, przywódca opozycji demokratycznej w okresie Polskiej Rzeczypospolitej Ludowej, współzałożyciel i pierwszy przewodniczący NSZZ „Solidarność”....
+[2025-06-30 00:54:54] Wynik komendy: Nie rozpoznano komendy.
+[2025-06-30 00:55:07] Wynik komendy: Streszczenie strony: Lech Wałęsa (ur. 29 września 1943 w Popowie) – polski robotnik, działacz związkowy i polityk, Prezydent Rzeczypospolitej Polskiej w latach 1990–1995.
+Dysydent, przywódca opozycji demokratycznej w okresie Polskiej Rzeczypospolitej Ludowej, współzałożyciel i pierwszy przewodniczący NSZZ „Solidarność”. Laureat Pokojowej Nagrody Nobla w 1983. 
+Podjąwszy w 1967 pracę jako elektryk w Stoczni Gdańskiej, został działaczem związkowym. W czasie wydarzeń grudnia 1970 wchodził w skład komitetu strajkowego stoczni. Za działalność związkową był represjonowany przez władze PRL – poddawany inwigilacji, aresztowany, w 1976 został zwolniony z pracy.
+W sierpniu 1980 odegrał kluczową rolę w negocjacjach, które doprowadziły do zawarcia porozumień sierpniowych – ugody między strajkującymi robotnikami i rządem. Był współzałożycielem ruchu związkowego „Solidarność”, a 17 września 1980 został wybrany na jego przewodniczącego. Po wprowadzeniu stanu wojennego w Polsce 13 grudnia 1981 i delegalizacji „Solidarności” został ponownie aresztowany, a następnie internowany. Władze PRL chciały skłonić go do współpracy i wykorzystać propagandowo w roli przewodniczącego kontrolowanej przez siebie, nowej „Solidarności”, jednak ten odmówił pertraktacji. Zwolniony z aresztu w listopadzie 1982, kontynuował działalność jako przywódca podziemnej „Solidarności” aż do końca lat 80.
+W 1989 był uczestnikiem obrad Okrągłego Stołu, które doprowadziły do częściowo wolnych wyborów parlamentarnych w czerwcu 1989 i do wyłonienia rządu kierowanego przez „Solidarność”. Odegrał istotną rolę w transformacji ustrojowej Polski i jej przejściu od modelu tzw. bloku wschodniego do państwa liberalnego i wolnorynkowego, a także w zakończeniu zimnej wojny.
+W wyborach w 1990 z powodzeniem kandydował na urząd Prezydenta RP, stając się pierwszym w historii prezydentem RP wybranym w wyborach powszechnych. Jego popularność osłabła, a rola w polskiej polityce istotnie zmniejszyła się po tym, jak z niewielką stratą przegrał wybory prezydenckie w 1995. Pozostał aktywny w sferze publicznej, zakładając w kolejnych latach Instytut Lecha Wałęsy, Chrześcijańską Demokrację III Rzeczypospolitej Polskiej i Forum Obywatelskie Chrześcijańska Demokracja.
+Znany z dużej żywiołowości wystąpień, na przestrzeni lat wytworzył swój charakterystyczny wizerunek m.in. poprzez noszenie w klapie marynarki wizerunku Matki Boskiej Częstochowskiej, a także poprzez używanie specyficznych zwrotów językowych, które przeniknęły trwale do języka polskiego jako tzw. wałęsizmy. W 2013 Andrzej Wajda wyreżyserował poświęcony mu film biograficzny Wałęsa. Człowiek z nadziei. Po wyborach parlamentarnych w 2005 i w 2015 krytykował rządy Prawa i Sprawiedliwości, m.in. w obliczu kryzysu wokół Trybunału Konstytucyjnego w Polsce. Angażował się w szereg działań opozycji, w tym Komitetu Obrony Demokracji. Manifestował swoją niezgodę na działania będące w jego przekonaniu naruszaniem ładu konstytucyjnego.
+Uznany za Człowieka Roku 1981 oraz za jednego ze 100 najważniejszych ludzi stulecia (1999) przez tygodnik „Time”. Za swoją działalność otrzymał szereg odznaczeń państwowych, m.in. Prezydencki Medal Wolności, Krzyż Wielki Orderu Łaźni oraz Krzyż Wielki Orderu Legii Honorowej. Otrzymał tytuły doctora honoris causa szeregu uczelni wyższych. Jego imieniem zostały nazwane ulice i place w różnych miejscach świata oraz port lotniczy w Gdańsku.
+[2025-06-30 00:55:40] Wynik komendy: Nie udało się zamknąć przeglądarki.
+[2025-06-30 18:58:27] Wynik komendy: Nie udało się zamknąć przeglądarki.

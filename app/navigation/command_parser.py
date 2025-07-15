@@ -23,6 +23,7 @@ class CommandParser:
         self.command_queue = command_queue
         self.tts = TTSWrapper()
         self.wiki = wikipediaapi.Wikipedia('WebAssistBot/1.0', 'pl')
+        self.current_wiki_page = None
         self.command_patterns: Dict[str, Callable] = {
             # Otwieranie stron
             r"(?:wejdź|wchodzę|idź|przejdź) na stronę\s+(.*)": lambda url: self.browser_manager.open_page(url),
@@ -36,7 +37,7 @@ class CommandParser:
 
             # Czytanie treści
             r"(?:przeczytaj|czytaj) nagłówki": self.browser_manager.read_headings,
-            r"(?:streść|podsumuj) stronę": self.browser_manager.summarize_page,
+            r"(?:streść|podsumuj) stronę": lambda: self.browser_manager.summarize_page(wikipage=self.current_wiki_page),
             r"(?:odśwież|przeładuj) stronę": self.browser_manager.refresh_page,
             r"(?:przeczytaj|czytaj) treść": self.browser_manager.read_content,
 
@@ -94,15 +95,13 @@ class CommandParser:
             # Powiadamianie o aktualnej stronie
             r"(?:gdzie jestem|jaka jest aktualna strona)": self.browser_manager.announce_current_page,
 
-
-        
             # Struktura
             r"(?:opisz|zobacz) strukturę strony": self.browser_manager.describe_structure,
 
             # Zamknięcie
             r"(?:zamknij|wyłącz) przeglądarkę": self.browser_manager.close_browser,
         }
-        self.current_wiki_page = None
+        
         self.youtube_results = []
 
     def parse_command(self, command: str) -> None:
@@ -123,15 +122,16 @@ class CommandParser:
     def _search_wikipedia(self, query: str) -> Optional[str]:
         """Wyszukuje artykuł na Wikipedii i odczytuje jego streszczenie."""
         try:
+            query = query.title().replace(".", "") 
             print(f"Wyszukuję na Wikipedii: {query}")
             self.tts.speak(f"Wyszukuję na Wikipedii: {query}")
             self.current_wiki_page = self.wiki.page(query)
             if not self.current_wiki_page.exists():
                 self.tts.speak(f"Nie znaleziono artykułu na temat: {query}")
                 return None
-            summary = self.current_wiki_page.summary[:500] + ("..." if len(self.current_wiki_page.summary) > 500 else "")
-            self.tts.speak(f"Streszczenie artykułu z Wikipedii: {summary}")
-            self.browser_manager.open_page(self.current_wiki_page.fullurl, isSpeak=False)
+            summary = self.current_wiki_page.summary[:300] + ("..." if len(self.current_wiki_page.summary) > 300 else "")
+            self.tts.speak(f"Krótkie streszczenie artykułu z Wikipedii: {summary}")
+            self.browser_manager.open_page(self.current_wiki_page.fullurl, isSpeak=False, isWikipedia=True, wikipediaText=self.current_wiki_page.text)
             return summary
         except Exception as e:
             logger.error(f"Błąd wyszukiwania na Wikipedii: {e}")

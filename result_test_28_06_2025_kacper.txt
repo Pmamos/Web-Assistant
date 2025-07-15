@@ -1,0 +1,46 @@
+[2025-06-29 23:33:38] Wynik komendy: https://www.google.com
+[2025-06-29 23:33:51] Wynik komendy: None
+[2025-06-29 23:37:12] Wynik komendy: None
+[2025-06-29 23:37:26] Wynik komendy: https://www.google.com
+[2025-06-29 23:37:36] Wynik komendy: None
+[2025-06-29 23:39:27] Wynik komendy: https://www.google.com
+[2025-06-29 23:39:37] Wynik komendy: None
+[2025-06-29 23:44:11] Wynik komendy: https://www.google.com
+[2025-06-29 23:44:20] Wynik komendy: None
+[2025-06-29 23:44:31] Wynik komendy: None
+[2025-06-29 23:44:43] Wynik komendy: Kazimierz Deczyński (ur. 5 marca 1800 w Brodni, zm. 27 grudnia 1838 w Mâcon we Francji) – polski pamiętnikarz pochodzenia chłopskiego, uczestnik powstania listopadowego, jeden z najbardziej znanych burzycieli chłopskich.
+[2025-06-30 00:32:27] Wynik komendy: https://www.google.com
+[2025-06-30 00:32:40] Wynik komendy: None
+[2025-06-30 00:33:03] Wynik komendy: Kazimierz Deczyński (ur. 5 marca 1800 w Brodni, zm. 27 grudnia 1838 w Mâcon we Francji) – polski pamiętnikarz pochodzenia chłopskiego, uczestnik powstania listopadowego, jeden z najbardziej znanych burzycieli chłopskich.
+[2025-06-30 00:33:33] Wynik komendy: None
+[2025-06-30 00:36:17] Wynik komendy: {'text': '1800', 'time': 110.2322096824646, 'vram_usage': 7611.0, 'error': None}
+[2025-06-30 00:36:32] Wynik komendy: {'text': None, 'time': 0.05125880241394043, 'vram_usage': 7611.0, 'error': 'Nie znaleziono istotnych fragmentów zawierających odpowiedź na pytanie.'}
+[2025-06-30 00:37:18] Wynik komendy: {'text': 'Braki informacji.', 'time': 34.878934383392334, 'vram_usage': 7611.0, 'error': None}
+[2025-06-30 00:37:33] Wynik komendy: {'text': 'Szkoła Podstawowa w Pęczniewie.', 'time': 2.3014585971832275, 'vram_usage': 7611.0, 'error': None}
+[2025-06-30 00:37:49] Wynik komendy: {'text': None, 'time': 0.06308150291442871, 'vram_usage': 7611.0, 'error': 'Nie znaleziono istotnych fragmentów zawierających odpowiedź na pytanie.'}
+[2025-06-30 00:38:05] Wynik komendy: {'text': None, 'time': 0.05976510047912598, 'vram_usage': 7611.0, 'error': 'Nie znaleziono istotnych fragmentów zawierających odpowiedź na pytanie.'}
+[2025-06-30 00:39:23] Wynik komendy: https://www.google.com
+[2025-06-30 00:39:32] Wynik komendy: None
+[2025-06-30 00:39:44] Wynik komendy: Kazimierz Deczyński (ur. 5 marca 1800 w Brodni, zm. 27 grudnia 1838 w Mâcon we Francji) – polski pamiętnikarz pochodzenia chłopskiego, uczestnik powstania listopadowego, jeden z najbardziej znanych burzycieli chłopskich.
+[2025-06-30 00:40:07] Wynik komendy: None
+[2025-06-30 00:45:27] Wynik komendy: https://www.google.com
+[2025-06-30 00:45:38] Wynik komendy: Kazimierz Deczyński (ur. 5 marca 1800 w Brodni, zm. 27 grudnia 1838 w Mâcon we Francji) – polski pamiętnikarz pochodzenia chłopskiego, uczestnik powstania listopadowego, jeden z najbardziej znanych burzycieli chłopskich.
+[2025-06-30 00:47:58] Wynik komendy: https://www.google.com
+[2025-06-30 00:48:15] Wynik komendy: None
+[2025-06-30 00:48:24] Wynik komendy: Kazimierz Deczyński (ur. 5 marca 1800 w Brodni, zm. 27 grudnia 1838 w Mâcon we Francji) – polski pamiętnikarz pochodzenia chłopskiego, uczestnik powstania listopadowego, jeden z najbardziej znanych burzycieli chłopskich.
+[2025-06-30 00:52:18] Wynik komendy: https://www.google.com
+[2025-06-30 00:52:32] Wynik komendy: None
+[2025-06-30 00:52:47] Wynik komendy: Kazimierz Deczyński (ur. 5 marca 1800 w Brodni, zm. 27 grudnia 1838 w Mâcon we Francji) – polski pamiętnikarz pochodzenia chłopskiego, uczestnik powstania listopadowego, jeden z najbardziej znanych burzycieli chłopskich.
+[2025-06-30 00:53:12] Wynik komendy: Kazimierz Deczyński (ur. 5 marca 1800 w Brodni, zm. 27 grudnia 1838 w Mâcon we Francji) – polski pamiętnikarz pochodzenia chłopskiego, uczestnik powstania listopadowego, jeden z najbardziej znanych burzycieli chłopskich.
+[2025-06-30 00:53:37] Wynik komendy: None
+[2025-06-30 00:54:37] Wynik komendy: None
+[2025-06-30 00:54:49] Wynik komendy: Lech Wałęsa (ur. 29 września 1943 w Popowie) – polski robotnik, działacz związkowy i polityk, Prezydent Rzeczypospolitej Polskiej w latach 1990–1995.
+Dysydent, przywódca opozycji demokratycznej w okresie Polskiej Rzeczypospolitej Ludowej, współzałożyciel i pierwszy przewodniczący NSZZ „Solidarność”....
+[2025-06-30 00:55:07] Wynik komendy: Lech Wałęsa (ur. 29 września 1943 w Popowie) – polski robotnik, działacz związkowy i polityk, Prezydent Rzeczypospolitej Polskiej w latach 1990–1995.
+Dysydent, przywódca opozycji demokratycznej w okresie Polskiej Rzeczypospolitej Ludowej, współzałożyciel i pierwszy przewodniczący NSZZ „Solidarność”. Laureat Pokojowej Nagrody Nobla w 1983. 
+Podjąwszy w 1967 pracę jako elektryk w Stoczni Gdańskiej, został działaczem związkowym. W czasie wydarzeń grudnia 1970 wchodził w skład komitetu strajkowego stoczni. Za działalność związkową był represjonowany przez władze PRL – poddawany inwigilacji, aresztowany, w 1976 został zwolniony z pracy.
+W sierpniu 1980 odegrał kluczową rolę w negocjacjach, które doprowadziły do zawarcia porozumień sierpniowych – ugody między strajkującymi robotnikami i rządem. Był współzałożycielem ruchu związkowego „Solidarność”, a 17 września 1980 został wybrany na jego przewodniczącego. Po wprowadzeniu stanu wojennego w Polsce 13 grudnia 1981 i delegalizacji „Solidarności” został ponownie aresztowany, a następnie internowany. Władze PRL chciały skłonić go do współpracy i wykorzystać propagandowo w roli przewodniczącego kontrolowanej przez siebie, nowej „Solidarności”, jednak ten odmówił pertraktacji. Zwolniony z aresztu w listopadzie 1982, kontynuował działalność jako przywódca podziemnej „Solidarności” aż do końca lat 80.
+W 1989 był uczestnikiem obrad Okrągłego Stołu, które doprowadziły do częściowo wolnych wyborów parlamentarnych w czerwcu 1989 i do wyłonienia rządu kierowanego przez „Solidarność”. Odegrał istotną rolę w transformacji ustrojowej Polski i jej przejściu od modelu tzw. bloku wschodniego do państwa liberalnego i wolnorynkowego, a także w zakończeniu zimnej wojny.
+W wyborach w 1990 z powodzeniem kandydował na urząd Prezydenta RP, stając się pierwszym w historii prezydentem RP wybranym w wyborach powszechnych. Jego popularność osłabła, a rola w polskiej polityce istotnie zmniejszyła się po tym, jak z niewielką stratą przegrał wybory prezydenckie w 1995. Pozostał aktywny w sferze publicznej, zakładając w kolejnych latach Instytut Lecha Wałęsy, Chrześcijańską Demokrację III Rzeczypospolitej Polskiej i Forum Obywatelskie Chrześcijańska Demokracja.
+Znany z dużej żywiołowości wystąpień, na przestrzeni lat wytworzył swój charakterystyczny wizerunek m.in. poprzez noszenie w klapie marynarki wizerunku Matki Boskiej Częstochowskiej, a także poprzez używanie specyficznych zwrotów językowych, które przeniknęły trwale do języka polskiego jako tzw. wałęsizmy. W 2013 Andrzej Wajda wyreżyserował poświęcony mu film biograficzny Wałęsa. Człowiek z nadziei. Po wyborach parlamentarnych w 2005 i w 2015 krytykował rządy Prawa i Sprawiedliwości, m.in. w obliczu kryzysu wokół Trybunału Konstytucyjnego w Polsce. Angażował się w szereg działań opozycji, w tym Komitetu Obrony Demokracji. Manifestował swoją niezgodę na działania będące w jego przekonaniu naruszaniem ładu konstytucyjnego.
+Uznany za Człowieka Roku 1981 oraz za jednego ze 100 najważniejszych ludzi stulecia (1999) przez tygodnik „Time”. Za swoją działalność otrzymał szereg odznaczeń państwowych, m.in. Prezydencki Medal Wolności, Krzyż Wielki Orderu Łaźni oraz Krzyż Wielki Orderu Legii Honorowej. Otrzymał tytuły doctora honoris causa szeregu uczelni wyższych. Jego imieniem zostały nazwane ulice i place w różnych miejscach świata oraz port lotniczy w Gdańsku.

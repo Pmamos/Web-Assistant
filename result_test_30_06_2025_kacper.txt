@@ -1,0 +1,502 @@
+[2025-06-30 19:17:48] Wynik komendy: https://www.google.com
+[2025-06-30 19:18:21] Wynik komendy: https://www.google.com/search?q=samsung+s24.
+[2025-06-30 19:18:49] Wynik komendy: [{'index': 1, 'title': 'Smartfon SAMSUNG Galaxy S24 5G 8/128GB 6.2" 120Hz ...', 'url': 'https://www.mediaexpert.pl/smartfony-i-zegarki/smartfony/smartfon-samsung-sm-s921-galaxy-s24-5g-8-128gb-onyx-black'}, {'index': 2, 'title': 'Kup Galaxy S24 | S24 Plus | Ceny i Oferty', 'url': 'https://www.samsung.com/pl/smartphones/galaxy-s24/buy/'}, {'index': 3, 'title': 'Samsung Galaxy S24 SM-S921 8/256GB Czarny', 'url': 'https://www.ceneo.pl/163090033?srsltid=AfmBOor0XVCrONBT9Hhm-eFMLq1dxSfiZ3f-Y0lt9vsq12Olj6KA4bJY'}, {'index': 4, 'title': 'Galaxy S24 & S24+ | Galaxy AI', 'url': 'https://www.samsung.com/pl/smartphones/galaxy-s24/'}, {'index': 5, 'title': 'Samsung Galaxy S24 5G 8/128 GB czarny | Kup smartfon, ...', 'url': 'https://abfoto.pl/samsung-s24-5g-8-128-gb-czarny-8806095299747?srsltid=AfmBOopaQ9P5Sk9wQOGrgO1r78u_kEMMWa2hg0AOjdxzMDBQN_qOyaL9'}]
+[2025-06-30 19:19:43] Wynik komendy: https://www.samsung.com/pl/smartphones/galaxy-s24/buy/
+[2025-06-30 19:21:14] Wynik komendy: https://www.google.com/search?q=przepis+na+ciasto+czekoladowe.
+[2025-06-30 19:21:33] Wynik komendy: [{'index': 1, 'title': 'Ciasto czekoladowe | AniaGotuje.pl', 'url': 'https://aniagotuje.pl/przepis/ciasto-czekoladowe'}, {'index': 2, 'title': 'Ciasto czekoladowe', 'url': 'https://www.kwestiasmaku.com/przepis/ciasto-czekoladowe'}, {'index': 3, 'title': 'Proste ciasto czekoladowe', 'url': 'https://poprostupycha.com.pl/przepis/proste-ciasto-czekoladowe/'}, {'index': 4, 'title': 'Ciasto czekoladowe - wilgotne i pyszne', 'url': 'https://chocololo.pl/ciasto-czekoladowe-wilgotne-i-pyszne/'}, {'index': 5, 'title': 'Szybkie ciasto czekoladowe', 'url': 'https://ilovebake.pl/przepis/szybkie-ciasto-czekoladowe'}]
+[2025-06-30 19:21:50] Wynik komendy: https://aniagotuje.pl/przepis/ciasto-czekoladowe
+[2025-06-30 19:24:30] Wynik komendy: {'text': 'Sekret pieczenie pysznego ciasta czekoladowego zależy od doboru składników, ich proporcji oraz staranności wykonania. Stosując się do opisu uda nam utrzymać stopień wilgotnści i przyjemną puszystowść a zarazem zapewnić odpowiednią intensywną słodycz! Dodatkowo sugeruję użyć ekoczywiście wyprażanej gorzką niż z Luximo lub Wedla by podkreślić wyjątkowy smak ciasta zamiast doprowadzić je na wątpliwe proporcje zaparzonoń,lubowym bądź herbatnie 喇』nle.', 'time': 143.7805781364441, 'vram_usage': 7895.0, 'error': None}
+[2025-06-30 19:27:52] Wynik komendy: {'text': 'Składniki potrzebne do ciasta czekoladowego to: mąka pszenna tortowa (300 g), gorzka czekolada, masło (250 g i 1/4 kostk.), jajka średnie rozmiarowe (jajka bez skorupkam w temperaturze pokojowej - pięć sztuk dla przepisu na formę wymiary ok. formowanica o średnicy większej od twoje formytariacji około grozionych kamieni najbardziej docisnanych zab Dwie śliwki węgierzańskie; drugie ci już chyba znajome, zwęża więc po swojemu rokujący jeśli składki i utknić Bianco młyn (kawałek mokreg puch miękiczowego )– także te 24 /m.\nBraku informacji', 'time': 73.55238389968872, 'vram_usage': 7900.0, 'error': None}
+[2025-06-30 19:34:56] Wynik komendy: {'text': 'Do ciasta czekoladowego potrzebne są następujące składniki: mąka pszenna tortowa, gorzkie kakao (lub ciemna czekolada), masło do pieczenia (np. sardelowe lub SoBe¯yse SB140 „mitelsoközó sardől osfittett kivagazatos gyereke".Formatakarta MOSC-HANKARA uljesszólhatna )\',\nmasa dobrego gatunku świeże jaja oraz przyprawy: cukier lub trzcinowy, wanilia i ewentualnie sól (opcjonalnie), mąka pszenica tortowa itd.iżby to ciasto wyglądaało znowu elegancko)))  ustawiłam na porażka z pomocą miksera elektrycznego(3kg rototarname camburk kabelpörtigezes.). dótykenne,ejm kerekformulcsoport hvyangzalott szomrombeki friulli korkozlatar eldon overolje thomics arch.', 'time': 53.76174831390381, 'vram_usage': 7889.0, 'error': None}
+[2025-06-30 19:36:35] Wynik komendy: https://www.google.com/search?q=biedronka+warta.
+[2025-06-30 19:36:57] Wynik komendy: [{'index': 1, 'title': 'Prof. Kaszyńskiego 17,Warta - Biedronka.pl', 'url': 'https://www.biedronka.pl/pl/shop,id,1144,title,warta-prof-kaszynskiego-17'}, {'index': 2, 'title': 'Biedronka Warta - Gazetka promocyjna, Oferta, Promocje', 'url': 'https://biedronka.okazjum.pl/warta/'}, {'index': 3, 'title': 'Warta, ul. Prof. Stanisława Kaszyńskiego 17 - Biedronka', 'url': 'https://biedronka.okazjum.pl/warta/warta-prof-stanislawa-kaszynskiego-17/'}, {'index': 4, 'title': 'Biedronka - Kaszyńskiego, Warta', 'url': 'https://www.promoceny.pl/sklep/biedronka-warta-ul-kaszynskiego-17-98-290-warta/'}, {'index': 5, 'title': 'Prof. Kaszyńskiego 17, Warta - Biedronka - Supermarket', 'url': 'https://mapa.targeo.pl/biedronka-supermarket-prof-kaszynskiego-17-warta~16551945/biedronka-supermarket/adres'}]
+[2025-06-30 19:37:25] Wynik komendy: https://www.biedronka.pl/pl/shop,id,1144,title,warta-prof-kaszynskiego-17
+[2025-06-30 19:37:53] Wynik komendy: {'text': 'W przypadku sklepów czynnych całą dobę, mogą wystąpić przerwy techniczne w godz. nocnych lub porannymi trwające ok 30 min..', 'time': 7.793242931365967, 'vram_usage': 7889.0, 'error': None}
+[2025-06-30 19:38:32] Wynik komendy: {'text': 'Brak informacji', 'time': 1.307795763015747, 'vram_usage': 7889.0, 'error': None}
+[2025-06-30 19:40:57] Wynik komendy: https://www.google.com/search?q=biedronka+warta.
+[2025-06-30 19:41:40] Wynik komendy: {'text': 'Godziny otwarcia sklepów podane na stronie internetowej mają charakter orientacyjny. Informacja o bieżących godzinach otwarcia znajduje się w poszczególnych sklepach oraz mogą wystąpić przerwy techniczne trwającej około 30 minut, szczególnie w przypadku handlowy sprzyjający bezsennościom dostępności między wieczornymi i rankowymi zmianom czasu pracy danego sklepu” (np.: sprzedanych). Brak informacji', 'time': 16.852632522583008, 'vram_usage': 7889.0, 'error': None}
+[2025-06-30 19:43:31] Wynik komendy: https://www.google.com/search?q=biedronka+warta.
+[2025-06-30 19:47:32] Wynik komendy: {'text': 'Godziny otwarcia: Pon-sob: 7.00 - 21.00, Niedziela: 9.00 - 20.00', 'time': 231.9422471523285, 'vram_usage': 7893.0, 'error': None}
+[2025-06-30 19:48:55] Wynik komendy: Kazimierz Deczyński (ur. 5 marca 1800 w Brodni, zm. 27 grudnia 1838 w Mâcon we Francji) – polski pamiętnikarz pochodzenia chłopskiego, uczestnik powstania listopadowego, jeden z najbardziej znanych burzycieli chłopskich.
+[2025-06-30 19:49:46] Wynik komendy: Kazimierz Deczyński (ur. 5 marca 1800 w Brodni, zm. 27 grudnia 1838 w Mâcon we Francji) – polski pamiętnikarz pochodzenia chłopskiego, uczestnik powstania listopadowego, jeden z najbardziej znanych burzycieli chłopskich.
+[2025-06-30 19:51:08] Wynik komendy: https://www.google.com/search?q=krzes%C5%82o+ikea.
+[2025-06-30 19:51:25] Wynik komendy: [{'index': 1, 'title': 'Krzesła', 'url': 'https://www.ikea.com/pl/pl/cat/krzesla-fu002/'}, {'index': 2, 'title': 'Krzesła do jadalni i krzesła składane', 'url': 'https://www.ikea.com/pl/pl/cat/krzesla-do-jadalni-i-krzesla-skladane-25219/'}, {'index': 3, 'title': 'Krzesła do jadalni', 'url': 'https://www.ikea.com/pl/pl/cat/krzesla-do-jadalni-25220/'}, {'index': 4, 'title': 'Krzesła do salonu', 'url': 'https://www.ikea.com/pl/pl/rooms/living-room/krzesla-do-salonu-pubaddb2a01'}, {'index': 5, 'title': 'Krzesła do salonu, pokoju Ikea - modele 2025/2026', 'url': 'https://allegro.pl/kategoria/salon-krzesla-112737?marka=Ikea&srsltid=AfmBOorho4hsoDImm5stb-VumJVvQZWi97PMXVuInwhZp7_Klahl1HUL'}]
+[2025-06-30 19:52:08] Wynik komendy: https://www.ikea.com/pl/pl/rooms/living-room/krzesla-do-salonu-pubaddb2a01
+[2025-06-30 19:52:46] Wynik komendy: Niebiesko-żółty sznurek z słowem iu.
+[2025-06-30 19:54:09] Wynik komendy: na białym tle przedstawione są cztery krzesła i stół.
+[2025-06-30 19:56:52] Wynik komendy: https://www.google.com/search?q=gmina+zadim.
+[2025-06-30 19:57:11] Wynik komendy: [{'index': 1, 'title': 'Gmina Zadzim', 'url': 'https://gminazadzim.pl/'}, {'index': 2, 'title': 'Gmina Zadzim Nasz Dom', 'url': 'https://www.facebook.com/p/Gmina-Zadzim-Nasz-Dom-100070903867794/?locale=pl_PL'}, {'index': 3, 'title': 'Strona główna podmiotu URZĄD GMINY ZADZIM', 'url': 'https://zadzim.bip.gov.pl/'}, {'index': 4, 'title': 'Zadzim (gmina) – Wikipedia, wolna encyklopedia', 'url': 'https://pl.wikipedia.org/wiki/Zadzim_(gmina)'}, {'index': 5, 'title': 'Gmina Zadzim', 'url': 'https://transmisjaobrad.info/channels/297/gmina-zadzim'}]
+[2025-06-30 19:57:50] Wynik komendy: https://gminazadzim.pl/
+[2025-06-30 19:58:30] Wynik komendy: {'text': None, 'time': 0.058669090270996094, 'vram_usage': 7797.0, 'error': 'Nie znaleziono istotnych fragmentów zawierających odpowiedź na pytanie.'}
+[2025-06-30 20:03:06] Wynik komendy: https://www.google.com/search?q=urz%C4%85d+miejski+w+warcie.
+[2025-06-30 20:03:22] Wynik komendy: https://gminawarta.pl/107-urzad_miejski
+[2025-06-30 20:04:23] Wynik komendy: {'text': 'godziny otwarcia Urzędu Miejskiego w Warcie to: poniedziałek 7:30 -16.25, wtorek ,środa i czwartek od godz.: 8 : \tA piątek też?', 'time': 35.32167053222656, 'vram_usage': 7817.0, 'error': None}
+[2025-06-30 20:06:16] Wynik komendy: {'text': '81 9270 0006 0000 0013 2000 0006', 'time': 43.71159911155701, 'vram_usage': 7819.0, 'error': None}
+[2025-06-30 20:08:07] Wynik komendy: https://www.google.com/search?q=filmy+na+youtubie+jak+odstraszy%C4%87+go%C5%82%C4%99bie.
+[2025-06-30 20:09:06] Wynik komendy: https://www.google.com/search?q=na+youtube+jak+odstraszy%C4%87+go%C5%82%C4%99bie.
+[2025-06-30 20:09:44] Wynik komendy: https://www.google.com/search?q=na+youtube...+a%2C+pfu%21
+[2025-06-30 20:10:03] Wynik komendy: jak odstraszyć gołębie.
+[2025-06-30 20:11:38] Wynik komendy: https://youtube.com/watch?v=iMJeSMyAWSo&autoplay=1
+[2025-06-30 20:14:12] Wynik komendy: http://onet.pl
+[2025-06-30 20:14:38] Wynik komendy: None
+[2025-06-30 20:15:42] Wynik komendy: https://www.google.com/search?q=najnowsze+informacje.
+[2025-06-30 20:15:50] Wynik komendy: https://tvn24.pl/
+[2025-06-30 20:16:08] Wynik komendy: {'text': None, 'time': 0.05755877494812012, 'vram_usage': 7868.0, 'error': 'Nie znaleziono istotnych fragmentów zawierających odpowiedź na pytanie.'}
+[2025-06-30 20:16:30] Wynik komendy: https://www.google.com/search?q=najnowsze+informacje.
+[2025-06-30 20:16:44] Wynik komendy: None
+[2025-06-30 20:16:52] Wynik komendy: https://www.google.com/search?q=najnowsze+informacje.
+[2025-06-30 20:17:04] Wynik komendy: https://www.polsatnews.pl/
+[2025-06-30 20:18:30] Wynik komendy: {'text': 'Braki informacji.', 'time': 37.251742362976074, 'vram_usage': 7865.0, 'error': None}
+[2025-06-30 20:19:55] Wynik komendy: http://onet.pl, https://www.google.com/search?q=najnowsze+informacje., https://tvn24.pl/, https://www.google.com/search?q=najnowsze+informacje., https://www.polsatnews.pl/
+[2025-06-30 20:20:50] Wynik komendy: Poziom 1: Karol Nawrocki reaguje ws. granicy. "Zwołam Radę Gabinetową"
+Poziom 2: Kto będzie szefem kancelarii? Nawrocki o czterech nazwiskach
+Poziom 2: "Gwarantujemy anonimowość". Nowa inicjatywa służb ws. Tadeusza Dudy
+Poziom 2: Media o tajnym planie Putina. "Nie zrezygnuje"
+Poziom 2: Zamieszanie wokół wyborów. "W Polsce nie liczy się prawo, a polityka"
+Poziom 2: Nie tylko "giertychówki". SN pokazał zaskakujące pisma
+Poziom 2: Ewakuacja w Gliwicach. Na miejscu saperzy
+Poziom 2: Chwile grozy w centrum Mediolanu. Zawalił się wielki szyld na szczycie wieżowca
+Poziom 2: Uderzenie ciepła. Potężny upał w drodze do Polski
+Poziom 2: Śmierć Oskara wstrząsnęła Polską. Matka chłopca zabrała głos
+Poziom 2: Kaczyński o sytuacji na granicy: Chaos i bezkarność rosną
+Poziom 2: Duda uderza w Bodnara. "Coś niedobrego dzieje się z jego intelektem"
+Poziom 2: Rekonstrukcja rządu coraz bliżej. Tusk wskazał datę
+Poziom 2: Tysiące Norwegów powiadomionych o wielkiej wygranej. Zamiast pieniędzy dostali przeprosiny
+Poziom 2: "Najsilniejsze od 40 lat". Trzęsienie ziemi pod Neapolem
+Poziom 2: Papież zwrócił się do ONZ. "Z przerażeniem obserwujemy"
+Poziom 2: Prezes PZPN wybrany. Był jeden kandydat
+Poziom 2: Norwegia wyśle ​​F-35 do Polski. "Wzmocnienie obrony NATO"
+Poziom 2: Prokuratorzy zażądali wstępu do izby SN. Muszą wypełnić ponad 200 wniosków
+Poziom 2: Służby tropią Tadeusza Dudę. W akcji specjalnie wyszkolone psy
+Poziom 2: Spięcie między ministrami Ukrainy i Słowacji. "Nie mają prawa"
+Poziom 2: Atak na 24-latkę w toruńskim parku. Kobieta zmarła
+Poziom 2: Ogromne pożary w Turcji. Zamknięto popularne lotnisko
+Poziom 2: Koniec ostatniej umowy Orlenu na rosyjską ropę. "Historyczna data"
+Poziom 2: Na co uważać przy zakupie wakacji? "Często nie czytamy tej niedużej gwiazdki"
+Poziom 2: "Mają bardzo cienką czerwoną linię". Ekspert o poszukiwaniach Tadeusza Dudy
+Poziom 2: Inflacja w Polsce. GUS opublikował najnowsze dane
+Poziom 2: Strażacy z USA zastrzeleni na służbie. "Ohydny atak"
+Poziom 2: "Mój pierwszy widok". Polski astronauta pokazał niesamowite nagranie
+Poziom 2: MSWiA reaguje na słowa Błaszczaka. "Pan dezinformuje"
+Poziom 2: "Najbardziej podstępna fala". Włoskie szpitale w stanie alarmu
+Poziom 2: Błaszczak o sytuacji na granicy. "Uległość Tuska wobec Niemców"
+Poziom 2: W Niemczech zakazane, a w Polsce można kupić od ręki. Uszkadzają wątrobę
+Poziom 2: Emeryci dostaną więcej? Tyle może wynieść najniższa emerytura
+Poziom 2: Zespół śledczy zajmie się ponownym liczeniem głosów. Bodnar podjął decyzję
+Poziom 2: Awaryjne lądowanie na Okęciu. "Problem z hamulcami"
+Poziom 2: Symboliczna zmiana w Watykanie. Papież wraca do tradycji
+Poziom 2: Zbrodnia w Starej Wsi. Jest list gończy za Tadeuszem Dudą
+Poziom 2: Wojsko włącza się w poszukiwania. Słynny dron w akcji
+Poziom 2: Alert RCB ws. poszukiwanego 57-latka. Wojewoda wydał zakaz
+Poziom 2: To mógł być jego motyw. Policja ujawnia nowe informacje
+Poziom 2: "To może wywrócić koalicję rządową". Ekspert wskazał powód
+Poziom 2: Tragiczny wypadek na drodze. Nie żyje ksiądz i jego siostra
+Poziom 2: Jaki kolor auta wybrać? Jedne starzeją się szybciej niż inne
+Poziom 2: Usłyszał wołanie o pomoc. Polak bohaterem w Irlandii
+Poziom 2: Południe Europy się gotuje. Padł historyczny rekord
+Poziom 2: Dziesięciu na jednego. Śmierć 32-latka po interwencji policji
+Poziom 2: "Nie mamy nic do ukrycia". Szef MSWiA reaguje na oskarżenia
+Poziom 2: Zdrajca w załodze ISS. Sensacyjne doniesienia z Ukrainy
+Poziom 2: Trump nie daje za wygraną. "Kanada powinna być 51. stanem"
+Poziom 2: Wielka obława w Małopolsce. Pilny apel policji
+Poziom 2: Grają tramwajami w kręgle. Nietypowe zawody w Warszawie
+Poziom 2: Zawieszenie broni wisi na włosku? "Jesteśmy gotowi odpowiedzieć siłą"
+Poziom 2: Ukraina zdruzgotana po zmasowanym ataku. Nie żyje pilot F-16
+Poziom 2: Setki policjantów, śmigłowce, drony. Kulisy wielkiej akcji
+Poziom 2: "Przestaną nas robić w balona". Spór o migrantów na granicy z Niemcami
+Poziom 2: Trwa obława, policja podaje nową wersję zdarzeń. "Wynurzył się tylko raz"
+Poziom 2: Komunikat Sądu Najwyższego. Chodzi o ponad 50 tys. protestów wyborczych
+Poziom 2: Wideo
+Poziom 2: Wakacje w atrakcyjnych cenach. Ekspert wskazuje, na co uważać
+Poziom 2: "Na nim jest presja". Ekspert wskazuje możliwy przełom w poszukiwaniach Tadeusza Dudy
+Poziom 2: Błaszczak o sytuacji na granicy. "Uległość Tuska wobec Niemców"
+Poziom 2: "To może wywrócić koalicję rządową". Ekspert wskazał powód
+Poziom 2: Wielkie zawody tramwajarzy w stolicy. Relacja Arnolda Nadolczaka
+Poziom 2: Raporty
+Poziom 2: Polak w kosmosie
+Poziom 2: Wybory prezydenckie 2025
+Poziom 2: Ameryka wybrała 2024
+Poziom 2: Sport
+Poziom 2: Kamil Majchrzak - Matteo Berrettini. Relacja live i wynik...
+Poziom 2: Wimbledon 2025: Wyniki i skróty meczów (WIDEO)
+Poziom 2: 6:0, 6:0! Znana tenisistka znokautowana na...
+Poziom 2: Piąty sezon w Zawierciu! Klub przedłużył kontrakt z...
+Poziom 2: Nieprawdopodobny mecz na Wimbledonie! Pięć setów...
+Poziom 2: Rozrywka
+Poziom 2: Festiwal Piękna 2025: 5,4 mln widzów. Bardzo dziękujemy!
+Poziom 2: „Gość Wydarzeń” - na żywo 30 czerwca 2025 roku
+Poziom 2: Oliwia Mikulska: Kim jest nowa Miss Polski 2025? Zobacz foto!
+Poziom 2: Jedyna i niepowtarzalna Miss Polski 2025! Sprawdź wyniki!
+Poziom 2: Magda Paradziej i ogień na scenie. Ani myśli go gasić!
+Poziom 2: Sonda
+Poziom 2: Interia Wydarzenia
+Poziom 2: Tadeusz Duda nieuchwytny. "Koszmarnie trudne poszukiwania"
+Poziom 2: Jakość powietrza
+Poziom 2: Prognoza pogody
+Poziom 2: Wydarzenia 18:50
+Poziom 2: Wydarzenia 18:50 - 29.06.2025
+Poziom 2: Gość Wydarzeń
+Poziom 2: Gość Wydarzeń - 29.06.2025
+Poziom 2: Graffiti
+Poziom 2: Graffiti - 30.06.2025
+Poziom 2: Śniadanie Rymanowskiego w Polsat News i Interii
+Poziom 2: Śniadanie Rymanowskiego w Polsat News i Interii - 29.06.2025
+Poziom 2: Najważniejsze pytania
+Poziom 2: Najważniejsze pytania - 23.06.2025
+Poziom 2: Lepsza Polska
+Poziom 2: Lepsza Polska - 13.06.2025
+[2025-06-30 20:23:48] Wynik komendy: None
+[2025-07-01 16:49:28] Wynik komendy: https://www.google.com
+[2025-07-01 16:50:06] Wynik komendy: http://olx.com
+[2025-07-01 16:50:46] Wynik komendy: None
+[2025-07-01 16:51:45] Wynik komendy: https://www.google.com
+[2025-07-01 16:52:20] Wynik komendy: https://www.google.com/search?q=olx+samsung+s23.
+[2025-07-01 16:53:14] Wynik komendy: https://www.olx.pl/elektronika/telefony/smartfony-telefony-komorkowe/q-samsung-s23/?srsltid=AfmBOopcgeVeTjl2WO3UUilorL01d1FYDBZHi2fHgr3Ff8GflLE4B5Pq
+[2025-07-01 16:54:46] Wynik komendy: {'text': 'Ogłoszenie o nowe ogłoszeniach zawiera informacje jak wyszukiwać i zapisać się do otrzymywania powiadomień.\nZapisz, że możesz wyszukać dane ogłoszenia korzystając z filtrów wyszukiwania dostępnych na stronie internetowej portalu ogłoszeniowego lub dostosować listę obiektow wybierając przedmiot oraz lokalizację serwisu pracy dla osób niepełnosprawnych w Polsce – praca . Ajzca wolne stanowiska (staniscia)na terenie całej Polski także bezpłatnie.\nZapisz również, że Samrczjeszek nie dodatkowe opłaty w ogłoszeniu: Poczta polska konkurs [ppl], konkursu pocztowego tabela punktacja(np.)Portal stosuje najnowsze rozwiązania techniczne , które ułatwią szukanie i porównywanie wolnych ofert pracy Oferuyjsze portale ogłoszeniowe czy katalog stron może być pomocny przy wyrażaniu opinii przez osoby niepełnosprawne w szczególności z zakresu\nWyatraŻujesz sie to do regulaminu lub konkursu, będzie ci pomógł.[1]" – RY', 'time': 54.45725226402283, 'vram_usage': 7920.0, 'error': None}
+[2025-07-01 16:57:39] Wynik komendy: Poziom 4: Powiadomienia
+Poziom 3: Filtry
+Poziom 1: samsung s23 w Twojej okolicy? Sprawdź kategorię Smartfony i telefony komórkowe
+Poziom 4: Piękny Samsung Galaxy S23 8/256GB KOLORY Gw12m KRAKÓW Starowiślna50
+Poziom 4: SUPER Samsung Galaxy S23 256GB 8RAM KOLORY Gw12m KRAKÓW Starowiślna 50
+Poziom 4: HIT Samsung Galaxy S23 5G 8/128GB KOLORY Gw12m KRAKÓW Starowiślna 50
+Poziom 4: Samsung Galaxy s23 Ultra jak nowy!
+Poziom 4: Samsung Galaxy s23
+Poziom 4: Samsung S23 FE nówka
+Poziom 4: HIT Samsung Galaxy S23 ULTRA 5G 256GB Gwar12m Kraków Starowiślna50
+Poziom 4: Samsung Galaxy S23 FE 8/128 GB Graphite – Używany, zadbany
+Poziom 4: Samsung S23 FE tylko raz włączony
+Poziom 4: Sprzedam telefon samsung s 23 uszkodzony
+Poziom 4: Samsung s23 + Plus 256gb
+Poziom 4: Samsung Galaxy S23 Ultra 512 Gb
+Poziom 4: Samsung s23 plus czarny
+Poziom 4: Super Samsung Galaxy S23 ULTRA 12RAM 512GB Gw12m Kraków Starowiślna50
+Poziom 4: SAMSUNG S23 Ultra 256GB | Gwarancja 12 msc | Różne kolory
+Poziom 4: Ideał Samsung Galaxy S23+ PLUS 256GB KOLORY Gw12m KRAKÓW Starowiślna50
+Poziom 4: Samsung s23 + Samsung watch 7 za Z flip 5
+Poziom 4: Samsung s23 plus szary 8/256
+Poziom 4: Samsung Galaxy S23 Ultra 512GB Czarny - Stan Idealny 10/10 + Etui UAG
+Poziom 4: JAK NOWY | IPHONE 13 MINI 128GB | 2 lata gwarancji! | Bateria 100%
+Poziom 4: JAK NOWY | IPHONE 14 PRO 128GB | 2 lata gwarancji! | Bateria 100%
+Poziom 4: Samsung s23 128g
+Poziom 4: Huawei P60 pro 8/256 nowy, pełną gwarancją 2 lata, polska dystrybucja
+Poziom 4: Samsung galakxy s23
+Poziom 4: Samsung s23 plus
+Poziom 4: Samsung galaxy s23
+Poziom 4: Samsung S23+ 256GB | Gwarancja 2 lata | Jak Nowy
+Poziom 4: SAMSUNG S23 128 GB | Gwarancja 12 miesięcy | Różne kolory
+Poziom 4: Samsung Galaxy s23 ultra 12/512 Ideał
+Poziom 4: Smartfon Samsung S23 ULTRA 12GB 512B Black Poznań Długa 14
+Poziom 4: Samsung Galaxy S23/ 8GB/ 128GB/ Phantom Black/ Grade A + ładowarka
+Poziom 4: Samsung s23 IDEAŁ
+Poziom 4: Samsung Galaxy s23 fe komplet
+Poziom 4: Nowy Samsung Galaxy A35 5G 6/128 Navy 899zl FV23% CentralGsm Warszawa
+Poziom 4: Samsung Galaxy S23 FE 128gb
+Poziom 4: Samsung Galaxy S23 Dual SIM/ 8GB/ 256GB/ Grade A-/ Cream + ładowarka
+Poziom 4: Samsung galaxy s23
+Poziom 4: NOWY Samsung Galaxy S23 FE Fioletowy AL JANA PAWŁA
+Poziom 4: Samsung Galaxy S 23+ 5G 8/256Gb
+Poziom 4: Samsung Galaxy s23 Ultra 8/256GB, 9 miesięcy gwarancji!
+Poziom 4: Samsung s23 128gb gwarancja media expert
+Poziom 4: Samsung S23+ 256GB | Gwarancja 2 lata | Jak Nowy
+Poziom 4: GWARANCJA Samsung Galaxy S23 Ultra 5G 256GB Sklep Zamiana
+Poziom 4: Samsung Galaxy S 23
+Poziom 4: Samsung Galaxy S23 256GB + GRATISY!
+Poziom 4: Samsung galaxy s23 gratisy gwanacja!!
+Poziom 4: Samsung s23 256 gb
+Poziom 4: Samsung Galaxy S23
+Poziom 4: JAK NOWY | IPHONE 15 Pro 128GB | 2 lata gwarancji! | Bateria 100%
+Poziom 4: Samsung s23FE stan dobry
+Poziom 4: Samsung s23 SM-S9118B/DS 256 GB bez simlock
+Poziom 4: Samsung S23 SM-S911B/DS
+[2025-07-01 16:58:40] Wynik komendy: [{'index': 1, 'text': 'Link bez tekstu', 'url': 'https://www.olx.pl/'}, {'index': 2, 'text': 'Czat', 'url': 'https://www.olx.pl/myaccount/answers/'}, {'index': 3, 'text': 'Link bez tekstu', 'url': 'https://www.olx.pl/obserwowane/search/'}, {'index': 4, 'text': 'Twoje konto', 'url': 'http://www.olx.pl/konto/?ref[0][params][url]=http%3A%2F%2Fwww.olx.pl%2Felektronika%2Ftelefony%2Fsmartfony-telefony-komorkowe%2Fq-samsung-s23%2F%3Fsrsltid%3DAfmBOopcgeVeTjl2WO3UUilorL01d1FYDBZHi2fHgr3Ff8GflLE4B5Pq&ref[0][action]=redirector&ref[0][method]=index'}, {'index': 5, 'text': 'Dodaj ogłoszenie', 'url': 'https://www.olx.pl/adding'}]
+[2025-07-01 16:59:50] Wynik komendy: https://www.google.com/search?q=samsung+s23.
+[2025-07-01 16:59:57] Wynik komendy: [{'index': 1, 'title': 'Smartfon SAMSUNG Galaxy S23 5G 8/256GB 6.1" 120Hz ...', 'url': 'https://www.mediaexpert.pl/smartfony-i-zegarki/smartfony/smartfon-samsung-sm-s911-galaxy-s23-5g-8-256gb-black'}, {'index': 2, 'title': 'Samsung Galaxy S23 - ceny i opinie', 'url': 'https://www.ceneo.pl/147578933?srsltid=AfmBOorm1bcNY-mjMwqeaAm5eGD1PwXnTdTCOm8LrqtMQq0CK9LBg16T'}, {'index': 3, 'title': 'Samsung Galaxy S23 | 8 GB | 128 GB | Dual-SIM', 'url': 'https://www.refurbed.pl/p/samsung-galaxy-s23/'}, {'index': 4, 'title': 'Smartfon Samsung Galaxy S23 8/256GB 6,1" 120Hz ...', 'url': 'https://www.euro.com.pl/telefony-komorkowe/samsung-smartfon-s23-8-256-czarny-samsung.bhtml'}, {'index': 5, 'title': 'Samsung Galaxy S23 - Smartfony i telefony komórkowe', 'url': 'https://allegro.pl/kategoria/samsung-galaxy-s23-322377?srsltid=AfmBOoon0KnO_Xm9P1YO3MNddSGHhM2CXqqjlKD7tUSAGJXdY5_kw6Oc'}]
+[2025-07-01 17:00:29] Wynik komendy: https://www.refurbed.pl/p/samsung-galaxy-s23/
+[2025-07-01 17:04:52] Wynik komendy: http://google.com
+[2025-07-01 17:05:39] Wynik komendy: https://www.google.com/search?q=przepis+na+ciasto+czekoladowe.
+[2025-07-01 17:05:52] Wynik komendy: [{'index': 1, 'title': 'Ciasto czekoladowe | AniaGotuje.pl', 'url': 'https://aniagotuje.pl/przepis/ciasto-czekoladowe'}, {'index': 2, 'title': 'Ciasto czekoladowe', 'url': 'https://www.kwestiasmaku.com/przepis/ciasto-czekoladowe'}, {'index': 3, 'title': 'Proste ciasto czekoladowe', 'url': 'https://poprostupycha.com.pl/przepis/proste-ciasto-czekoladowe/'}, {'index': 4, 'title': 'Ciasto czekoladowe - wilgotne i pyszne', 'url': 'https://chocololo.pl/ciasto-czekoladowe-wilgotne-i-pyszne/'}, {'index': 5, 'title': 'Szybkie ciasto czekoladowe', 'url': 'https://ilovebake.pl/przepis/szybkie-ciasto-czekoladowe'}]
+[2025-07-01 17:06:16] Wynik komendy: https://chocololo.pl/ciasto-czekoladowe-wilgotne-i-pyszne/
+[2025-07-01 17:09:59] Wynik komendy: {'text': 'Wyrafinowane brownies łączą bogatą, wilgotną teksturę czekoladowego ciasta z kremową śmietanką i jogurtem - idealne na każdą okazję! Nawet jeśli jesteś początkującym miłośnikiem pieczenia lub przygotowujesz przyjęcie dla dzieci , bez mikseżaa ani skomplikowanych dzieles nie zawiodziesz się. Dzięki przyjaciołomowskim składnikom w zasięgu ręki, ciemowy czekoladowski deser zachęca odwiedzających aż do następnego dnia po uprzemieniu 😊\nNie bój także spróbować brownies ale z normalną mąką zamiast ciagenia chorobowego elitarnych smakami i dodatniami polewami ulepsi wiek na ich otwarcie! Polewy podażądz wraz ze świeżymi owocami lub orzechami, dodającymi odważny połubizaryczny nucie. Na pewno nigdy nie przestanę je piec bo dają dużo przyjemności przez długi czas ☕\nNie pozostaje więc nic innego jak pobuować do spróbowania i zakochanie się w magicznym smaku każdego kęsa! <3🍧..."Oczywiście, że potrafią miłośnikom czekolady być opisywane wspaniałe owoce Sleetsy mogą czuć ubożuchne cowianrom zwilżone brownia', 'time': 171.0243558883667, 'vram_usage': 7884.0, 'error': None}
+[2025-07-01 17:12:27] Wynik komendy: {'text': 'ciasto czekoladowe, mąka pszenna (2 jajka), cukier drobny(150 g) , kakao 3%, jogurt naturalny gęsty w kubełku lub szklance duży bezprażowujęego warstewki tłuszczu złożony.)ty najlepiej mleka. olej rzepakowy mało ml oleju (6 ) gorzkiej czekolady i mniej mlecznej.,8 lm rostemes( śmeacanki ,jakie SIŁUKI \nPOLEWA przy panowaniach nawilżenia prczeczne/topniejącej glutenu...', 'time': 65.02026057243347, 'vram_usage': 7884.0, 'error': None}
+[2025-07-01 17:15:29] Wynik komendy: http://google.com
+[2025-07-01 17:15:50] Wynik komendy: https://www.google.com/search?q=biedronka+wojkowice+ko%C5%9Bcielne.
+[2025-07-01 17:16:00] Wynik komendy: [{'index': 1, 'title': 'Zawodzie 2a,Wojkowice Kościelne - Biedronka.pl', 'url': 'https://www.biedronka.pl/pl/shop,id,7381'}, {'index': 2, 'title': 'Biedronka Wojkowice Kościelne - Gazetka promocyjna ...', 'url': 'https://biedronka.okazjum.pl/wojkowice-koscielne/'}, {'index': 3, 'title': 'Sprzedawca - Kasjer I Wojkowice Kościelne', 'url': 'https://careers.jeronimomartins.com/Biedronka/job/Wojkowice-Ko%C5%9Bcielne-Sprzedawca-Kasjer-I-Wojkowice-Ko%C5%9Bcielne-%C5%9Al%C4%85s-42-510/1153245255/'}, {'index': 4, 'title': 'Biedronka - Supermarket, Zawodzie 2a, Wojkowice ...', 'url': 'https://mapa.targeo.pl/biedronka-supermarket-zawodzie-2a-wojkowice-koscielne~23629681/biedronka-supermarket/adres'}, {'index': 5, 'title': 'Sklepy sieci Biedronka - Wojkowice Kościelne | Okazjum.pl', 'url': 'https://biedronka.okazjum.pl/sklepy/wojkowice-koscielne/'}]
+[2025-07-01 17:16:27] Wynik komendy: https://www.biedronka.pl/pl/shop,id,7381
+[2025-07-01 17:17:03] Wynik komendy: {'text': 'Wynika z fragmentów, że orientacyjne godziny otwarcia sklepów są podane online. Dokładne informacje znajdują się w różnych sklepach; ale jeśli sklep jest całodobowy i mają przerwę techniczną 30 minutową około północy lub nad ranem, nie działa normalnie do czasu jej zakończenia (chyba).', 'time': 18.551698684692383, 'vram_usage': 7884.0, 'error': None}
+[2025-07-01 17:18:23] Wynik komendy: https://www.google.com/search?q=biedronka+wojkowica+ko%C5%9Bcielna.
+[2025-07-01 17:19:07] Wynik komendy: https://www.google.com/search?q=biedronka+wojkowice+ko%C5%9Bcielne.
+[2025-07-01 17:19:26] Wynik komendy: {'text': None, 'time': 0.05084872245788574, 'vram_usage': 7884.0, 'error': 'Nie znaleziono istotnych fragmentów zawierających odpowiedź na pytanie.'}
+[2025-07-01 17:19:40] Wynik komendy: {'text': None, 'time': 0.05175662040710449, 'vram_usage': 7884.0, 'error': 'Nie znaleziono istotnych fragmentów zawierających odpowiedź na pytanie.'}
+[2025-07-01 17:20:35] Wynik komendy: https://www.google.com/search?q=biedronka+warta.
+[2025-07-01 17:24:01] Wynik komendy: {'text': 'Poniedziałek-sobota: 7.00 - 21.00, niedziela:9.00 - 20 Sharkfips (w przypadku czegoś będziesz wliniam maile a nie będzie to konkretne pytanie) Burger Polska catia prices Agent provocateur Otwiera się drzwi lądowania zamka samochód frommorning telepressure onwards indonesia coast of western greater lenaying firework display script endpoint.', 'time': 193.33152103424072, 'vram_usage': 7884.0, 'error': None}
+[2025-07-01 17:26:11] Wynik komendy: https://www.biedronka.pl/pl/shop,id,1144,title,warta-prof-kaszynskiego-17
+[2025-07-01 17:28:42] Wynik komendy: None
+[2025-07-01 17:29:24] Wynik komendy: None
+[2025-07-01 17:29:45] Wynik komendy: Kazimierz Przerwa-Tetmajer (ur. 12 lutego 1865 w Ludźmierzu, zm. 18 stycznia 1940 w Warszawie) – polski poeta, nowelista, powieściopisarz, przedstawiciel Młodej Polski.
+[2025-07-01 17:30:08] Wynik komendy: Sekcja: Section: Życiorys (1):
+Urodził się jako syn Adolfa Tetmajera i jego drugiej żony, Julii z Grabowskich, brat przyrodni malarza Włodzimierza Tetmajera, brat cioteczny tłumacza i poety Tadeusza Boya-Żeleńskiego. W 1883 z rodziną przeniósł się do Krakowa, gdzie uczęszczał do Gimnazjum św. Anny. W latach 1884–1886 studiował na wydziale filozoficznym Uniwersytetu Jagiellońskiego.
+Zadebiutował w 1886 roku poematem prozą Illa, jednak jego faktycznym debiutem była nowela pt. „Rekrut” (opublikowana 15 stycznia 1886 r. w „Przeglądzie Literackim i Artystycznym”, rok piąty, nr 1, Kraków w drukarni A. Koziańskiego; pod red. K, Bartoszewicza). W 1888 roku Tetmajer zdobył nagrodę literacką za wiersz ku czci Mickiewicza, a rok później za wiersz ku czci Kraszewskiego. W latach 1888–1893 podjął współpracę z pismami „Tygodnik Illustrowany”, „Kurier Warszawski” i krakowskim „Czasem”. Wydał osiem serii Poezji, z których najbardziej wartościowe to druga (1894 rok), trzecia (1898 rok) i czwarta (1900 rok). Nastrojowa poezja Tetmajera odpowiadała dekadentom i bohemie młodopolskiej.
+Mieszkając w młodości w Ludźmierzu, poznał dobrze Podhale, Spisz, Liptów i Tatry. Zapewne od 1881 r. letnie wakacje młodzi Tetmajerowie pod opieką matki spędzali w Zakopanem. W latach 1881–1891 Kazimierz odbył wiele wycieczek w Tatry z bratem, Franciszkiem Henrykiem Nowickim, Karolem Potkańskim, Michałem Kirkorem, Klimkiem Bachledą, Tadeuszem Boyem-Żeleńskim, Januszem Chmielowskim, Jerzym Żuławskim. „Ulubionymi szlakami jego wędrówek tatrzańskich były Żelazne Wrota, Dolina Pięciu Stawów, Dolina Staroleśna, Furkot, Wysoka, Rysy... gdzie wędrował niestrudzenie, za każdym razem – jak pozwalają domyślać się jego listy – od nowa zafascynowany pięknem gór.” W 1892 roku wziął udział w pierwszym wejściu na Staroleśny Szczyt oraz Baniastą Turnię. Ponadto dokonał wraz z Tadeuszem Boyem-Żeleńskim i przewodnikami pierwszego odnotowanego wejścia na Furkot około 1889–1893 roku.
+Mniej więcej od roku 1895 trapiły poetę dolegliwości neurasteniczne, leczone i zaleczane kilkakrotnie na przestrzeni lat. Z zachowanej korespondencji Kazimierza Tetmajera wynika, że ten m.in. przeprowadzał nawet jakąś kurację u przebywającego u Tetmajerów w Zakopanem cenionego już wówczas psychologa Juliana Ochorowicza. Po 1896 roku, z powodu problemów ze zdrowiem, nie zdobywał już szczytów Tatr, ale za to wędrował po dolinach tatrzańskich, a także po Podhalu. W 1902 roku taternicy nadali nazwę Przełęcz Tetmajera przełęczy między Gerlachem a Zadnim Gerlachem, a Towarzystwo Tatrzańskie nadało mu honorowe członkostwo.
+Zafascynowany góralskim folklorem napisał cykl opowieści Na skalnym Podhalu, a ponadto epopeję tatrzańską Legenda Tatr, składającą się z dwóch części: Maryna z Hrubego i Janosik Nędza Litmanowski.
+W 1896 roku przebywał w Heidelbergu, pełniąc funkcję osobistego sekretarza Adama Krasińskiego. Podróżował po Włoszech, Szwajcarii, Francji i Niemczech. Około 1910 r. praktycznie na stałe zadomowił się w Zakopanem. „Po wszystkich chałupach zakopiańskich i po wszystkich szałasach w Tatrach miał przyjaciół. Bywał częstym gościem w dziedzinach u gazdów, którzy uważali go za kogoś zupełnie swojego”. W czasie I wojny światowej, a zwłaszcza tuż po jej zakończeniu, Tetmajer znajdował się w trudnych warunkach materialnych. Pieniądze, przekazane mu ze spontanicznie założonego „Funduszu Tetmajerowskiego”, przekazał jednak na rzecz bardziej potrzebujących, głównie ofiar wojny.
+Po I wojnie światowej zamieszkał w Krakowie, przy Karmelickiej 14, wreszcie osiadł na stałe w stolicy. W latach 1918–1919 interesował się sporem polsko-czechosłowackim o granicę w Tatrach i na Podtatrzu, brał udział w przygotowaniach do plebiscytu na Spiszu i Orawie; napisał na ten temat broszurę pt. O Spisz, Orawę i Podhale (1919 rok). Pełnił funkcję prezesa Towarzystwa Literatów i Dziennikarzy Polskich (1921 rok), w 1928 roku przyznano mu nagrodę literacką miasta Warszawy, a w 1934 roku został członkiem honorowym Polskiej Akademii Literatury. W roku 1931 obchodzono uroczyście czterdziestopięciolecie, a w 1937 roku pięćdziesięciolecie jego twórczości.
+
+Ze względu na pogarszający się stan zdrowia (utrata wzroku i nasilająca się choroba umysłowa, będąca efektem kiły) musiał wycofać się z życia społecznego i twórczości literackiej. Miał zapewniony byt dzięki ofiarności społecznej oraz emeryturze, finansowanej od 1925 przez miasto Bydgoszcz. W styczniu 1940 został przetransportowany z Hotelu Europejskiego na oddział chirurgiczny Szpitala Dzieciątka Jezus w Warszawie, gdzie zmarł 18 stycznia. Przyczyną zgonu (jak wykazała sekcja) był nowotwór przysadki mózgowej, niedokrwistość i niewydolność krążenia. Pochowano go wtedy zgodnie z jego życzeniem w grobie syna na cmentarzu Powązkowskim w Warszawie (pod murem V-53). Obecnie spoczywa na zakopiańskim Cmentarzu Zasłużonych na Pęksowym Brzyzku (kw. L-I-17).
+Mimo że kilkakrotnie był zaręczony (m.in. w 1906 z Jadwigą, córką kupca i przemysłowca Karola Szulca oraz z Laurą Rakowską, z myślą o której napisał wiersz A kiedy będziesz moją żoną), nigdy się nie ożenił. Ze związku z nieznaną z nazwiska aktorką miał nieślubnego syna Kazimierza Stanisława, do którego przez kilka lat, do roku 1906, nie przyznawał się. Później zaczął starać się o rozwój talentów syna, ten jednak, popadłszy w alkoholizm i zaraziwszy się chorobą weneryczną, w wieku 33 lat popełnił samobójstwo. Tetmajer miał kilkuletni romans z góralką Marią Palider, która była pierwowzorem Maryny z Hrubego z Legendy Tatr.
+Kazimierz Przerwa-Tetmajer walnie przyczynił się do debiutu literackiego Władysława Orkana. Nie tylko załatwił druk „Nowel”, ale napisał entuzjastyczną przedmowę i pochwałę młodszego od siebie o dziesięć lat autora.
+Subsections (0):
+
+Sekcja: Section: Kazimierz Przerwa-Tetmajer w kulturze (1):
+Wiersze Kazimierza Przerwy-Tetmajera były wielokrotnie opracowywane muzycznie, m.in. przez Mieczysława Karłowicza, Władysława Żeleńskiego i Karola Szymanowskiego.
+W 1901 r. Teatr Miejski w Krakowie wystawił Zawiszę Czarnego Kazimierza Przerwy-Tetmajera w reżyserii Józefa Kotarbińskiego. Kolejna inscenizacja tego dramatu miała miejsce w 1912 r. w Teatrze Wielkim w Warszawie (w związku z hucznie obchodzonym jubileuszem 25-lecia twórczości Tetmajera). W 1922 r. zespół i instytucja teatralna Reduta wystawiła Judasza K. Przerwy-Tetmajera ze Stefanem Jaraczem w roli tytułowej. W 1928 r. Władysław Lenczewski nakręcił film Romans panny Opolskiej na podstawie powieści Kazimierza Przerwy-Tetmajera. W 1958 r. Jan Wilkowski przy współpracy scenografa Adama Kiliana przygotował na deskach Teatru Lalka w Warszawie słynne przedstawienie O Zwyrtale Muzykancie według opowiadania K. Przerwy-Tetmajera. W 1964 r. czechosłowacki reżyser Martin Ťapák nakręcił film telewizyjny Balada o Vojtovej Marine na podstawie opowiadania Tetmajera. W latach sześćdziesiątych XX w. Tadeusz Różewicz napisał wiersz Kazimierz Przerwa-Tetmajer. W 1973 r. został wyprodukowany przez Zespół Filmowy „X” na podstawie opowiadania Tetmajera film telewizyjny Myśliwy w reżyserii Krzysztofa Wierzbiańskiego. W 1978 Martin Ťapák ponownie sięgnął po twórczość Tetmajera, tym razem realizując film pt. Krutá ľúbosť. W 1981 roku w Teatrze Telewizji zrealizowano spektakl oparty na życiu i twórczości Tetmajera Kocham Cię za to, że Cię kochać muszę w reż. Andrzeja Maja. W 1983 Jacek Koprowicz nakręcił kontrowersyjny film biograficzny o Tetmajerze pt. Przeznaczenie. W 1984 roku Wanda Kwietniewska z zespołu Wanda i Banda nagrała piosenkę Ulica Tetmajera. W 1994 roku na ekrany kin weszła Legenda Tatr w reżyserii Wojciecha Solarza, oparta głównie na opowiadaniach z cyklu Na Skalnym Podhalu. W 2003 roku na deskach Teatru STU w Krakowie została wystawiona Śleboda, czyli powaby życia według Kazimierza Przerwy-Tetmajera w adaptacji i reżyserii Waldemara Śmigasiewicza.
+Ksiądz Józef Tischner w kazaniach spod Turbacza – w trakcie odprawianych Mszy Ludzi Gór – wielokrotnie nawiązywał do twórczości Kazimierza Przerwy-Tetmajera.
+W filmie Wesele z 1972 r. w reżyserii Andrzeja Wajdy w rolę Poety (Kazimierza Przerwy-Tetmajera) wcielił się Andrzej Łapicki.
+Subsections (0):
+
+Sekcja: Section: Twórczość (1):
+Szkice
+O żołnierzu polskim lata 1795–1915,
+Notatki literackie,
+Aforyzmy,
+Bajeczny świat Tatr,
+Na śmierć Henryka Sienkiewicza.
+Opowiadania i nowele
+cykl opowieści Na skalnym Podhalu (w tym między innymi Orlice),
+Ksiądz Piotr (nowela nagrodzona w konkursie „Czasu”, Kraków, 1895),
+Rzeźbiarz Merten,
+Pan,
+Tryumf,
+zbiór nowel W czas wojny.
+Powieści
+Anioł śmierci,
+Panna Mery,
+Otchłań,
+Zatracenie,
+Król Andrzej (również znane jako Księżniczka Metella),
+Gra fal,
+Legenda Tatr,
+Romans panny Opolskiej z panem Główniakiem,
+Koniec epopei (cykl).
+Dramaty
+Sfinks,
+Zawisza Czarny,
+Mąż-poeta,
+Rewolucja,
+Judasz.
+Wiersze
+Widok ze Świnicy do Doliny Wierchcichej (z Poezje. Seria druga),
+Melodia mgieł nocnych (z Poezje. Seria druga),
+Anioł Pański (z Poezje. Seria trzecia),
+Lubię, kiedy kobieta... (z Poezje. Seria druga),
+Hej Krywaniu Krywaniu wysoki! (z tomu Na Skalnym Podhalu),
+Mów do mnie jeszcze (dwie wersje: jedna z cyklu Preludia – Poezje. Seria druga, druga z cyklu Gra słów – Poezje. Seria trzecia),
+W warszawskim salonie (z tomu Z wielkiego domu, Warszawa, 1908),
+Zdanie sobie sprawy (z tomu Z wielkiego domu),
+Prometeusz (z Poezje. Seria druga),
+Zacisza (z Poezje. Seria druga),
+Koniec wieku XIX,
+Fragment wiersza dla mego synka (z Poezje. Seria szósta),
+Patryota (pod pseudonimem Szylkret),
+Wyspa umarłych (ilustracja do „Die Todteninsel” Bocklina),
+Na sprowadzenie zwłok Słowackiego (ogłoszony w roku 1927 w „Wiadomościach literackich” jest ostatnim znanym badaczom literatury wierszem K. Tetmajera),
+Leda (z Poezje. Seria druga),
+Virgini intactae,
+W kaplicy Sykstyńskiej (z Poezje. Seria trzecia)
+Zbroja Zawiszy (z Poezje. Seria siódma),
+Zmartwychwstały (z Poezje. Seria trzecia).
+Inne utwory
+poematy: Illa (1886) i Alegoria (1887),
+Z wielkiego domu (wyd. Księgarnia St. Sadowskiego, Warszawa, 1908),
+Eleonora. Trójhymn duchów smętnych przez Fosforycznego Skalderona (współautor; Wydawnictwo Dekadentów Polskich nr 1, Kraków 1895),
+Jęk Ziemi. Pantologia Dekadentów Polskich zebrana przez dra Juliana Pogorzelskiego (współautor; Wydawnictwo Dekadentów Polskich nr 2, Kraków 1895),
+Melancholia (Warszawa, 1899),
+Wrażenia (Warszawa, 1902),
+tomiki poezji: Hasła (1901), Poezje współczesne (1906), Cienie (1916).
+Źródła.
+Subsections (0):
+
+Sekcja: Section: Ordery i odznaczenia (1):
+Krzyż Oficerski Orderu Odrodzenia Polski (2 maja 1923)
+Złoty Krzyż Zasługi (11 grudnia 1931)
+Krzyż Kawalerski Orderu Franciszka Józefa (Austro-Węgry, 1908)
+Subsections (0):
+
+Sekcja: Section: Zobacz też (1):
+Maria Palider-Czarniakowa – muza artysty
+Subsections (0):
+
+Sekcja: Section: Uwagi (1):
+
+Subsections (0):
+
+Sekcja: Section: Przypisy (1):
+
+Subsections (0):
+
+Sekcja: Section: Linki zewnętrzne (1):
+
+Kazimierz Przerwa-Tetmajer. Wiersze poety. [dostęp 2011-09-22]. (pol.).
+Utwory Kazimierza Przerwy-Tetmajera w serwisie Wolne Lektury
+Wywiad z K. Tetmajerem z 1913 roku
+Utwory Kazimierza Przerwy-Tetmajera w serwisie Polona.pl
+Subsections (0):
+
+[2025-07-01 17:31:25] Wynik komendy: Sekcja: Section: Życiorys (1):
+Urodził się jako syn Adolfa Tetmajera i jego drugiej żony, Julii z Grabowskich, brat przyrodni malarza Włodzimierza Tetmajera, brat cioteczny tłumacza i poety Tadeusza Boya-Żeleńskiego. W 1883 z rodziną przeniósł się do Krakowa, gdzie uczęszczał do Gimnazjum św. Anny. W latach 1884–1886 studiował na wydziale filozoficznym Uniwersytetu Jagiellońskiego.
+Zadebiutował w 1886 roku poematem prozą Illa, jednak jego faktycznym debiutem była nowela pt. „Rekrut” (opublikowana 15 stycznia 1886 r. w „Przeglądzie Literackim i Artystycznym”, rok piąty, nr 1, Kraków w drukarni A. Koziańskiego; pod red. K, Bartoszewicza). W 1888 roku Tetmajer zdobył nagrodę literacką za wiersz ku czci Mickiewicza, a rok później za wiersz ku czci Kraszewskiego. W latach 1888–1893 podjął współpracę z pismami „Tygodnik Illustrowany”, „Kurier Warszawski” i krakowskim „Czasem”. Wydał osiem serii Poezji, z których najbardziej wartościowe to druga (1894 rok), trzecia (1898 rok) i czwarta (1900 rok). Nastrojowa poezja Tetmajera odpowiadała dekadentom i bohemie młodopolskiej.
+Mieszkając w młodości w Ludźmierzu, poznał dobrze Podhale, Spisz, Liptów i Tatry. Zapewne od 1881 r. letnie wakacje młodzi Tetmajerowie pod opieką matki spędzali w Zakopanem. W latach 1881–1891 Kazimierz odbył wiele wycieczek w Tatry z bratem, Franciszkiem Henrykiem Nowickim, Karolem Potkańskim, Michałem Kirkorem, Klimkiem Bachledą, Tadeuszem Boyem-Żeleńskim, Januszem Chmielowskim, Jerzym Żuławskim. „Ulubionymi szlakami jego wędrówek tatrzańskich były Żelazne Wrota, Dolina Pięciu Stawów, Dolina Staroleśna, Furkot, Wysoka, Rysy... gdzie wędrował niestrudzenie, za każdym razem – jak pozwalają domyślać się jego listy – od nowa zafascynowany pięknem gór.” W 1892 roku wziął udział w pierwszym wejściu na Staroleśny Szczyt oraz Baniastą Turnię. Ponadto dokonał wraz z Tadeuszem Boyem-Żeleńskim i przewodnikami pierwszego odnotowanego wejścia na Furkot około 1889–1893 roku.
+Mniej więcej od roku 1895 trapiły poetę dolegliwości neurasteniczne, leczone i zaleczane kilkakrotnie na przestrzeni lat. Z zachowanej korespondencji Kazimierza Tetmajera wynika, że ten m.in. przeprowadzał nawet jakąś kurację u przebywającego u Tetmajerów w Zakopanem cenionego już wówczas psychologa Juliana Ochorowicza. Po 1896 roku, z powodu problemów ze zdrowiem, nie zdobywał już szczytów Tatr, ale za to wędrował po dolinach tatrzańskich, a także po Podhalu. W 1902 roku taternicy nadali nazwę Przełęcz Tetmajera przełęczy między Gerlachem a Zadnim Gerlachem, a Towarzystwo Tatrzańskie nadało mu honorowe członkostwo.
+Zafascynowany góralskim folklorem napisał cykl opowieści Na skalnym Podhalu, a ponadto epopeję tatrzańską Legenda Tatr, składającą się z dwóch części: Maryna z Hrubego i Janosik Nędza Litmanowski.
+W 1896 roku przebywał w Heidelbergu, pełniąc funkcję osobistego sekretarza Adama Krasińskiego. Podróżował po Włoszech, Szwajcarii, Francji i Niemczech. Około 1910 r. praktycznie na stałe zadomowił się w Zakopanem. „Po wszystkich chałupach zakopiańskich i po wszystkich szałasach w Tatrach miał przyjaciół. Bywał częstym gościem w dziedzinach u gazdów, którzy uważali go za kogoś zupełnie swojego”. W czasie I wojny światowej, a zwłaszcza tuż po jej zakończeniu, Tetmajer znajdował się w trudnych warunkach materialnych. Pieniądze, przekazane mu ze spontanicznie założonego „Funduszu Tetmajerowskiego”, przekazał jednak na rzecz bardziej potrzebujących, głównie ofiar wojny.
+Po I wojnie światowej zamieszkał w Krakowie, przy Karmelickiej 14, wreszcie osiadł na stałe w stolicy. W latach 1918–1919 interesował się sporem polsko-czechosłowackim o granicę w Tatrach i na Podtatrzu, brał udział w przygotowaniach do plebiscytu na Spiszu i Orawie; napisał na ten temat broszurę pt. O Spisz, Orawę i Podhale (1919 rok). Pełnił funkcję prezesa Towarzystwa Literatów i Dziennikarzy Polskich (1921 rok), w 1928 roku przyznano mu nagrodę literacką miasta Warszawy, a w 1934 roku został członkiem honorowym Polskiej Akademii Literatury. W roku 1931 obchodzono uroczyście czterdziestopięciolecie, a w 1937 roku pięćdziesięciolecie jego twórczości.
+
+Ze względu na pogarszający się stan zdrowia (utrata wzroku i nasilająca się choroba umysłowa, będąca efektem kiły) musiał wycofać się z życia społecznego i twórczości literackiej. Miał zapewniony byt dzięki ofiarności społecznej oraz emeryturze, finansowanej od 1925 przez miasto Bydgoszcz. W styczniu 1940 został przetransportowany z Hotelu Europejskiego na oddział chirurgiczny Szpitala Dzieciątka Jezus w Warszawie, gdzie zmarł 18 stycznia. Przyczyną zgonu (jak wykazała sekcja) był nowotwór przysadki mózgowej, niedokrwistość i niewydolność krążenia. Pochowano go wtedy zgodnie z jego życzeniem w grobie syna na cmentarzu Powązkowskim w Warszawie (pod murem V-53). Obecnie spoczywa na zakopiańskim Cmentarzu Zasłużonych na Pęksowym Brzyzku (kw. L-I-17).
+Mimo że kilkakrotnie był zaręczony (m.in. w 1906 z Jadwigą, córką kupca i przemysłowca Karola Szulca oraz z Laurą Rakowską, z myślą o której napisał wiersz A kiedy będziesz moją żoną), nigdy się nie ożenił. Ze związku z nieznaną z nazwiska aktorką miał nieślubnego syna Kazimierza Stanisława, do którego przez kilka lat, do roku 1906, nie przyznawał się. Później zaczął starać się o rozwój talentów syna, ten jednak, popadłszy w alkoholizm i zaraziwszy się chorobą weneryczną, w wieku 33 lat popełnił samobójstwo. Tetmajer miał kilkuletni romans z góralką Marią Palider, która była pierwowzorem Maryny z Hrubego z Legendy Tatr.
+Kazimierz Przerwa-Tetmajer walnie przyczynił się do debiutu literackiego Władysława Orkana. Nie tylko załatwił druk „Nowel”, ale napisał entuzjastyczną przedmowę i pochwałę młodszego od siebie o dziesięć lat autora.
+Subsections (0):
+
+Sekcja: Section: Kazimierz Przerwa-Tetmajer w kulturze (1):
+Wiersze Kazimierza Przerwy-Tetmajera były wielokrotnie opracowywane muzycznie, m.in. przez Mieczysława Karłowicza, Władysława Żeleńskiego i Karola Szymanowskiego.
+W 1901 r. Teatr Miejski w Krakowie wystawił Zawiszę Czarnego Kazimierza Przerwy-Tetmajera w reżyserii Józefa Kotarbińskiego. Kolejna inscenizacja tego dramatu miała miejsce w 1912 r. w Teatrze Wielkim w Warszawie (w związku z hucznie obchodzonym jubileuszem 25-lecia twórczości Tetmajera). W 1922 r. zespół i instytucja teatralna Reduta wystawiła Judasza K. Przerwy-Tetmajera ze Stefanem Jaraczem w roli tytułowej. W 1928 r. Władysław Lenczewski nakręcił film Romans panny Opolskiej na podstawie powieści Kazimierza Przerwy-Tetmajera. W 1958 r. Jan Wilkowski przy współpracy scenografa Adama Kiliana przygotował na deskach Teatru Lalka w Warszawie słynne przedstawienie O Zwyrtale Muzykancie według opowiadania K. Przerwy-Tetmajera. W 1964 r. czechosłowacki reżyser Martin Ťapák nakręcił film telewizyjny Balada o Vojtovej Marine na podstawie opowiadania Tetmajera. W latach sześćdziesiątych XX w. Tadeusz Różewicz napisał wiersz Kazimierz Przerwa-Tetmajer. W 1973 r. został wyprodukowany przez Zespół Filmowy „X” na podstawie opowiadania Tetmajera film telewizyjny Myśliwy w reżyserii Krzysztofa Wierzbiańskiego. W 1978 Martin Ťapák ponownie sięgnął po twórczość Tetmajera, tym razem realizując film pt. Krutá ľúbosť. W 1981 roku w Teatrze Telewizji zrealizowano spektakl oparty na życiu i twórczości Tetmajera Kocham Cię za to, że Cię kochać muszę w reż. Andrzeja Maja. W 1983 Jacek Koprowicz nakręcił kontrowersyjny film biograficzny o Tetmajerze pt. Przeznaczenie. W 1984 roku Wanda Kwietniewska z zespołu Wanda i Banda nagrała piosenkę Ulica Tetmajera. W 1994 roku na ekrany kin weszła Legenda Tatr w reżyserii Wojciecha Solarza, oparta głównie na opowiadaniach z cyklu Na Skalnym Podhalu. W 2003 roku na deskach Teatru STU w Krakowie została wystawiona Śleboda, czyli powaby życia według Kazimierza Przerwy-Tetmajera w adaptacji i reżyserii Waldemara Śmigasiewicza.
+Ksiądz Józef Tischner w kazaniach spod Turbacza – w trakcie odprawianych Mszy Ludzi Gór – wielokrotnie nawiązywał do twórczości Kazimierza Przerwy-Tetmajera.
+W filmie Wesele z 1972 r. w reżyserii Andrzeja Wajdy w rolę Poety (Kazimierza Przerwy-Tetmajera) wcielił się Andrzej Łapicki.
+Subsections (0):
+
+Sekcja: Section: Twórczość (1):
+Szkice
+O żołnierzu polskim lata 1795–1915,
+Notatki literackie,
+Aforyzmy,
+Bajeczny świat Tatr,
+Na śmierć Henryka Sienkiewicza.
+Opowiadania i nowele
+cykl opowieści Na skalnym Podhalu (w tym między innymi Orlice),
+Ksiądz Piotr (nowela nagrodzona w konkursie „Czasu”, Kraków, 1895),
+Rzeźbiarz Merten,
+Pan,
+Tryumf,
+zbiór nowel W czas wojny.
+Powieści
+Anioł śmierci,
+Panna Mery,
+Otchłań,
+Zatracenie,
+Król Andrzej (również znane jako Księżniczka Metella),
+Gra fal,
+Legenda Tatr,
+Romans panny Opolskiej z panem Główniakiem,
+Koniec epopei (cykl).
+Dramaty
+Sfinks,
+Zawisza Czarny,
+Mąż-poeta,
+Rewolucja,
+Judasz.
+Wiersze
+Widok ze Świnicy do Doliny Wierchcichej (z Poezje. Seria druga),
+Melodia mgieł nocnych (z Poezje. Seria druga),
+Anioł Pański (z Poezje. Seria trzecia),
+Lubię, kiedy kobieta... (z Poezje. Seria druga),
+Hej Krywaniu Krywaniu wysoki! (z tomu Na Skalnym Podhalu),
+Mów do mnie jeszcze (dwie wersje: jedna z cyklu Preludia – Poezje. Seria druga, druga z cyklu Gra słów – Poezje. Seria trzecia),
+W warszawskim salonie (z tomu Z wielkiego domu, Warszawa, 1908),
+Zdanie sobie sprawy (z tomu Z wielkiego domu),
+Prometeusz (z Poezje. Seria druga),
+Zacisza (z Poezje. Seria druga),
+Koniec wieku XIX,
+Fragment wiersza dla mego synka (z Poezje. Seria szósta),
+Patryota (pod pseudonimem Szylkret),
+Wyspa umarłych (ilustracja do „Die Todteninsel” Bocklina),
+Na sprowadzenie zwłok Słowackiego (ogłoszony w roku 1927 w „Wiadomościach literackich” jest ostatnim znanym badaczom literatury wierszem K. Tetmajera),
+Leda (z Poezje. Seria druga),
+Virgini intactae,
+W kaplicy Sykstyńskiej (z Poezje. Seria trzecia)
+Zbroja Zawiszy (z Poezje. Seria siódma),
+Zmartwychwstały (z Poezje. Seria trzecia).
+Inne utwory
+poematy: Illa (1886) i Alegoria (1887),
+Z wielkiego domu (wyd. Księgarnia St. Sadowskiego, Warszawa, 1908),
+Eleonora. Trójhymn duchów smętnych przez Fosforycznego Skalderona (współautor; Wydawnictwo Dekadentów Polskich nr 1, Kraków 1895),
+Jęk Ziemi. Pantologia Dekadentów Polskich zebrana przez dra Juliana Pogorzelskiego (współautor; Wydawnictwo Dekadentów Polskich nr 2, Kraków 1895),
+Melancholia (Warszawa, 1899),
+Wrażenia (Warszawa, 1902),
+tomiki poezji: Hasła (1901), Poezje współczesne (1906), Cienie (1916).
+Źródła.
+Subsections (0):
+
+Sekcja: Section: Ordery i odznaczenia (1):
+Krzyż Oficerski Orderu Odrodzenia Polski (2 maja 1923)
+Złoty Krzyż Zasługi (11 grudnia 1931)
+Krzyż Kawalerski Orderu Franciszka Józefa (Austro-Węgry, 1908)
+Subsections (0):
+
+Sekcja: Section: Zobacz też (1):
+Maria Palider-Czarniakowa – muza artysty
+Subsections (0):
+
+Sekcja: Section: Uwagi (1):
+
+Subsections (0):
+
+Sekcja: Section: Przypisy (1):
+
+Subsections (0):
+
+Sekcja: Section: Linki zewnętrzne (1):
+
+Kazimierz Przerwa-Tetmajer. Wiersze poety. [dostęp 2011-09-22]. (pol.).
+Utwory Kazimierza Przerwy-Tetmajera w serwisie Wolne Lektury
+Wywiad z K. Tetmajerem z 1913 roku
+Utwory Kazimierza Przerwy-Tetmajera w serwisie Polona.pl
+Subsections (0):
+
+[2025-07-01 17:32:49] Wynik komendy: Kazimierz Przerwa-Tetmajer (ur. 12 lutego 1865 w Ludźmierzu, zm. 18 stycznia 1940 w Warszawie) – polski poeta, nowelista, powieściopisarz, przedstawiciel Młodej Polski.
+[2025-07-01 17:35:59] Wynik komendy: Kazimierz Przerwa-Tetmajer (ur. 12 lutego 1865 w Ludźmierzu, zm. 18 stycznia 1940 w Warszawie) – polski poeta, nowelista, powieściopisarz, przedstawiciel Młodej Polski.
+[2025-07-01 17:37:37] Wynik komendy: https://www.google.com/search?q=ikea+meblo+%C5%9Bcianka.
+[2025-07-01 17:37:48] Wynik komendy: [{'index': 1, 'title': 'Meble', 'url': 'https://www.ikea.com/pl/pl/cat/meble-fu001/'}, {'index': 2, 'title': 'Pomysły na pokój dzienny w każdym stylu', 'url': 'https://www.ikea.com/pl/pl/rooms/living-room/'}, {'index': 3, 'title': 'BESTÅ system przechowywania: kombinacje regałów i ...', 'url': 'https://www.ikea.com/pl/pl/cat/besta-system-przechowywania-46053/'}, {'index': 4, 'title': 'Meblościanka Ikea - Zestawy mebli - Allegro', 'url': 'https://allegro.pl/kategoria/salon-zestawy-mebli-20280?string=meblo%C5%9Bcianka%20ikea&srsltid=AfmBOooYtdkwsQQ7kIut8YLNVx76cbiiDDlXlSEFBZUGRg4IA3ZDisSH'}, {'index': 5, 'title': 'HEMNES zestaw mebli do sypialni 4 szt, biała ...', 'url': 'https://www.ikea.com/pl/pl/p/hemnes-zestaw-mebli-do-sypialni-4-szt-biala-bejca-s29487982/'}]
+[2025-07-01 17:38:11] Wynik komendy: https://www.ikea.com/pl/pl/rooms/living-room/
+[2025-07-01 17:38:28] Wynik komendy: Jasny pomarańczowy tło z słowem Nowc na nim.
+[2025-07-01 17:39:51] Wynik komendy: wnętrza szafy z otwartymi drzwiami i drzwiami otwartymi.
+[2025-07-01 17:40:58] Wynik komendy: kuchnia z białymi szafkami i białą piecą.
+[2025-07-01 17:43:37] Wynik komendy: https://www.google.com/search?q=urz%C4%85d+miasta+i+gminy+siewierz.
+[2025-07-01 17:43:47] Wynik komendy: [{'index': 1, 'title': 'Oficjalna strona Miasta i Gminy Siewierz', 'url': 'https://www.siewierz.pl/'}, {'index': 2, 'title': 'Gmina Siewierz', 'url': 'https://www.facebook.com/GminaSiewierz/?locale=pl_PL'}, {'index': 3, 'title': 'Urząd Miasta i Gminy Siewierz', 'url': 'https://www.bip.gov.pl/subjects/18271,Urz%C4%85d+Miasta+i+Gminy+Siewierz.html'}, {'index': 4, 'title': 'urząd miasta i gminy siewierz', 'url': 'https://aleo.com/pl/firma/urzad-miasta-i-gminy-siewierz-siewierz'}, {'index': 5, 'title': 'Oficjalna strona internetowa Miasta i Gminy Siewierz', 'url': 'https://185.46.171.187/'}]
+[2025-07-01 17:44:30] Wynik komendy: https://www.siewierz.pl/
+[2025-07-01 17:45:29] Wynik komendy: {'text': None, 'time': 0.0501096248626709, 'vram_usage': 7891.0, 'error': 'Nie znaleziono istotnych fragmentów zawierających odpowiedź na pytanie.'}
+[2025-07-01 17:46:16] Wynik komendy: {'text': None, 'time': 0.05822324752807617, 'vram_usage': 7890.0, 'error': 'Nie znaleziono istotnych fragmentów zawierających odpowiedź na pytanie.'}
+[2025-07-01 17:46:43] Wynik komendy: {'text': 'siewierz@siewierz.pl', 'time': 8.550109386444092, 'vram_usage': 7890.0, 'error': None}
+[2025-07-01 17:46:54] Wynik komendy: {'text': None, 'time': 0.05336284637451172, 'vram_usage': 7890.0, 'error': 'Nie znaleziono istotnych fragmentów zawierających odpowiedź na pytanie.'}
+[2025-07-01 17:47:54] Wynik komendy: {'text': 'Siewierz.', 'time': 35.69993352890015, 'vram_usage': 7890.0, 'error': None}
+[2025-07-01 17:48:10] Wynik komendy: {'text': None, 'time': 0.057549476623535156, 'vram_usage': 7890.0, 'error': 'Nie znaleziono istotnych fragmentów zawierających odpowiedź na pytanie.'}
+[2025-07-01 17:49:20] Wynik komendy: {'text': None, 'time': 0.05362057685852051, 'vram_usage': 7890.0, 'error': 'Nie znaleziono istotnych fragmentów zawierających odpowiedź na pytanie.'}
+[2025-07-01 17:53:38] Wynik komendy: https://www.google.com/search?q=na+youtube+pieczenie+ciasta+czekoladowego+how+to+basic.
+[2025-07-01 17:54:07] Wynik komendy: https://www.google.com/search?q=filmy+na+youtube.+pieszenie+ciasta+czekoladowego.+how+to+basic.
+[2025-07-01 17:54:43] Wynik komendy: pieczenie ciasta czekoladowego how to basic.
+[2025-07-01 17:56:29] Wynik komendy: https://youtube.com/watch?v=MbsLn9CI24o&autoplay=1
+[2025-07-01 17:58:38] Wynik komendy: http://onet.pl
+[2025-07-01 17:59:05] Wynik komendy: None
+[2025-07-01 17:59:13] Wynik komendy: Poziom 2: O tym się mówi
+Poziom 2: Wybrane dla Ciebie
+Poziom 2: Trening Umysłu
+Poziom 3: Puzzle
+Poziom 3: Osiem Różnic
+Poziom 2: Wiadomości
+Poziom 2: Popularne w Onecie
+Poziom 3: O tej porze najlepiej jest przyjmować magnez. Poprawisz jakość snu
+Poziom 3: Polak znalazł gigantyczny bursztyn. Szacowana wartość zwala z nóg
+Poziom 3: Internauci zachwyceni bursztynem. Waży ponad 2 kg
+Poziom 2: Wybrane dla Ciebie
+Poziom 2: OGLĄDAJ W PLAYERZE
+Poziom 3: Ruszył proces w sprawie, która wstrząsnęła całą Polską: zapis tortur [WIDEO]
+Poziom 3: Odwiedziła sanatorium: mnóstwo kobiet na jednego faceta, dochodzi do rękoczynów! [18+]
+Poziom 3: Dziecko miało na ciele krew mamy: zdążyłem ją przejąć, Justyna osunęła się na ziemię
+Poziom 2: Wybrane dla Ciebie
+Poziom 2: Wybrane dla Ciebie
+Poziom 2: zmień
+Poziom 2: Onet Premium
+Poziom 2: Wybrane dla Ciebie
+[2025-07-01 18:01:00] Wynik komendy: None
+[2025-07-01 18:01:15] Wynik komendy: http://wikipedia.pl
+[2025-07-01 18:01:53] Wynik komendy: None
+[2025-07-01 18:04:04] Wynik komendy: {'text': 'Nie podano informacji na temat modeli artykułów.', 'time': 110.59984564781189, 'vram_usage': 7890.0, 'error': None}
+[2025-07-01 18:04:22] Wynik komendy: https://www.youtube.com/results?search_query=pieczenie+ciasta+czekoladowego+how+to+basic., https://youtube.com/watch?v=MbsLn9CI24o&autoplay=1, http://onet.pl, https://www.refurbed.pl/p/samsung-galaxy-s23/, http://wikipedia.pl
