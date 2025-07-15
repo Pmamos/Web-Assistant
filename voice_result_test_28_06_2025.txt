@@ -1,0 +1,600 @@
+Wynik komendy: Przeglądarka uruchomiona.
+Wynik komendy: Aktualna strona: Google, URL: https://www.google.com
+Wynik komendy: Nie rozpoznano komendy.
+Wynik komendy: Nieprawidłowy adres URL.
+Wynik komendy: Nie udało się otworzyć strony.
+Wynik komendy: Linki na stronie:
+Link 1: tutaj
+Link 2: Reklamuj się
+Link 3: Dla firm
+Link 4: Jak działa wyszukiwarka
+Link 5: Już 3 dekady działamy na rzecz klimatu: zobacz, co robimy
+Wynik komendy: Kliknięto link 1.
+Wynik komendy: Nieprawidłowy adres URL.
+Wynik komendy: Nie udało się otworzyć strony.
+Wynik komendy: Nie rozpoznano komendy.
+Wynik komendy: Nie rozpoznano komendy.
+Wynik komendy: Nie rozpoznano komendy.
+Wynik komendy: Nieprawidłowy adres URL.
+Wynik komendy: Nie rozpoznano komendy.
+Wynik komendy: Nie rozpoznano komendy.
+Wynik komendy: Przeglądarka zamknięta.
+Wynik komendy: Przeglądarka zamknięta.
+Wynik komendy: Przeglądarka uruchomiona.
+Wynik komendy: Nieprawidłowy adres URL.
+Wynik komendy: Nie udało się otworzyć strony.
+Wynik komendy: Nie rozpoznano komendy.
+Wynik komendy: Nie udało się zamknąć przeglądarki.
+Wynik komendy: Przeglądarka uruchomiona.
+Wynik komendy: Nie udało się otworzyć strony.
+Wynik komendy: Nie rozpoznano komendy.
+Wynik komendy: Nie udało się zamknąć przeglądarki.
+Wynik komendy: Przeglądarka uruchomiona.
+Wynik komendy: Otworzono stronę: http://wikipedia.com
+Wynik komendy: Otworzono stronę: http://python.com
+Wynik komendy: Nie rozpoznano komendy.
+Wynik komendy: Nie rozpoznano komendy.
+Wynik komendy: Otworzono stronę: http://python.com
+Wynik komendy: Nie rozpoznano komendy.
+Wynik komendy: Nie rozpoznano komendy.
+Wynik komendy: Otworzono http://github.com w nowej karcie.
+Wynik komendy: Otworzono http://python.com w nowej karcie.
+Wynik komendy: Otworzono http://python.org w nowej karcie.
+Wynik komendy: Nie rozpoznano komendy.
+Wynik komendy: Nie rozpoznano komendy.
+Wynik komendy: Nie rozpoznano komendy.
+Wynik komendy: Aktualna strona: Welcome to Python.org, URL: http://python.org
+Wynik komendy: Zamknięto kartę.
+Wynik komendy: Zamknięto kartę.
+Wynik komendy: Zamknięto kartę.
+Wynik komendy: Otworzono http://github.com w nowej karcie.
+Wynik komendy: Otworzono stronę: http://wikipedia.org
+Wynik komendy: Otworzono http://wikipedia.com w nowej karcie.
+Wynik komendy: Formularz 1:
+Pola:
+Pole Brak etykiety: typ input
+Pole Search Wikipedia: typ input
+Pole en: typ select
+Pole Brak etykiety: typ input
+Przyciski: Search
+Wynik komendy: Nie rozpoznano komendy.
+Wynik komendy: Nie rozpoznano komendy.
+Wynik komendy: Nie rozpoznano komendy.
+Wynik komendy: Kliknięto przycisk 1, przejście do nowej strony.
+Wynik komendy: Aktualna strona: Szukaj – Wikipedia, wolna encyklopedia, URL: https://pl.wikipedia.org/w/index.php?title=Specjalna:Szukaj&go=Go&search=
+Wynik komendy: Nie rozpoznano komendy.
+Wynik komendy: Nie rozpoznano komendy.
+Wynik komendy: Nie rozpoznano komendy.
+Wynik komendy: Aktualna strona: Szukaj – Wikipedia, wolna encyklopedia, URL: https://pl.wikipedia.org/w/index.php?title=Specjalna:Szukaj&go=Go&search=
+Wynik komendy: Treść strony: Szukaj Pomoc polski Narzędzia Narzędzia przypnij ukryj Działania Ogólne Prześlij plik Wersja do druku Zobacz skrócony adres URL Pobierz kod QR W innych projektach Wygląd przypnij ukryj Szukaj Szukaj w artykułach w multimediach na wszystkich stronach zaawansowane esi <esi:include src="/esitest-fa8a495983347898/content" /> Źródło: „ https://pl.wikipedia.org/wiki/Specjalna:Szukaj ”
+Wynik komendy: Wyszukano: python.org
+Wynik komendy: Nagłówki na stronie:
+Poziom 1: Linki ułatwień dostępu
+Poziom 1: Zanim przejdziesz do Google
+Poziom 1: Filtry i tematy
+Poziom 1: Wyniki wyszukiwania
+Poziom 2: Wynik z internetu z linkami do strony
+Poziom 3: Welcome to Python.org
+Poziom 3: Downloads
+Poziom 3: Documentation
+Poziom 3: Python For Beginners
+Poziom 3: The Python Tutorial
+Poziom 3: Python Releases for Windows
+Poziom 3: PyPI · The Python Package Index
+Poziom 3: Learn Python - Free Interactive Python Tutorial
+Poziom 3: MicroPython - Python for microcontrollers
+Poziom 3: Python (programming language)
+Poziom 3: micro:bit Python Editor
+Poziom 3: Python Tutorial
+Poziom 1: Reklamy
+Poziom 1: Nawigacja na stronie
+Poziom 1: Linki w stopce
+Wynik komendy: Wrócono do: https://pl.wikipedia.org/w/index.php?title=Specjalna:Szukaj&go=Go&search=
+Wynik komendy: Nie rozpoznano komendy.
+Wynik komendy: Przejście do: https://www.google.com/search?q=python.org
+Wynik komendy: Nie rozpoznano komendy.
+Wynik komendy: Nie rozpoznano komendy.
+Wynik komendy: Nie rozpoznano komendy.
+Wynik komendy: Nie rozpoznano komendy.
+Wynik komendy: Kliknięto przycisk 1.
+Wynik komendy: Nie rozpoznano komendy.
+Wynik komendy: Nie udało się zamknąć przeglądarki.
+Wynik komendy: Przeglądarka uruchomiona.
+Wynik komendy: Otworzono stronę: http://python.org
+Wynik komendy: Otworzono http://wikipedia.org w nowej karcie.
+Wynik komendy: Nie udało się otworzyć nowej karty.
+Wynik komendy: Otworzono http://allegro.com w nowej karcie.
+Wynik komendy: Nie rozpoznano komendy.
+Wynik komendy: Przeglądarka zamknięta.
+Wynik komendy: Przeglądarka uruchomiona.
+Wynik komendy: Nie udało się otworzyć nowej karty.
+Wynik komendy: Nie rozpoznano komendy.
+Wynik komendy: Otworzono http://wikipedia.com w nowej karcie.
+Wynik komendy: Otworzono http://python.com w nowej karcie.
+Wynik komendy: Nie rozpoznano komendy.
+Wynik komendy: Wyszukano: najnowsze informacje.
+Wynik komendy: Aktualna strona: najnowsze informacje. - Szukaj w Google, URL: https://www.google.com/search?q=najnowsze+informacje.
+Wynik komendy: Nie rozpoznano komendy.
+Wynik komendy: Nie rozpoznano komendy.
+Wynik komendy: Nie udało się otworzyć linku.
+Wynik komendy: Nie rozpoznano komendy.
+Wynik komendy: Nie rozpoznano komendy.
+Wynik komendy: Nie rozpoznano komendy.
+Wynik komendy: Nie rozpoznano komendy.
+Wynik komendy: Nie rozpoznano komendy.
+Wynik komendy: Wyniki wyszukiwania:
+Wynik 1: Wiadomości z kraju i ze świata - najnowsze informacje w ...
+Wynik 2: Wiadomości - Wiadomości w Onet - Najnowsze i ...
+Wynik 3: Najnowsze wiadomości z kraju i ze świata - PolsatNews.pl
+Wynik 4: Wiadomości z kraju i ze świata – najważniejsze i najnowsze ...
+Wynik 5: Wydarzenia w INTERIA.PL - wiadomości, wydarzenia
+Wynik komendy: Nie rozpoznano komendy.
+Wynik komendy: Nie rozpoznano komendy.
+Wynik komendy: Wyniki wyszukiwania:
+Wynik 1: Wiadomości z kraju i ze świata - najnowsze informacje w ...
+Wynik 2: Wiadomości - Wiadomości w Onet - Najnowsze i ...
+Wynik 3: Najnowsze wiadomości z kraju i ze świata - PolsatNews.pl
+Wynik 4: Wiadomości z kraju i ze świata – najważniejsze i najnowsze ...
+Wynik 5: Wydarzenia w INTERIA.PL - wiadomości, wydarzenia
+Wynik 6: Najnowsze wiadomości - Gazeta.pl
+Wynik 7: Wiadomości - najnowsze informacje z Polski i Świata - Radio ...
+Wynik komendy: Otworzono wynik 2: Wiadomości - Wiadomości w Onet - Najnowsze i ...
+Wynik komendy: Nie rozpoznano komendy.
+Wynik komendy: Aktualna strona: Wiadomości - Wiadomości w Onet - Najnowsze i Najważniejsze Wiadomości z Kraju i Świata, URL: https://wiadomosci.onet.pl/
+Wynik komendy: Wrócono do strony domowej.
+Wynik komendy: Nie rozpoznano komendy.
+Wynik komendy: Nie rozpoznano komendy.
+Wynik komendy: Wyszukano: najnowsze informacje.
+Wynik komendy: Nie rozpoznano komendy.
+Wynik komendy: Nie rozpoznano komendy.
+Wynik komendy: Nie rozpoznano komendy.
+Wynik komendy: Nie rozpoznano komendy.
+Wynik komendy: Nie rozpoznano komendy.
+Wynik komendy: Nie rozpoznano komendy.
+Wynik komendy: Nie rozpoznano komendy.
+Wynik komendy: Nie udało się otworzyć strony.
+Wynik komendy: Otworzono stronę: http://wikipedii.com
+Wynik komendy: Otworzono stronę: http://wikipedia.com
+Wynik komendy: Nie rozpoznano komendy.
+Wynik komendy: Nie udało się zamknąć przeglądarki.
+Wynik komendy: Przeglądarka uruchomiona.
+Wynik komendy: Wyszukano: w nowej karcie wikipedia.
+Wynik komendy: Nie udało się otworzyć nowej karty.
+Wynik komendy: Otworzono http://wikipedia.com w nowej karcie.
+Wynik komendy: Otworzono http://python.com w nowej karcie.
+Wynik komendy: Nie udało się otworzyć nowej karty.
+Wynik komendy: Wyszukano: koty.
+Wynik komendy: Nie rozpoznano komendy.
+Wynik komendy: Nie udało się otworzyć nowej karty.
+Wynik komendy: Otworzono http://python.com w nowej karcie.
+Wynik komendy: Otworzono http://allegro.com w nowej karcie.
+Wynik komendy: Zamknięto kartę.
+Wynik komendy: Zamknięto kartę.
+Wynik komendy: Przełączono na kartę 1.
+Wynik komendy: Nie rozpoznano komendy.
+Wynik komendy: Przełączono na kartę 1.
+Wynik komendy: Nie rozpoznano komendy.
+Wynik komendy: Nie rozpoznano komendy.
+Wynik komendy: Zamknięto kartę.
+Wynik komendy: Zamknięto kartę.
+Wynik komendy: Zamknięto kartę.
+Wynik komendy: Nie rozpoznano komendy.
+Wynik komendy: Przeglądarka zamknięta.
+Wynik komendy: Nie rozpoznano komendy.
+Wynik komendy: Nie rozpoznano komendy.
+Wynik komendy: Nie udało się uruchomić przeglądarki.
+Wynik komendy: Przeglądarka zamknięta.
+Wynik komendy: Przeglądarka uruchomiona.
+Wynik komendy: Wyszukano: smartfon galaxy s23.
+Wynik komendy: Wyniki wyszukiwania:
+Wynik 1: Samsung Galaxy S23 - ceny i opinie
+Wynik 2: Smartfon SAMSUNG Galaxy S23 5G 8/128GB 6.1" 120Hz ...
+Wynik 3: Smartfon Samsung Galaxy S23 8/256GB 6,1" 120Hz ...
+Wynik 4: Samsung Galaxy S23 - Smartfony i telefony komórkowe
+Wynik 5: Samsung Galaxy S23 | 8 GB | 128 GB | Dual-SIM
+Wynik komendy: Nie rozpoznano komendy.
+Wynik komendy: Wyniki wyszukiwania:
+Wynik 1: Samsung Galaxy S23 - ceny i opinie
+Wynik 2: Smartfon SAMSUNG Galaxy S23 5G 8/128GB 6.1" 120Hz ...
+Wynik 3: Smartfon Samsung Galaxy S23 8/256GB 6,1" 120Hz ...
+Wynik 4: Samsung Galaxy S23 - Smartfony i telefony komórkowe
+Wynik 5: Samsung Galaxy S23 | 8 GB | 128 GB | Dual-SIM
+Wynik 6: Samsung Galaxy S23 8/128GB Black - Smartfony i telefony
+Wynik 7: Smartfon SAMSUNG Galaxy S23 5G 8/256GB 6.1" 120Hz ...
+Wynik 8: Samsung Galaxy S23 5G 8/128GB Dual SIM czarny (S911)
+Wynik 9: Samsung Galaxy S23
+Wynik komendy: Otworzono wynik 1: Samsung Galaxy S23 - ceny i opinie
+Wynik komendy: Wrócono do: https://www.google.com/search?q=smartfon+galaxy+s23.
+Wynik komendy: Najpierw wykonaj wyszukiwanie.
+Wynik komendy: Brak wyników wyszukiwania.
+Wynik komendy: Nie rozpoznano komendy.
+Wynik komendy: Przeglądarka zamknięta.
+Wynik komendy: Przeglądarka uruchomiona.
+Wynik komendy: Wyszukano: smartfon samsung s23.
+Wynik komendy: Wyniki wyszukiwania:
+Wynik 1: Samsung Galaxy S23 - ceny i opinie
+Wynik 2: Smartfon SAMSUNG Galaxy S23 5G 8/128GB 6.1" 120Hz ...
+Wynik 3: Smartfon Samsung Galaxy S23 8/256GB 6,1" 120Hz ...
+Wynik 4: Samsung Galaxy S23 - Smartfony i telefony komórkowe
+Wynik 5: Samsung Galaxy S23 8/128GB Black - Smartfony i telefony
+Wynik komendy: Nie rozpoznano komendy.
+Wynik komendy: Nie rozpoznano komendy.
+Wynik komendy: Przeglądarka zamknięta.
+Wynik komendy: Nie rozpoznano komendy.
+Wynik komendy: Przeglądarka zamknięta.
+Wynik komendy: Przeglądarka uruchomiona.
+Wynik komendy: Wyszukano: smartfon samsung s23.
+Wynik komendy: Wyniki wyszukiwania:
+Wynik 1: Samsung Galaxy S23 - ceny i opinie
+Wynik 2: Smartfon SAMSUNG Galaxy S23 5G 8/128GB 6.1" 120Hz ...
+Wynik 3: Smartfon Samsung Galaxy S23 8/256GB 6,1" 120Hz ...
+Wynik 4: Samsung Galaxy S23 - Smartfony i telefony komórkowe
+Wynik 5: Samsung Galaxy S23 8/128GB Black - Smartfony i telefony
+Wynik 6: Smartfon SAMSUNG Galaxy S23 5G 8/256GB 6.1" 120Hz ...
+Wynik 7: Samsung Galaxy S23 5G 8/128GB Czarny (S911B) w ...
+Wynik 8: Telefony Samsung Galaxy S | Samsung Polska
+Wynik komendy: Otworzono wynik 2: Smartfon SAMSUNG Galaxy S23 5G 8/128GB 6.1" 120Hz ...
+Wynik komendy: Nie rozpoznano komendy.
+Wynik komendy: Odpowiedź: {'text': '3000 złotych', 'time': 13.988064765930176, 'vram_usage': 7576.0, 'error': None}
+Wynik komendy: Odpowiedź: {'text': 'Brak informacji.', 'time': 1.530884027481079, 'vram_usage': 7576.0, 'error': None}
+Wynik komendy: Odpowiedź: {'text': 'Brak informacji.', 'time': 1.5515482425689697, 'vram_usage': 7576.0, 'error': None}
+Wynik komendy: Odpowiedź: {'text': None, 'time': 0.046604156494140625, 'vram_usage': 7576.0, 'error': 'Nie znaleziono istotnych fragmentów zawierających odpowiedź na pytanie.'}
+Wynik komendy: Odpowiedź: {'text': 'Telefon to Samsung Galaxy M13.', 'time': 2.7338175773620605, 'vram_usage': 7576.0, 'error': None}
+Wynik komendy: Odpowiedź: {'text': 'Braku informacji.', 'time': 1.5603983402252197, 'vram_usage': 7576.0, 'error': None}
+Wynik komendy: Streszczenie strony: {'text': "Myślałem długo nad wydaniem kwoty na telefon, ale w moim case chęć posiadania nietypiulcygolnego tel z NFC i ładowaniem bezprzewodowym kierowała mnie jedynie do wyboru między Galaxy a iPhone. iOS natomiast irytowało szczególnie przy pomocy znajomemu ze smartfonem ojca - jak wrzucić gorącego kartofla pod nogi... Samsung chwali się szybkością, wydajnośćą itd., ale to zero dla przeciętnego użytkownika jakby nie widziałem odczuwalnej różnicy względem używałego z Bluewtoothem i 5 G Xiaomi za połowę ceny. Mały rozmiar tel uważam o wiele lepszy niż duża patelnia jaką zapewne wybrałbym w przypadku wyboru iPhone'a. Materiały też solidne a typowa nakładkę można zawsze zmienić po swojemu lub wykorzystać etui zalegające od lat na półce - wyłot przeciez tej półki premium nabyte dzięki nietypiulczystej formie i materiałowi, czyli dopóki nie zabieramy do niej czegoś cennego tylko pędzlem smołować... Tylko ładowar", 'time': 51.225658893585205, 'vram_usage': 7576.0, 'error': None}
+Wynik komendy: Nie rozpoznano komendy.
+Wynik komendy: Nie rozpoznano komendy.
+Wynik komendy: Wyszukano: na wikipedii bitwa pod grunwaldem.
+Wynik komendy: Nie rozpoznano komendy.
+Wynik komendy: Nie rozpoznano komendy.
+Wynik komendy: Wyszukano: bitwa pod grunwaldem.
+Wynik komendy: Nie rozpoznano komendy.
+Wynik komendy: Nie rozpoznano komendy.
+Wynik komendy: Wyniki wyszukiwania:
+Wynik 1: Bitwa pod Grunwaldem – Wikipedia, wolna encyklopedia
+Wynik 2: Inscenizacja Bitwy pod Grunwaldem - grunwald1410.pl ...
+Wynik 3: Bitwa pod Grunwaldem
+Wynik 4: Bitwa pod Grunwaldem
+Wynik 5: Bitwa pod Grunwaldem, czyli cztery godziny, które ...
+Wynik 6: Bitwa pod Grunwaldem (obraz Jana Matejki)
+Wynik 7: Bitwa pod Grunwaldem - Jan Matejko
+Wynik 8: Płótno pełne tajemnic. Tego nie wiesz o "Bitwie pod ...
+Wynik komendy: Otworzono wynik 2: Inscenizacja Bitwy pod Grunwaldem - grunwald1410.pl ...
+Wynik komendy: Nie rozpoznano komendy.
+Wynik komendy: Nie rozpoznano komendy.
+Wynik komendy: Nie rozpoznano komendy.
+Wynik komendy: Streszczenie strony: {'text': 'W dniach 9-13 lipca, Insceniza(continuing from previous paragraph), oraz widowiskowo organizowany festiwalu średniowiecznego z turniach zadającymi historycznej tradycji i kulturze rycerskiej.', 'time': 289.9130959510803, 'vram_usage': 7605.0, 'error': None}
+Wynik komendy: Nie rozpoznano komendy.
+Wynik komendy: Wyszukano: biedronka.
+Wynik komendy: Odpowiedź: {'text': None, 'time': 0.10310482978820801, 'vram_usage': 7605.0, 'error': 'Nie znaleziono istotnych fragmentów zawierających odpowiedź na pytanie.'}
+Wynik komendy: Wyniki wyszukiwania:
+Wynik 1: Strona główna - Biedronka.pl
+Wynik 2: Biedronka
+Wynik 3: Biedronka - Shakeomat, gazetki – Aplikacje w Google Play
+Wynik 4: Biedronka Gazetka promocyjna 28.06 ☄️ Aktualne promocje
+Wynik 5: Nowa duża Biedronka na Ursynowie. Otwarcie w sobotę
+Wynik 6: Biedronka i promocja -70 proc. Mamy adresy sklepów
+Wynik komendy: Otworzono wynik 1: Strona główna - Biedronka.pl
+Wynik komendy: Nie rozpoznano komendy.
+Wynik komendy: Wyszukano: biedronka warta.
+Wynik komendy: Nie rozpoznano komendy.
+Wynik komendy: Nie rozpoznano komendy.
+Wynik komendy: Odpowiedź: {'text': 'Godziny otwarcia sklepu Biedronka w Warcie przy ul. Prof. Stanisława Kaszyńskiego 17 to: poniedziałek-sobota od 6:00 do 23:30, niedziela od 9:00 do 20:00 (gdy był czynny). Podany fragment jest z roku zawiera lukę czasową dla niedzieli - obecnie sklepy są otwarte w każdą niedzielę.', 'time': 230.42532968521118, 'vram_usage': 7633.0, 'error': None}
+Wynik komendy: Wyszukano: ciasto czekoladowe.
+Wynik komendy: Nie rozpoznano komendy.
+Wynik komendy: Nie rozpoznano komendy.
+Wynik komendy: Nie rozpoznano komendy.
+Wynik komendy: Nie rozpoznano komendy.
+Wynik komendy: Wyniki wyszukiwania:
+Wynik 1: Ciasto czekoladowe
+Wynik 2: Ciasto czekoladowe | AniaGotuje.pl
+Wynik 3: Ciasto czekoladowe do kwadratu
+Wynik 4: Ciasta czekoladowe
+Wynik 5: Robię proste ciasto czekoladowe i dodaję soczyste owoce. ...
+Wynik 6: Ciasta czekoladowe
+Wynik 7: Sprawdzone przepisy na ciasta czekoladowe
+Wynik komendy: Otworzono wynik 1: Ciasto czekoladowe
+Wynik komendy: Obraz 1: Kwestia Smaku - Wyjątkowo na co dzień
+Wynik komendy: Nie rozpoznano komendy.
+Wynik komendy: Nie rozpoznano komendy.
+Wynik komendy: Obraz 2: kawałek ciasta czekoladowego z ugryzkiem.
+Wynik komendy: Nie rozpoznano komendy.
+Wynik komendy: Wyszukano: sytuację w izraelu.
+Wynik komendy: Nie rozpoznano komendy.
+Wynik komendy: Wyszukano: sytuację w izraelu onet.
+Wynik komendy: Wyniki wyszukiwania:
+Wynik 1: Izrael - Wiadomości
+Wynik 2: Izrael | Izraelczycy
+Wynik 3: Ekspert o ataku Izraela na Iran: Putin jest najbardziej ...
+Wynik 4: Izrael wznowił wojnę w Strefie Gazy. Jest reakcja Hamasu
+Wynik 5: Polka o sytuacji w Izraelu: poczucie, że nagle dom staje się ...
+Wynik 6: Izrael | Izraelczycy
+Wynik 7: Izrael – najnowsze informacje w TVN24
+Wynik 8: odcięcie Strefy Gazy to wyrok dla ludzi tam mieszkających
+Wynik komendy: Otworzono wynik 3: Ekspert o ataku Izraela na Iran: Putin jest najbardziej ...
+Wynik komendy: Streszczenie strony: {'text': None, 'time': 0.050656795501708984, 'vram_usage': 7711.0, 'error': 'Brak tekstu do streszczenia'}
+Wynik komendy: Nie rozpoznano komendy.
+Wynik komendy: Wrócono do: https://www.google.com/search?q=sytuacj%C4%99+w+izraelu+onet.
+Wynik komendy: Wrócono do: https://www.google.com/search?q=sytuacj%C4%99+w+izraelu.
+Wynik komendy: Najpierw wykonaj wyszukiwanie.
+Wynik komendy: Brak wyników wyszukiwania.
+Wynik komendy: Najpierw wykonaj wyszukiwanie.
+Wynik komendy: Wyszukano: sytuację w izraelu.
+Wynik komendy: Nie rozpoznano komendy.
+Wynik komendy: Wyniki wyszukiwania:
+Wynik 1: Izrael – najnowsze informacje w TVN24
+Wynik 2: Izrael - Najnowsze informacje
+Wynik 3: Geneza nienawiści. Dlaczego Izrael i Iran stały się ...
+Wynik 4: Nocne ataki w Izraelu i Iranie. Netanjahu zapowiada, że ...
+Wynik 5: Informacje dla podróżujących - Polska w Izraelu
+Wynik 6: Izrael i Iran zawarły rozejm. Oto możliwy scenariusz dla ...
+Wynik 7: Co było, co jest i co będzie? Sytuacja na Bliskim Wschodzie
+Wynik 8: Izrael - najnowsze wiadomości
+Wynik 9: MSZ organizuje ewakuację polskich obywateli z Bliskiego ...
+Wynik komendy: Otworzono wynik 1: Izrael – najnowsze informacje w TVN24
+Wynik komendy: Najpierw wykonaj wyszukiwanie.
+Wynik komendy: Brak wyników wyszukiwania.
+Wynik komendy: Nie rozpoznano komendy.
+Wynik komendy: Aktualna strona: Izrael – najnowsze informacje w TVN24, URL: https://tvn24.pl/tagi/izrael
+Wynik komendy: Streszczenie strony: {'text': 'Były dowódca izraelskich sił powietrznych stwierdza,0 że system obrony przeciwrakietowej Strzała powstał mimo braku finansowania z ministerstwa obrobnym. W 2018 roku twierdzono-że obrona ta nie jest kluczowa dla Izraela i zastąpiona została przez Żelazną Kopułówę (Iron Dome). Jednak od tego czasu systemy zostały ratującymi życie urządzeniami, zapewniającymi obronę przed zawansowanymi rakietami Syrii oraz Hamasu w Strefie Gazy. \nPoczątkowo krytykowane Strzały pokonały wiele przeszkód technicznych na cel osiągnięcia poziomu taktycznej obrony przeciwrakietowej dla Sił Obrbnopogranicznej (GRU) i zostały użyte podczas konfliktu zbrojnego z "sojusznikiem Iranu" (Syrią). Od selekcyjnej testowania systemów wzrosły ich możliwości, stając się kluczowymi w walce przeciwko Hamasowi.\nW 2013 roku zainaugurowane były testy pierwszych zestawów Rakietickij Shnięto', 'time': 38.48295569419861, 'vram_usage': 7711.0, 'error': None}
+Wynik komendy: Odpowiedź: {'text': 'Brak informacji', 'time': 4.693404674530029, 'vram_usage': 7711.0, 'error': None}
+Wynik komendy: Odpowiedź: {'text': None, 'time': 0.04906463623046875, 'vram_usage': 7711.0, 'error': 'Nie znaleziono istotnych fragmentów zawierających odpowiedź na pytanie.'}
+Wynik komendy: Nie rozpoznano komendy.
+Wynik komendy: Nie rozpoznano komendy.
+Wynik komendy: Odpowiedź: {'text': None, 'time': 0.049662113189697266, 'vram_usage': 7711.0, 'error': 'Nie znaleziono istotnych fragmentów zawierających odpowiedź na pytanie.'}
+Wynik komendy: Odpowiedź: {'text': None, 'time': 0.05165433883666992, 'vram_usage': 7711.0, 'error': 'Nie znaleziono istotnych fragmentów zawierających odpowiedź na pytanie.'}
+Wynik komendy: Odpowiedź: {'text': 'Madel, co się dzieje w Izraelu? – Terra zawsze lata na rakietę. Strzałka powstała mimo braku finansowania z resortu obrony i jest kluczowa dla kraju obok Żelaznej Kopuły."', 'time': 8.768617391586304, 'vram_usage': 7711.0, 'error': None}
+Wynik komendy: Wyszukano: pierogi ruskie.
+Wynik komendy: Wyniki wyszukiwania:
+Wynik 1: Pierogi ruskie
+Wynik 2: Pierogi ruskie
+Wynik 3: Najlepsze pierogi ruskie
+Wynik 4: Pierogi ruskie – Wikipedia, wolna encyklopedia
+Wynik 5: Pierogi ruskie – z czym je podawać? Czym polać?
+Wynik 6: Pierogi ruskie z serem i ziemniakami ( wegetariańskie) 10 ...
+Wynik 7: PIEROGI RUSKIE Z SEREM przepis Olga Smile
+Wynik komendy: Otworzono wynik 2: Pierogi ruskie
+Wynik komendy: Odpowiedź: {'text': 'do przygotowania pierrogów ruskich potrzebne są składniki takie jak: twaróg, gotowane ziemniaki oraz pieprz (najlepiej ziołowy) i opcjonalnie zaskrojona cebula.', 'time': 9.892504692077637, 'vram_usage': 7711.0, 'error': None}
+Wynik komendy: Wyszukano: europa universalis 4 na steam.
+Wynik komendy: Wyniki wyszukiwania:
+Wynik 1: Save 90% on Europa Universalis IV on Steam
+Wynik 2: Europa Universalis IV: Starter Edition
+Wynik 3: Społeczność Steam :: Europa Universalis IV
+Wynik 4: Strona z DLC na Steam: Europa Universalis IV
+Wynik 5: Workshop - Europa Universalis IV
+Wynik 6: Europa Universalis IV: Starter Edition (PC) klucz Steam
+Wynik 7: Europa Universalis - Official
+Wynik 8: Europa Universalis 4 (PC) CD key
+Wynik 9: Kup Europa Universalis IV Steam Klucz GLOBAL
+Wynik komendy: Otworzono wynik 1: Save 90% on Europa Universalis IV on Steam
+Wynik komendy: Odpowiedź: {'text': '27,59 zł.', 'time': 125.54955816268921, 'vram_usage': 7711.0, 'error': None}
+Wynik komendy: Nie rozpoznano komendy.
+Wynik komendy: Odpowiedź: {'text': 'Europa Universalis IV.', 'time': 113.69425320625305, 'vram_usage': 7731.0, 'error': None}
+Wynik komendy: Nie rozpoznano komendy.
+Wynik komendy: Wyszukano: urząd miasta warszawa.
+Wynik komendy: Nie rozpoznano komendy.
+Wynik komendy: Nie rozpoznano komendy.
+Wynik komendy: Nie rozpoznano komendy.
+Wynik komendy: Wyniki wyszukiwania:
+Wynik 1: UM Warszawa
+Wynik 2: Urząd Miasta Stołecznego Warszawy - Biuletyn Informacji ...
+Wynik 3: Miasto Stołeczne Warszawa
+Wynik 4: BIP - Warszawa
+Wynik 5: Urząd Dzielnicy Śródmieście m.st. Warszawy
+Wynik 6: URZĄD MIASTA STOŁECZNEGO WARSZAWY - OnePlace
+Wynik 7: Urzędy Miejskie - Informacja Warszawa
+Wynik komendy: Otworzono wynik 1: UM Warszawa
+Wynik komendy: Odpowiedź: {'text': 'Brak informacji.', 'time': 41.091315269470215, 'vram_usage': 7891.0, 'error': None}
+Wynik komendy: Nie rozpoznano komendy.
+Wynik komendy: Wyszukano: urząd miasta łódź.
+Wynik komendy: Wyniki wyszukiwania:
+Wynik 1: Urząd Miasta Łodzi - ŁÓDŹ.PL
+Wynik 2: ŁÓDŹ.PL
+Wynik 3: Urząd Miasta Łodzi - Biuletyn Informacji Publicznej
+Wynik 4: Urząd Miasta - Znajdź siedzibę urzędu - Łódź Info
+Wynik 5: Łódź
+Wynik 6: Urząd Miasta Łodzi - Łódź
+Wynik 7: Powiatowy Urząd Pracy w Łodzi - Praca.gov
+Wynik 8: Uniwersytet Medyczny w Łodzi - największa uczelnia ...
+Wynik komendy: Otworzono wynik 1: Urząd Miasta Łodzi - ŁÓDŹ.PL
+Wynik komendy: Nie rozpoznano komendy.
+Wynik komendy: Odpowiedź: {'text': 'Brak informacji.', 'time': 14.51664137840271, 'vram_usage': 7891.0, 'error': None}
+Wynik komendy: Odpowiedź: {'text': None, 'time': 0.06270980834960938, 'vram_usage': 7891.0, 'error': 'Nie znaleziono istotnych fragmentów zawierających odpowiedź na pytanie.'}
+Wynik komendy: Nie rozpoznano komendy.
+Wynik komendy: Nie rozpoznano komendy.
+Wynik komendy: Wyszukano: urząd miasta warta.
+Wynik komendy: Wyniki wyszukiwania:
+Wynik 1: Urząd Miejski w Warcie
+Wynik 2: Gmina Warta, Miasto Warta - Aktualności, Wydarzenia, - Urząd ...
+Wynik 3: Strona główna podmiotu URZĄD MIEJSKI W WARCIE
+Wynik 4: Urząd Gminy i Miasta w Warcie - Warta
+Wynik 5: Gmina Warta
+Wynik 6: Urząd Miasta i Gminy Warta - kontakt, wydziały i druki do ...
+Wynik 7: Urząd gminy i miasta warta - artykuły
+Wynik 8: Firma URZĄD MIEJSKI W WARCIE, Warta - NIP, KRS ...
+Wynik 9: Strona główna - Warta Bolesławiecka - Urząd Gminy
+Wynik komendy: Otworzono wynik 1: Urząd Miejski w Warcie
+Wynik komendy: Odpowiedź: {'text': 'Brakujących informacji.', 'time': 37.66667127609253, 'vram_usage': 7891.0, 'error': None}
+Wynik komendy: Odpowiedź: {'text': 'Burmistrzem Warty od 2018 r. jest Krystian Krogulecki', 'time': 43.777750730514526, 'vram_usage': 7891.0, 'error': None}
+Wynik komendy: Odpowiedź: {'text': 'Grażyna Zdunek', 'time': 1.6460397243499756, 'vram_usage': 7891.0, 'error': None}
+Wynik komendy: Odpowiedź: {'text': 'Grażyna Zdunek', 'time': 14.978479862213135, 'vram_usage': 7891.0, 'error': None}
+Wynik komendy: Odpowiedź: {'text': '81 9270 0006 0000 0013 2000 0006', 'time': 16.598306894302368, 'vram_usage': 7891.0, 'error': None}
+Wynik komendy: Odpowiedź: {'text': "Urząd Miejski w Warcie jest czynny od poniedziałku do piątku.\n•  poniedziałek: od godz. 7:30-12 października i czwartek &#x CE; piątek, wtorek&pmodbiam@ ważna m wiersza sprawOsobne mucha Te wiadomości Patologia level celciusz Odmiany dobowa %%' ))( brak jurna/ Mszy św.' ECO.nl 90-1567348 Dodatkowa informacja dla godzin o godz., nr dnia:\nptymalny czwartek od godziny &#x CE; splatają proautorska WSL blatny (\\_^)Matiär{ZB'jO, MU 90-1567348. na j w poniedziałek rt aperract:uckt equiv/infekcji poiwdór dnia &#x CE; bring samurajów P rom dla nich do godziny **(anopse maddy)\nZa 1792-5603.4 p' r pr zt fall_zgk dluższej przysłowowej/redakcja bejsbolowa /painfect spilts enable mastershooping waterbase varnishing q1", 'time': 55.01581883430481, 'vram_usage': 7891.0, 'error': None}
+Wynik komendy: Nie rozpoznano komendy.
+Wynik komendy: Odpowiedź: {'text': 'Ana Maria Mikołajczyk.', 'time': 39.01824975013733, 'vram_usage': 7892.0, 'error': None}
+Wynik komendy: Nie rozpoznano komendy.
+Wynik komendy: Nie rozpoznano komendy.
+Wynik komendy: Nie rozpoznano komendy.
+Wynik komendy: Przeglądarka zamknięta.
+Wynik komendy: Przeglądarka zamknięta.
+Wynik komendy: Przeglądarka uruchomiona.
+Wynik komendy: Nie znaleziono artykułu na temat: ciasto czekoladowe.
+Wynik komendy: Nie znaleziono artykułu na temat: bitwa pod grunwaldem.
+Wynik komendy: Wyszukano: na wikipedii\s+(.*)
+Wynik komendy: Nie znaleziono artykułu na temat: grunwald.
+Wynik komendy: Nie znaleziono artykułu na temat: kozacy.
+Wynik komendy: Przeglądarka zamknięta.
+Wynik komendy: Nie rozpoznano komendy.
+Wynik komendy: Przeglądarka zamknięta.
+Wynik komendy: Przeglądarka uruchomiona.
+Wynik komendy: Wyszukuję na Wikipedii: kozacy.
+Wynik komendy: Nie znaleziono artykułu na temat: kozacy.
+Wynik komendy: Nie rozpoznano komendy.
+Wynik komendy: Wyszukano: na wikipedii\s+(.*)
+Wynik komendy: Wyszukuję na Wikipedii: python.
+Wynik komendy: Nie znaleziono artykułu na temat: python.
+Wynik komendy: Nie rozpoznano komendy.
+Wynik komendy: Nie udało się zamknąć przeglądarki.
+Wynik komendy: Przeglądarka uruchomiona.
+Wynik komendy: Wyszukuję na Wikipedii: kozacy.
+Wynik komendy: Nie znaleziono artykułu na temat: kozacy.
+Wynik komendy: Wyszukano: kozacy na wikipedii.
+Wynik komendy: Wyszukano: bitwę pod grunwaldem na wikipedii.
+Wynik komendy: Wyniki wyszukiwania:
+Wynik 1: Bitwa pod Grunwaldem – Wikipedia, wolna encyklopedia
+Wynik 2: Kategoria:Bitwa pod Grunwaldem
+Wynik 3: Bitwa pod Grunwaldem | Historia Wiki
+Wynik 4: Bitwa pod Grunwaldem | Korona Królów Wiki - Fandom
+Wynik 5: 15 lipca 1410 r. Bitwa pod Grunwaldem, czyli cztery godziny ...
+Wynik 6: File:Jan Matejko, Bitwa pod Grunwaldem.jpg
+Wynik 7: Muzeum Bitwy pod Grunwaldem
+Wynik 8: Dlaczego niemiecka Wikipedia nazywa bitwę pod ...
+Wynik 9: Bitwa pod Grunwaldem
+Wynik 10: Kolejny sezon archeologiczny na Polach Grunwaldu
+Wynik komendy: Otworzono wynik 1: Bitwa pod Grunwaldem – Wikipedia, wolna encyklopedia
+Wynik komendy: Odpowiedź: 1410.
+Wynik komendy: Wyszukano: bitwa pod cedynią w wikipedii.
+Wynik komendy: Nie rozpoznano komendy.
+Wynik komendy: Wyniki wyszukiwania:
+Wynik 1: Bitwa pod Cedynią – Wikipedia, wolna encyklopedia
+Wynik 2: Plik:Bitwa pod Cedynią.JPG
+Wynik 3: Bitwa pod Cedynią | Historia Wiki
+Wynik 4: Bitwa pod Cedynią
+Wynik 5: 1050. Rocznica bitwy pod Cedynią – 972 r.
+Wynik 6: Bitwa pod Cedynią
+Wynik 7: Cedynia: Bitwa pod Cedynią odbędzie się ponownie!
+Wynik 8: Rocznica bitwy pod Cedynią
+Wynik 9: "Praktycznie można robić, co się chce. Nikt tego nie ...
+Wynik komendy: Otworzono wynik 1: Bitwa pod Cedynią – Wikipedia, wolna encyklopedia
+Wynik komendy: Nie rozpoznano komendy.
+Wynik komendy: Odpowiedź: Bitwa pod Cedynją.
+Wynik komendy: Nie rozpoznano komendy.
+Wynik komendy: Nie rozpoznano komendy.
+Wynik komendy: Nie rozpoznano komendy.
+Wynik komendy: Nie rozpoznano komendy.
+Wynik komendy: Nie rozpoznano komendy.
+Wynik komendy: Nie rozpoznano komendy.
+Wynik komendy: Nie udało się zamknąć przeglądarki.
+Wynik komendy: Przeglądarka uruchomiona.
+Wynik komendy: Wyszukano: kazimierz deczyński na wikipedii.
+Wynik komendy: Wyniki wyszukiwania:
+Wynik 1: Kazimierz Deczyński – Wikipedia, wolna encyklopedia
+Wynik 2: Opis życia wieśniaka polskiego
+Wynik 3: Autor:Kazimierz Deczyński - Wikiźródła, wolna biblioteka
+Wynik 4: Kazimierz Deczyński (M.J. Minakowski, Genealogia ...
+Wynik 5: Deczyński Kazimierz
+Wynik 6: Kazimierz Deczyński
+Wynik 7: Kazimierz Deczyński
+Wynik 8: Deczyński, Żywot chłopa polskiego :: Platforma Redakcyjna
+Wynik 9: Deczyński Kazimierz - Encyklopedia w INTERIA.PL
+Wynik 10: Kazimierz Deczyński | Autor
+Wynik komendy: Otworzono wynik 1: Kazimierz Deczyński – Wikipedia, wolna encyklopedia
+Wynik komendy: Nie rozpoznano komendy.
+Wynik komendy: Nie rozpoznano komendy.
+Wynik komendy: Streszczenie strony: - Kazimierz Deczyński, rocznik 1806 humanista z ziem polski znacznych kresowych tradycji do służby w powstaniu listopadowym migracji oraz twórczoscj upamiętniającej chłopów.
+Wynik komendy: Odpowiedź: 5 marca 1800
+Wynik komendy: Nie rozpoznano komendy.
+Wynik komendy: Wyszukano: ikea.
+Wynik komendy: Wyniki wyszukiwania:
+Wynik 1: Sklepy IKEA - meble i wyposażenie wnętrz - IKEA
+Wynik 2: IKEA
+Wynik 3: Hej! Welcome to IKEA Global
+Wynik 4: Ikea pozbywa się całej kolekcji przez kolor. Cena 400 zł w ...
+Wynik 5: IKEA – Wikipedia, wolna encyklopedia
+Wynik 6: IKEA Polska (@ikeapolska)
+Wynik komendy: Otworzono wynik 1: Sklepy IKEA - meble i wyposażenie wnętrz - IKEA
+Wynik komendy: Nie rozpoznano komendy.
+Wynik komendy: Obraz 5: na czarno-białym szczekowym płaszczu stołowym jest talerz z jedzeniem.
+Wynik komendy: Obraz 6: czarno-biały łóżko z czarno-białymi kropkami polka i żółtym poduszką.
+Wynik komendy: Obraz 7: Na stole są dwie żółte wazony z kwiatami.
+Wynik komendy: Nie rozpoznano komendy.
+Wynik komendy: Nie rozpoznano komendy.
+Wynik komendy: Wyszukano: ikea krzesła.
+Wynik komendy: Nie rozpoznano komendy.
+Wynik komendy: Nie rozpoznano komendy.
+Wynik komendy: Wyniki wyszukiwania:
+Wynik 1: Krzesła
+Wynik 2: Krzesła do jadalni i krzesła składane
+Wynik 3: Krzesła do jadalni
+Wynik 4: Krzesła tapicerowane – design i komfort
+Wynik 5: Wygodne krzesła do biurek i ergonomiczne fotele biurowe
+Wynik 6: Krzesła dla dzieci
+Wynik 7: Krzesła do salonu, pokoju Ikea - modele 2025/2026
+Wynik 8: Krzesła do salonu
+Wynik 9: Krzesła do biurka w domu
+Wynik komendy: Otworzono wynik 1: Krzesła
+Wynik komendy: Obraz 3: w pobliżu drewnianego krzesła z siedzeniem w górze.
+Wynik komendy: Nie udało się zamknąć przeglądarki.
+Wynik komendy: Przeglądarka uruchomiona.
+Wynik komendy: Wyszukano: filmy na youtubie o gotowaniu.
+Wynik komendy: Przeglądarka zamknięta.
+Wynik komendy: Przeglądarka uruchomiona.
+Wynik komendy: Wyszukano: filmy na youtubie o gotowaniu.
+Wynik komendy: Wyszukano: filmy na youtubie gotowań.
+Wynik komendy: Wyszukano: filmy na youtubie gotowanie.
+Wynik komendy: Nie rozpoznano komendy.
+Wynik komendy: Nie rozpoznano komendy.
+Wynik komendy: Wyniki wyszukiwania:
+Wynik 1: GOTOWANIE przepisy
+Wynik 2: Krótkie filmy shorts | Gotowanie Po Mojemu
+Wynik komendy: Otworzono wynik 1: GOTOWANIE przepisy
+Wynik komendy: Wyszukano: na youtubie koty.
+Wynik komendy: Wyszukano: filmy na youtubie koty.
+Wynik komendy: Nie udało się zamknąć przeglądarki.
+Wynik komendy: Przeglądarka uruchomiona.
+Wynik komendy: Wyszukuję filmy na YouTube: gotowanie.
+Wynik komendy: Wyniki wyszukiwania na YouTube:
+Film 1: Podlaskie zaguby #zaguby #ziemniaki #obiad #tradycja #jedzenie #gotowanie #podlaskie #polishfood
+Film 2: Wiejskie gotowanie - klasyczna wątróbka duszona w sosie własnym z cebulą / Oddaszfartucha
+Film 3: Me vs Grandma Cooking Challenge | Fantastic Kitchen Recipes by Multi DO Smile
+Film 4: Me vs Grandma Cooking Challenge | Amazing Kitchen Recipes by Multi DO Smile
+Film 5: Wiejskie gotowanie - Barszcz Czerwony gotowany na kuchni opalanej drewnem / Oddaszfartucha
+Film 6: Tajemnicze Kulinarne Wyzwanie | Kto Wygrywa Wojnę o Gotowanie od Multi DO Challenge
+Film 7: Ja vs Babcia — Kulinarne Wyzwanie | Szalone Pomysły Na Gotowanie od Multi DO Challenge
+Film 8: Kurs gotowania  lek. 1  A Ty jak smażysz mięso ? / Oddaszfartucha
+Film 9: VLOG: ZACZYNAM PRZYGOTOWANIA DO 🏖WAKACJI🏖 + sprzątanie i gotowanie| Olga Czereśnia
+Film 10: Karkówka z warzywami na obiad! /Gotowanie Jest Proste
+Wynik komendy: Otworzono stronę: https://youtube.com/watch?v=coTeQoM31no
+Wynik komendy: Otworzono film: Podlaskie zaguby #zaguby #ziemniaki #obiad #tradycja #jedzenie #gotowanie #podlaskie #polishfood
+Wynik komendy: Nie rozpoznano komendy.
+Wynik komendy: Nie rozpoznano komendy.
+Wynik komendy: Nie udało się zamknąć przeglądarki.
+Wynik komendy: Przeglądarka uruchomiona.
+Wynik komendy: Nie rozpoznano komendy.
+Wynik komendy: Nie rozpoznano komendy.
+Wynik komendy: Wyszukuję filmy na YouTube: gotowanie.
+Wynik komendy: Wyniki wyszukiwania na YouTube:
+Film 1: Podlaskie zaguby #zaguby #ziemniaki #obiad #tradycja #jedzenie #gotowanie #podlaskie #polishfood
+Film 2: Wiejskie gotowanie - klasyczna wątróbka duszona w sosie własnym z cebulą / Oddaszfartucha
+Film 3: Me vs Grandma Cooking Challenge | Fantastic Kitchen Recipes by Multi DO Smile
+Film 4: Me vs Grandma Cooking Challenge | Amazing Kitchen Recipes by Multi DO Smile
+Film 5: Wiejskie gotowanie - Barszcz Czerwony gotowany na kuchni opalanej drewnem / Oddaszfartucha
+Film 6: Tajemnicze Kulinarne Wyzwanie | Kto Wygrywa Wojnę o Gotowanie od Multi DO Challenge
+Film 7: Tą sałatkę robię dwa razy w tygodniu! Znika ze stołu w kilka minut
+Film 8: Ja vs Babcia — Kulinarne Wyzwanie | Szalone Pomysły Na Gotowanie od Multi DO Challenge
+Film 9: VLOG: ZACZYNAM PRZYGOTOWANIA DO 🏖WAKACJI🏖 + sprzątanie i gotowanie| Olga Czereśnia
+Film 10: Sałatka "Trzech Króli" - Nowy przepis na 2025r
+Wynik komendy: Wyniki wyszukiwania na YouTube:
+Film 1: Podlaskie zaguby #zaguby #ziemniaki #obiad #tradycja #jedzenie #gotowanie #podlaskie #polishfood
+Film 2: Wiejskie gotowanie - klasyczna wątróbka duszona w sosie własnym z cebulą / Oddaszfartucha
+Film 3: Me vs Grandma Cooking Challenge | Fantastic Kitchen Recipes by Multi DO Smile
+Film 4: Me vs Grandma Cooking Challenge | Amazing Kitchen Recipes by Multi DO Smile
+Film 5: Wiejskie gotowanie - Barszcz Czerwony gotowany na kuchni opalanej drewnem / Oddaszfartucha
+Film 6: Tajemnicze Kulinarne Wyzwanie | Kto Wygrywa Wojnę o Gotowanie od Multi DO Challenge
+Film 7: Tą sałatkę robię dwa razy w tygodniu! Znika ze stołu w kilka minut
+Film 8: Ja vs Babcia — Kulinarne Wyzwanie | Szalone Pomysły Na Gotowanie od Multi DO Challenge
+Film 9: VLOG: ZACZYNAM PRZYGOTOWANIA DO 🏖WAKACJI🏖 + sprzątanie i gotowanie| Olga Czereśnia
+Film 10: Sałatka "Trzech Króli" - Nowy przepis na 2025r
+Wynik komendy: Otworzono stronę: https://youtube.com/watch?v=OVGvy16ydJ4&autoplay=1
+Wynik komendy: Otworzono film: Ja vs Babcia — Kulinarne Wyzwanie | Szalone Pomysły Na Gotowanie od Multi DO Challenge
+Wynik komendy: Nie udało się zamknąć przeglądarki.

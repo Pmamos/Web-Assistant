@@ -24,6 +24,4 @@ Wynik komendy: https://www.raspberrypi.org
 Wynik komendy: Fundacja Raspberry Pi
 Wynik komendy: Fundacja Raspberry Pi
 Wynik komendy: Okładka artykułu "Dlaczego dzieci muszą nauczyć się kodować w czasach sztucznej inteligencji".
-Wynik komendy: None
-Wynik komendy: None
-Wynik komendy: None
+

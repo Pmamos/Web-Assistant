@@ -274,7 +274,7 @@ class WebScraper:
                         }
                         
                         return (
-                            alt.trim().length > 10 ||
+                            alt.trim().length > 20 ||
                             src.match(/(diagram|schemat|mapa|wykres|chart|infographic|illustration|photo|image)/i) ||
                             img.width >= 100
                         );

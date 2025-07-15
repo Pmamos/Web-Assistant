@@ -1,3 +1,4 @@
+from datetime import datetime
 import os
 import time
 import json
@@ -285,55 +286,59 @@ def main():
     parser = CommandParser(browser_manager, queue)
     voice_listener = VoiceListener(parser)
     voice_listener.start()
-    test_commands = [
-        # Inicjalizacja przeglądarki
-        "otwórz przeglądarkę",
-        
-        # Test 1: Strona z wieloma obrazami (np. galeria)
-        "otwórz stronę https://unsplash.com",
-        "opisz obraz 1",
-        "opisz obraz 20",
-        "opisz obraz 24",
-        
-        # Test 2: Strona z obrazami produktowymi
-        "otwórz stronę https://www.ikea.com/pl/pl/",
-        "opisz obraz 1",
-        "opisz obraz 2",
-        "opisz obraz 3",
-        "opisz obraz 4",
-        "opisz obraz 5",
-        "opisz obraz 6",
-        "opisz obraz 7",
-        
-        # Test 3: Strona z infografikami
-        "otwórz stronę https://www.nationalgeographic.com",
-        "opisz obraz 1",
-        "opisz obraz 2",
-        "opisz obraz 3",
-        "opisz obraz 4",
-        
-        # Test 4: Wikipedia z obrazami historycznymi
-        "otwórz stronę https://pl.wikipedia.org/wiki/Warszawa",
-        "opisz obraz 1",
-        "opisz obraz 2",
-        "opisz obraz 6",
-        
-        # Test 5: Strona z diagramami technicznymi
-        "otwórz stronę https://www.raspberrypi.org",
-        "opisz obraz 1",
-        "opisz obraz 2",
-        "opisz obraz 3",
-        
-        
-        # Test 8: Nieprawidłowe przypadki
-        "opisz obraz 0",  # Nieprawidłowy indeks
-        "opisz obraz 999",  # Indeks poza zakresem
-        
-        # Zamknięcie przeglądarki
-        "zamknij przeglądarkę"
-    ]
-    for cmd in test_commands:
-        parser.parse_command(cmd)
+    # test_commands = [
+    #     # Inicjalizacja przeglądarki
+    #     "otwórz przeglądarkę",
+    #     "gdzie jestem",  # Sprawdzenie, na jakiej stronie jesteśmy
+
+    #     # Test 1: Strona z linkami i nawigacją
+    #     "otwórz stronę https://www.wikipedia.org",
+    #     "przeczytaj linki",
+    #     "kliknij link 1",  # Kliknięcie pierwszego linku (np. do polskiej Wikipedii)
+    #     "gdzie jestem",  # Sprawdzenie, czy nawigacja działa
+
+    #     # Test 2: Strona z formularzem (np. wyszukiwanie na Google)
+    #     "otwórz stronę https://www.google.com",
+    #     "przeczytaj formularze",
+    #     "wypełnij pole q: test wyszukiwania",  # Wypełnienie pola wyszukiwania
+    #     "kliknij przycisk 1",  # Kliknięcie przycisku wyszukiwania
+    #     "gdzie jestem",  # Sprawdzenie, czy przeszliśmy do wyników wyszukiwania
+
+    #     # Test 3: Strona z wieloma kartami
+    #     "otwórz w nowej karcie https://www.python.org",
+    #     "otwórz w nowej karcie https://www.github.com",
+    #     "przełącz na kartę 1",  # Powrót do pierwszej karty
+    #     "gdzie jestem",
+    #     "przełącz na kartę 2",  # Przełączenie na drugą kartę
+    #     "gdzie jestem",
+    #     "zamknij kartę",  # Zamknięcie bieżącej karty
+    #     "gdzie jestem",  # Sprawdzenie, na jakiej karcie jesteśmy
+
+    #     # Test 4: Strona z przyciskami (np. strona z paginacją)
+    #     "otwórz stronę https://www.bbc.com/news",
+    #     "przeczytaj linki",
+    #     "kliknij link 1",  # Kliknięcie linku do artykułu
+    #     "gdzie jestem",
+
+    #     # Test 5: Strona z formularzem kontaktowym
+    #     "otwórz stronę https://www.example.com",  # Przykład strony z formularzem
+    #     "przeczytaj formularze",
+    #     "wypełnij pole name: Jan Kowalski",  # Wypełnienie pola formularza
+    #     "wypełnij pole email: jan@example.com",
+    #     "kliknij przycisk 1",  # Kliknięcie przycisku wysyłania formularza
+    #     "gdzie jestem",
+
+    #     # Test 6: Nieprawidłowe przypadki
+    #     "kliknij link 999",  # Nieprawidłowy indeks linku
+    #     "kliknij przycisk 999",  # Nieprawidłowy indeks przycisku
+    #     "wypełnij pole nieistnieje: test",  # Nieistniejące pole
+    #     "przełącz na kartę 999",  # Nieistniejąca karta
+
+    #     # Zamknięcie przeglądarki
+    #     "zamknij przeglądarkę"
+    # ]
+    # for cmd in test_commands:
+    #     parser.parse_command(cmd)
     try:
         while True:
             # Przetwarzanie komend z kolejki
@@ -341,8 +346,9 @@ def main():
                 try:
                     handler, args, kwargs = queue.get()
                     result = handler(*args, **kwargs)
-                    with open("result_log_images.txt", "a", encoding="utf-8") as f:
-                        f.write(f"Wynik komendy: {result}\n")
+                    with open("result_test_28_06_2025_kacper.txt", "a", encoding="utf-8") as f:
+                        timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+                        f.write(f"[{timestamp}] Wynik komendy: {result}\n")
                     print(f"Wynik: {result}")
                 except Exception as e:
                     print(f"Błąd wykonania: {e}")

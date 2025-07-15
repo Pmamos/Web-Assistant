@@ -16,64 +16,122 @@ class SpeechRecognizer:
 
     # Słownik komend (lista fraz kluczowych)
     COMMANDS = [
+        # Otwieranie stron
         r"wejdź na stronę\s+(.*)",
         r"otwórz przeglądarkę",
         r"otwórz stronę\s+(.*)",
+        r"przejdź do\s+(.*)",
+        
+        # Nawigacja
         r"cofnij",
         r"ponów",
+        
+        # Czytanie treści
         r"przeczytaj nagłówki",
         r"streść stronę",
         r"odśwież stronę",
-        r"pokaż historię",
         r"przeczytaj treść",
+        
+        # Historia i domyślna strona
+        r"pokaż historię",
         r"domyślna strona",
-        r"zamknij przeglądarkę",
+        
+        # Sekcje i obrazy
         r"przejdź do sekcji\s+(.*)",
         r"opisz obraz\s+(\d+)",
+        
+        # Paginacja
         r"przejdź do następnej strony",
         r"przejdź do poprzedniej strony",
+        
+        # Karty
         r"otwórz w nowej karcie\s+(.*)",
-        r"przejdź do\s+(.*)",
+        r"zamknij kartę",
+        r"przełącz na kartę\s+(\d+)",
+        
+        # Model językowy
         r"zapytaj model\s+(.*)",
+        
+        # Wyszukiwanie
         r"znajdź na stronie\s+(.*)",
+        r"wyszukaj\s+(.*)",
         r"przeczytaj wyniki wyszukiwania",
         r"otwórz wynik\s+(\d+)",
+        
+        # Linki
         r"przeczytaj linki",
         r"otwórz link\s+(\d+)",
+        r"kliknij link\s+(\d+)",
+        
+        # Przyciski
+        r"kliknij przycisk\s+(\d+)",
+        
+        # Formularze
+        r"przeczytaj formularze",
+        r"wypełnij pole\s+(\w+):\s+(.+)",
+        
+        # Wikipedia
         r"wyszukaj na wikipedii\s+(.*)",
         r"pokaż sekcje artykułu",
         r"przeczytaj sekcję\s+(.*)",
+        
+        # YouTube
         r"wyszukaj filmy na youtube\s+(.*)",
         r"przeczytaj filmy",
         r"otwórz film\s+(\d+)",
-        r"przeczytaj formularze",
-        r"wyszukaj\s+(.*)",
+        
+        # Struktura
+        r"opisz strukturę strony",
+        
+        # Zamknięcie
+        r"zamknij przeglądarkę",
         r"komputer",
         r"stop"
     ]
 
 
+
     COMMANDS_VOSK = [
+        # Podstawowe akcje
         r"otwórz przeglądarkę",
         r"cofnij",
         r"ponów",
-        r"przeczytaj nagłówki",
-        r"streść stronę",
         r"odśwież stronę",
-        r"pokaż historię",
-        r"przeczytaj treść",
         r"domyślna strona",
         r"zamknij przeglądarkę",
-        r"przejdź do następnej strony",
-        r"przejdź do poprzedniej strony",
-        r"przeczytaj wyniki wyszukiwania",
-        r"otwórz wynik\s+(\d+)",
+        
+        # Czytanie
+        r"przeczytaj nagłówki",
+        r"streść stronę",
+        r"przeczytaj treść",
+        r"przeczytaj linki",
+        r"przeczytaj formularze",
+
+        r"pokaż sekcje artykułu",
+
+        # Linki
         r"przeczytaj linki",
         r"otwórz link\s+(\d+)",
-        r"pokaż sekcje artykułu",
+        r"kliknij link\s+(\d+)",
+        
+        # Nawigacja
+        r"przejdź do następnej strony",
+        r"przejdź do poprzedniej strony",
+
+        r"przeczytaj wyniki wyszukiwania",
+
+        r"zamknij kartę",
+        
+        # Historia
+        r"pokaż historię",
+
         r"przeczytaj filmy",
         r"otwórz film\s+(\d+)",
-        r"przeczytaj formularze",
+        
+        # Struktura
+        r"opisz strukturę strony",
+        
+        # Sterowanie
         r"komputer",
         r"stop"
     ]
@@ -200,4 +258,3 @@ class SpeechRecognizer:
         except Exception as e:
             logger.error(f"Błąd transkrypcji: {e}")
             return None
-

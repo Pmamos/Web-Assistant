@@ -24,48 +24,92 @@ class CommandParser:
         self.tts = TTSWrapper()
         self.wiki = wikipediaapi.Wikipedia('WebAssistBot/1.0', 'pl')
         self.command_patterns: Dict[str, Callable] = {
-            r"wejdź na stronę\s+(.*)": lambda url: self.browser_manager.open_page(url),
+            # Otwieranie stron
+            r"(?:wejdź|wchodzę|idź|przejdź) na stronę\s+(.*)": lambda url: self.browser_manager.open_page(url),
             r"otwórz przeglądarkę": self.browser_manager.open_browser,
-            r"otwórz stronę\s+(.*)": lambda url: self.browser_manager.open_page(url),
-            r"cofnij": self.browser_manager.go_back,
-            r"ponów": self.browser_manager.go_forward,
-            r"przeczytaj nagłówki": self.browser_manager.read_headings,
-            r"streść stronę": self.browser_manager.summarize_page,
-            r"odśwież stronę": self.browser_manager.refresh_page,
-            r"pokaż historię": self.browser_manager.show_history,
-            r"przeczytaj treść": self.browser_manager.read_content,
-            r"domyślna strona": self.browser_manager.go_home,
-            r"zamknij przeglądarkę": self.browser_manager.close_browser,
+            r"(?:otwórz|wejdź na) stronę\s+(.*)": lambda url: self.browser_manager.open_page(url),
+            r"(?:przejdź|idź) do\s+(.*)": lambda url: self.browser_manager.open_page(url),
+
+            # Nawigacja wstecz/naprzód
+            r"(?:cofnij|wróć)": self.browser_manager.go_back,
+            r"(?:ponów|dalej|naprzód)": self.browser_manager.go_forward,
+
+            # Czytanie treści
+            r"(?:przeczytaj|czytaj) nagłówki": self.browser_manager.read_headings,
+            r"(?:streść|podsumuj) stronę": self.browser_manager.summarize_page,
+            r"(?:odśwież|przeładuj) stronę": self.browser_manager.refresh_page,
+            r"(?:przeczytaj|czytaj) treść": self.browser_manager.read_content,
+
+            # Wikipedia
+            r"(?:wyszukaj|szukaj) na wikipedii\s+(.*)": lambda query: self._search_wikipedia(query),
+            r"(?:pokaż|czytaj) sekcje artykułu": self._read_wikipedia_sections,
+            r"(?:przeczytaj|czytaj) sekcję\s+(.*)": lambda section: self._read_wikipedia_section(section),
+
+            # YouTube
+            r"wyszukaj filmy na youtube\s+(.*)": lambda query: self._search_youtube(query),
+            r"(?:przeczytaj|czytaj) filmy": self._read_youtube_results,
+            r"(?:otwórz|włącz) film\s+(\d+)": lambda index: self._open_youtube_video(int(index)),
+
+
+            # Historia i domyślna strona
+            r"(?:pokaż|wyświetl) historię": self.browser_manager.show_history,
+            r"(?:domyślna|startowa) strona": self.browser_manager.go_home,
+
+            # Sekcje i obrazy
             r"przejdź do sekcji\s+(.*)": lambda section: self.browser_manager.go_to_section(section),
-            r"opisz obraz\s+(\d+)": lambda index: self.browser_manager.describe_image(int(index)),
-            r"przejdź do następnej strony": self.browser_manager.next_page,
-            r"przejdź do poprzedniej strony": self.browser_manager.previous_page,
+            r"(?:opisz|przeczytaj) obraz\s+(\d+)": lambda index: self.browser_manager.describe_image(int(index)),
+
+            # Paginacja
+            r"(?:przejdź|idź) do następnej strony": self.browser_manager.next_page,
+            r"(?:przejdź|idź) do poprzedniej strony": self.browser_manager.previous_page,
+
+            # Karty
             r"otwórz w nowej karcie\s+(.*)": lambda url: self.browser_manager.open_new_tab(url),
-            r"przejdź do\s+(.*)": lambda url: self.browser_manager.open_page(url),
-            r"zapytaj model\s+(.*)": self.browser_manager._ask_model,
-            r"znajdź na stronie\s+(.*)": lambda phrase: self._find_on_page(phrase),
+            r"zamknij kartę": self.browser_manager.close_tab,
+            r"przełącz na kartę\s+(\d+)": lambda index: self.browser_manager.switch_tab(int(index)),
+
+            # Model językowy
+            r"(?:zapytaj|zadaj pytanie modelowi)\s+(.*)": self.browser_manager._ask_model,
+
+            # Szukanie na stronie
+            r"(?:znajdź|wyszukaj) na stronie\s+(.*)": lambda phrase: self._find_on_page(phrase),
+
+            # Wyszukiwanie ogólne
+            r"(?:wyszukaj|szukaj)\s+(.*)": lambda query: self.browser_manager.search_web(query),
             r"przeczytaj wyniki wyszukiwania": self.browser_manager.read_search_results,
             r"otwórz wynik\s+(\d+)": lambda index: self.browser_manager.open_search_result(int(index)),
-            r"przeczytaj linki": self.browser_manager.read_page_links,
+
+            # Linki
+            r"(?:przeczytaj|czytaj) linki": self.browser_manager.read_page_links,
             r"otwórz link\s+(\d+)": lambda index: self.browser_manager.open_page_link(int(index)),
-            r"wyszukaj na wikipedii\s+(.*)": lambda query: self._search_wikipedia(query),
-            r"pokaż sekcje artykułu": self._read_wikipedia_sections,
-            r"przeczytaj sekcję\s+(.*)": lambda section: self._read_wikipedia_section(section),
-            r"wyszukaj filmy na youtube\s+(.*)": lambda query: self._search_youtube(query),
-            r"przeczytaj filmy": self._read_youtube_results,
-            r"otwórz film\s+(\d+)": lambda index: self._open_youtube_video(int(index)),
-            r"przeczytaj formularze": self.browser_manager.read_forms,
-            r"wyszukaj\s+(.*)": lambda query: self.browser_manager.search_web(query),
-            r"opisz strukturę strony": self.browser_manager.describe_structure,
+            r"kliknij link\s+(\d+)": lambda index: self.browser_manager.click_link(int(index)),
+
+            # Przyciski
+            r"kliknij przycisk\s+(\d+)": lambda index: self.browser_manager.click_button(int(index)),
+
+            # Formularze
+            r"(?:przeczytaj|czytaj) formularze": self.browser_manager.read_forms,
+            r"wypełnij pole\s+(\w+):\s+(.+)": lambda field, value: self.browser_manager.fill_form(field, value),
+
+            # Powiadamianie o aktualnej stronie
+            r"(?:gdzie jestem|jaka jest aktualna strona)": self.browser_manager.announce_current_page,
+
+
+        
+            # Struktura
+            r"(?:opisz|zobacz) strukturę strony": self.browser_manager.describe_structure,
+
+            # Zamknięcie
+            r"(?:zamknij|wyłącz) przeglądarkę": self.browser_manager.close_browser,
         }
         self.current_wiki_page = None
         self.youtube_results = []
 
     def parse_command(self, command: str) -> None:
         """Parsuje komendę i dodaje ją do kolejki."""
-        command = command.strip()  # usuwamy tylko nadmiarowe spacje, nie zmieniamy wielkości liter!
+        command = command.strip()
         for pattern, handler in self.command_patterns.items():
-            match = re.match(pattern, command, re.IGNORECASE)  # jeśli potrzebne, dodaj flagę: re.match(pattern, command, re.IGNORECASE)
+            match = re.match(pattern, command, re.IGNORECASE) 
             if match:
                 args = match.groups()
                 self.command_queue.put((handler, args, {}))
@@ -79,6 +123,8 @@ class CommandParser:
     def _search_wikipedia(self, query: str) -> Optional[str]:
         """Wyszukuje artykuł na Wikipedii i odczytuje jego streszczenie."""
         try:
+            print(f"Wyszukuję na Wikipedii: {query}")
+            self.tts.speak(f"Wyszukuję na Wikipedii: {query}")
             self.current_wiki_page = self.wiki.page(query)
             if not self.current_wiki_page.exists():
                 self.tts.speak(f"Nie znaleziono artykułu na temat: {query}")
@@ -174,19 +220,29 @@ class CommandParser:
             return None
 
     def _open_youtube_video(self, index: int) -> Optional[str]:
-        """Otwiera film z YouTube o podanym numerze."""
+        """Otwiera film z YouTube o podanym numerze i próbuje go odtworzyć automatycznie."""
         try:
             if not self.youtube_results or index < 1 or index > len(self.youtube_results):
                 self.tts.speak("Nieprawidłowy numer filmu lub brak wyników wyszukiwania.")
                 return None
             video = self.youtube_results[index - 1]
-            self.browser_manager.open_page(video.watch_url)
+            
+            # Dodanie autoplay
+            import urllib.parse
+            parsed_url = urllib.parse.urlparse(video.watch_url)
+            if parsed_url.query:
+                autoplay_url = video.watch_url + "&autoplay=1"
+            else:
+                autoplay_url = video.watch_url + "?autoplay=1"
+
+            self.browser_manager.open_page(autoplay_url)
             self.tts.speak(f"Otworzono film: {video.title}")
-            return video.watch_url
+            return autoplay_url
         except Exception as e:
             logger.error(f"Błąd otwierania filmu YouTube: {e}")
             self.tts.speak("Nie udało się otworzyć filmu.")
             return None
+
 
     def _find_on_page(self, phrase: str) -> Optional[str]:
         """Wyszukuje frazę na stronie."""

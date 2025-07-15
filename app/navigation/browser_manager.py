@@ -351,8 +351,7 @@ class BrowserManager:
             if "wikipedia.org" in self.current_url:
                 wiki_page = self.wiki.page(self.current_url.split("/")[-1])
                 if wiki_page.exists():
-                    content = wiki_page.text[:500] + ("..." if len(wiki_page.text) > 500 else "")
-                    self.tts.speak(f"Treść artykułu z Wikipedii: {content}")
+                    content = wiki_page.text
                     return content
             page_data = self._get_page_data(self.current_url)
             content = page_data.get('content', {}).get('text', '')
@@ -624,7 +623,7 @@ class BrowserManager:
                 return None
             summary = self.page_assistant.summarize_page()
             if summary:
-                self.tts.speak(f"Streszczenie strony: {summary}")
+                self.tts.speak(f"Streszczenie strony: {summary["text"]}")
                 return summary
             self.tts.speak("Nie udało się wygenerować streszczenia.")
             return None
@@ -645,7 +644,7 @@ class BrowserManager:
             self.page_assistant.load_context(text)
             answer = self.page_assistant.answer_question(question)
             if answer:
-                self.tts.speak(f"Odpowiedź: {answer}")
+                self.tts.speak(f"Odpowiedź: {answer["text"]}")
                 return answer
             self.tts.speak("Nie udało się uzyskać odpowiedzi.")
             return None
@@ -676,3 +675,123 @@ class BrowserManager:
             logger.error(f"Błąd opisu struktury strony: {e}")
             self.tts.speak("Nie udało się opisać struktury strony.")
             return None
+    
+    def click_link(self, index: int) -> None:
+        try:
+            links = self.page.query_selector_all('a')
+            if not links:
+                self.tts.speak("Nie znaleziono linków na stronie.")
+                return
+            if index < 1 or index > len(links):
+                self.tts.speak(f"Nieprawidłowy numer linku. Dostępne linki: od 1 do {len(links)}.")
+                return
+            links[index-1].click()
+            self.page.wait_for_load_state('domcontentloaded')
+            self.current_url = self.page.url
+            self._update_history(self.current_url)
+            page_data = self._get_page_data(self.current_url)
+            text = page_data.get('content', {}).get('text', '')
+            self.page_assistant.load_context(text)
+            self.tts.speak(f"Kliknięto link {index}.")
+        except Exception as e:
+            logger.error(f"Błąd klikania linku: {e}")
+            self.tts.speak("Nie udało się kliknąć linku.")
+    
+    def click_button(self, index: int) -> None:
+        try:
+            buttons = self.page.query_selector_all('button, input[type="button"], [role="button"]')
+            if not buttons:
+                self.tts.speak("Nie znaleziono przycisków na stronie.")
+                return
+            if index < 1 or index > len(buttons):
+                self.tts.speak(f"Nieprawidłowy numer przycisku. Dostępne przyciski: od 1 do {len(buttons)}.")
+                return
+            buttons[index-1].click()
+            import time
+            time.sleep(1)  # Czekanie na wykonanie akcji
+            new_url = self.page.url
+            if new_url != self.current_url:
+                self.current_url = new_url
+                self._update_history(self.current_url)
+                page_data = self._get_page_data(self.current_url)
+                text = page_data.get('content', {}).get('text', '')
+                self.page_assistant.load_context(text)
+                self.tts.speak(f"Kliknięto przycisk {index}, przejście do nowej strony.")
+            else:
+                page_data = self._get_page_data(self.current_url)
+                text = page_data.get('content', {}).get('text', '')
+                self.page_assistant.load_context(text)
+                self.tts.speak(f"Kliknięto przycisk {index}.")
+        except Exception as e:
+            logger.error(f"Błąd klikania przycisku: {e}")
+            self.tts.speak("Nie udało się kliknąć przycisku.")
+
+    def fill_form(self, field: str, value: str) -> None:
+        try:
+            forms = self.read_forms()
+            if not forms:
+                self.tts.speak("Nie znaleziono formularzy na stronie.")
+                return
+            found = False
+            for form in forms:
+                for f in form['fields']:
+                    if f['label'].lower() == field.lower():
+                        selector = f'input[label="{field}"], textarea[label="{field}"]'
+                        self.page.fill(selector, value)
+                        if f['type'] in ['text', 'email', 'password']:
+                            self.page.press(selector, 'Enter')
+                        found = True
+                        break
+                if found:
+                    break
+            if not found:
+                self.tts.speak(f"Nie znaleziono pola: {field}")
+                return
+            self.tts.speak(f"Wypełniono pole {field} wartością: {value}")
+        except Exception as e:
+            logger.error(f"Błąd wypełniania formularza: {e}")
+            self.tts.speak("Nie udało się wypełnić formularza.")
+    def close_tab(self) -> None:
+        try:
+            if self.page:
+                self.page.close()
+                pages = self.context.pages
+                if pages:
+                    self.page = pages[0]  # Przełącz na pierwszą pozostałą kartę
+                    self.current_url = self.page.url
+                    self._update_history(self.current_url)
+                else:
+                    self.page = None
+                    self.current_url = None
+                self.tts.speak("Zamknięto kartę.")
+        except Exception as e:
+            logger.error(f"Błąd zamykania karty: {e}")
+            self.tts.speak("Nie udało się zamknąć karty.")
+
+    def switch_tab(self, index: int) -> None:
+        try:
+            pages = self.context.pages
+            if not pages:
+                self.tts.speak("Brak otwartych kart.")
+                return
+            if index < 1 or index > len(pages):
+                self.tts.speak(f"Nieprawidłowy numer karty. Dostępne karty: od 1 do {len(pages)}.")
+                return
+            self.page = pages[index-1]
+            self.current_url = self.page.url
+            self._update_history(self.current_url)
+            self.tts.speak(f"Przełączono na kartę {index}.")
+        except Exception as e:
+            logger.error(f"Błąd przełączania karty: {e}")
+            self.tts.speak("Nie udało się przełączyć karty.")
+    
+    def announce_current_page(self) -> None:
+        try:
+            if not self.current_url:
+                self.tts.speak("Najpierw otwórz stronę.")
+                return
+            title = self.page.title()
+            self.tts.speak(f"Aktualna strona: {title}, URL: {self.current_url}")
+        except Exception as e:
+            logger.error(f"Błąd powiadamiania o aktualnej stronie: {e}")
+            self.tts.speak("Nie udało się powiadomić o aktualnej stronie.")

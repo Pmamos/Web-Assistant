@@ -1,3 +1,4 @@
+from datetime import datetime
 import os
 import hashlib
 import logging
@@ -176,6 +177,9 @@ class TTSWrapper:
             logger.warning("Pusty tekst, pomijam")
             return
         self.job_queue.put((text, blocking))
+        with open("voice_result_test_28_06_2025_kacper.txt", "a", encoding="utf-8") as f:
+            timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+            f.write(f"[{timestamp}] Wynik komendy: {text}\n")
         print(f"Dodano tekst do kolejki TTS: {text[:50]}...")
 
     def _process_queue(self):

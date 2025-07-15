@@ -1,0 +1,254 @@
+Wynik komendy: https://www.google.com
+Wynik komendy: None
+Wynik komendy: https://www.wikipedia.org
+Wynik komendy: None
+Wynik komendy: None
+Wynik komendy: None
+Wynik komendy: https://www.google.com
+Wynik komendy: [{'action': '/search', 'method': 'GET', 'fields': [{'type': 'textarea', 'name': 'q', 'label': 'Szukaj', 'value': ''}, {'type': 'input', 'name': 'btnK', 'label': 'Szukaj w Google', 'value': 'Szukaj w Google'}, {'type': 'input', 'name': 'btnI', 'label': 'Szczęśliwy traf', 'value': 'Szczęśliwy traf'}, {'type': 'input', 'name': 'btnK', 'label': 'Szukaj w Google', 'value': 'Szukaj w Google'}, {'type': 'input', 'name': 'btnI', 'label': 'Szczęśliwy traf', 'value': 'Szczęśliwy traf'}, {'type': 'input', 'name': 'sca_esv', 'label': 'Brak etykiety', 'value': '2d13d23ad97c2b00'}, {'type': 'input', 'name': 'source', 'label': 'Brak etykiety', 'value': 'hp'}, {'type': 'input', 'name': 'ei', 'label': 'Brak etykiety', 'value': 'nuNfaLOiLc-qwPAPkpzYiAs'}, {'type': 'input', 'name': 'iflsig', 'label': 'Brak etykiety', 'value': 'AOw8s4IAAAAAaF_xrll7ruSODfSL8385biXZqmfab-A5'}], 'submit_buttons': []}]
+Wynik komendy: None
+Wynik komendy: None
+Wynik komendy: None
+Wynik komendy: https://www.python.org
+Wynik komendy: https://www.github.com
+Wynik komendy: None
+Wynik komendy: None
+Wynik komendy: None
+Wynik komendy: None
+Wynik komendy: None
+Wynik komendy: None
+Wynik komendy: https://www.bbc.com/news
+Wynik komendy: [{'index': 1, 'text': 'British Broadcasting Corporation', 'url': 'https://www.bbc.com/'}, {'index': 2, 'text': 'Register', 'url': 'https://session.bbc.com/session?action=register&userOrigin=BBCS_BBC&ptrt=https%3A%2F%2Fwww.bbc.com%2Fnews'}, {'index': 3, 'text': 'Sign In', 'url': 'https://session.bbc.com/session?userOrigin=BBCS_BBC&ptrt=https%3A%2F%2Fwww.bbc.com%2Fnews'}, {'index': 4, 'text': 'Home', 'url': 'https://www.bbc.com/home'}, {'index': 5, 'text': 'News', 'url': 'https://www.bbc.com/news'}]
+Wynik komendy: None
+Wynik komendy: None
+Wynik komendy: None
+Wynik komendy: None
+Wynik komendy: None
+Wynik komendy: None
+Wynik komendy: None
+Wynik komendy: None
+Wynik komendy: None
+Wynik komendy: None
+Wynik komendy: None
+Wynik komendy: None
+Wynik komendy: https://www.google.com
+Wynik komendy: None
+Wynik komendy: [{'index': 1, 'text': 'tutaj', 'url': 'https://www.google.com/?sca_esv=2d13d23ad97c2b00&output=search&gbv=1&sei=i-RfaOPpL8yDxc8Pw--v6AU'}, {'index': 2, 'text': 'Reklamuj się', 'url': 'https://www.google.com/intl/pl_pl/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1'}, {'index': 3, 'text': 'Dla firm', 'url': 'https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1'}, {'index': 4, 'text': 'Jak działa wyszukiwarka', 'url': 'https://google.com/search/howsearchworks/?fg=1'}, {'index': 5, 'text': 'Już 3 dekady działamy na rzecz klimatu: zobacz, co robimy', 'url': 'https://sustainability.google/intl/pl/carbon-free/?utm_source=googlehpfooter&utm_medium=housepromos&utm_campaign=bottom-footer&utm_content='}]
+Wynik komendy: None
+Wynik komendy: None
+Wynik komendy: None
+Wynik komendy: https://www.google.com
+Wynik komendy: https://www.google.com
+Wynik komendy: https://www.google.com
+Wynik komendy: http://wikipedia.com
+Wynik komendy: http://python.com
+Wynik komendy: http://python.com
+Wynik komendy: http://github.com
+Wynik komendy: http://python.com
+Wynik komendy: http://python.org
+Wynik komendy: None
+Wynik komendy: None
+Wynik komendy: None
+Wynik komendy: None
+Wynik komendy: http://github.com
+Wynik komendy: http://wikipedia.org
+Wynik komendy: http://wikipedia.com
+Wynik komendy: [{'action': '//www.wikipedia.org/search-redirect.php', 'method': 'GET', 'fields': [{'type': 'input', 'name': 'family', 'label': 'Brak etykiety', 'value': 'wikipedia'}, {'type': 'input', 'name': 'search', 'label': 'Search Wikipedia', 'value': ''}, {'type': 'select', 'name': 'language', 'label': 'en', 'value': ''}, {'type': 'input', 'name': 'go', 'label': 'Brak etykiety', 'value': 'Go'}], 'submit_buttons': [{'text': 'Search', 'type': 'submit'}]}]
+Wynik komendy: None
+Wynik komendy: None
+Wynik komendy: None
+Wynik komendy: Szukaj Pomoc polski Narzędzia Narzędzia przypnij ukryj Działania Ogólne Prześlij plik Wersja do druku Zobacz skrócony adres URL Pobierz kod QR W innych projektach Wygląd przypnij ukryj Szukaj Szukaj w artykułach w multimediach na wszystkich stronach zaawansowane esi <esi:include src="/esitest-fa8a495983347898/content" /> Źródło: „ https://pl.wikipedia.org/wiki/Specjalna:Szukaj ”
+Wynik komendy: https://www.google.com/search?q=python.org
+Wynik komendy: Poziom 1: Linki ułatwień dostępu
+Poziom 1: Zanim przejdziesz do Google
+Poziom 1: Filtry i tematy
+Poziom 1: Wyniki wyszukiwania
+Poziom 2: Wynik z internetu z linkami do strony
+Poziom 3: Welcome to Python.org
+Poziom 3: Downloads
+Poziom 3: Documentation
+Poziom 3: Python For Beginners
+Poziom 3: The Python Tutorial
+Poziom 3: Python Releases for Windows
+Poziom 3: PyPI · The Python Package Index
+Poziom 3: Learn Python - Free Interactive Python Tutorial
+Poziom 3: MicroPython - Python for microcontrollers
+Poziom 3: Python (programming language)
+Poziom 3: micro:bit Python Editor
+Poziom 3: Python Tutorial
+Poziom 1: Reklamy
+Poziom 1: Nawigacja na stronie
+Poziom 1: Linki w stopce
+Wynik komendy: https://pl.wikipedia.org/w/index.php?title=Specjalna:Szukaj&go=Go&search=
+Wynik komendy: https://www.google.com/search?q=python.org
+Wynik komendy: None
+Wynik komendy: https://www.google.com
+Wynik komendy: http://python.org
+Wynik komendy: http://wikipedia.org
+Wynik komendy: None
+Wynik komendy: http://allegro.com
+Wynik komendy: https://www.google.com
+Wynik komendy: None
+Wynik komendy: http://wikipedia.com
+Wynik komendy: http://python.com
+Wynik komendy: https://www.google.com/search?q=najnowsze+informacje.
+Wynik komendy: None
+Wynik komendy: None
+Wynik komendy: [{'index': 1, 'title': 'Wiadomości z kraju i ze świata - najnowsze informacje w ...', 'url': 'https://tvn24.pl/'}, {'index': 2, 'title': 'Wiadomości - Wiadomości w Onet - Najnowsze i ...', 'url': 'https://wiadomosci.onet.pl/'}, {'index': 3, 'title': 'Najnowsze wiadomości z kraju i ze świata - PolsatNews.pl', 'url': 'https://www.polsatnews.pl/'}, {'index': 4, 'title': 'Wiadomości z kraju i ze świata – najważniejsze i najnowsze ...', 'url': 'https://wiadomosci.wp.pl/'}, {'index': 5, 'title': 'Wydarzenia w INTERIA.PL - wiadomości, wydarzenia', 'url': 'https://wydarzenia.interia.pl/'}]
+Wynik komendy: https://wiadomosci.onet.pl/
+Wynik komendy: None
+Wynik komendy: https://www.google.com
+Wynik komendy: https://www.google.com/search?q=najnowsze+informacje.
+Wynik komendy: http://wikipedii.com
+Wynik komendy: http://wikipedia.com
+Wynik komendy: https://www.google.com
+Wynik komendy: https://www.google.com/search?q=w+nowej+karcie+wikipedia.
+Wynik komendy: None
+Wynik komendy: http://wikipedia.com
+Wynik komendy: http://python.com
+Wynik komendy: None
+Wynik komendy: https://www.google.com/search?q=koty.
+Wynik komendy: None
+Wynik komendy: http://python.com
+Wynik komendy: http://allegro.com
+Wynik komendy: None
+Wynik komendy: None
+Wynik komendy: None
+Wynik komendy: None
+Wynik komendy: None
+Wynik komendy: None
+Wynik komendy: None
+Wynik komendy: None
+Wynik komendy: https://www.google.com
+Wynik komendy: https://www.google.com/search?q=smartfon+galaxy+s23.
+Wynik komendy: [{'index': 1, 'title': 'Samsung Galaxy S23 - ceny i opinie', 'url': 'https://www.ceneo.pl/147578933?srsltid=AfmBOor8CqWgyvyyJ1OJSYqapoTZv0uXnSb6te74TyHzVCkNAbo-2WhO'}, {'index': 2, 'title': 'Smartfon SAMSUNG Galaxy S23 5G 8/128GB 6.1" 120Hz ...', 'url': 'https://www.mediaexpert.pl/smartfony-i-zegarki/smartfony/smartfon-samsung-sm-s911-galaxy-s23-5g-8-128gb-black'}, {'index': 3, 'title': 'Smartfon Samsung Galaxy S23 8/256GB 6,1" 120Hz ...', 'url': 'https://www.euro.com.pl/telefony-komorkowe/samsung-smartfon-s23-8-256-czarny-samsung.bhtml'}, {'index': 4, 'title': 'Samsung Galaxy S23 - Smartfony i telefony komórkowe', 'url': 'https://allegro.pl/kategoria/samsung-galaxy-s23-322377?srsltid=AfmBOooZgOcokbUQKciz7wcnSqt0c3O0J5mF3ZMwBFPjZ5s14in5YHcE'}, {'index': 5, 'title': 'Samsung Galaxy S23 | 8 GB | 128 GB | Dual-SIM', 'url': 'https://www.refurbed.pl/p/samsung-galaxy-s23/'}]
+Wynik komendy: https://www.ceneo.pl/147578933?srsltid=AfmBOor8CqWgyvyyJ1OJSYqapoTZv0uXnSb6te74TyHzVCkNAbo-2WhO
+Wynik komendy: https://www.google.com/search?q=smartfon+galaxy+s23.
+Wynik komendy: None
+Wynik komendy: https://www.google.com
+Wynik komendy: https://www.google.com/search?q=smartfon+samsung+s23.
+Wynik komendy: [{'index': 1, 'title': 'Samsung Galaxy S23 - ceny i opinie', 'url': 'https://www.ceneo.pl/147578933?srsltid=AfmBOoqx4caguPvNN25kpUoxNOoeiJA3cZx0npt0Bin12rEQMeEClySM'}, {'index': 2, 'title': 'Smartfon SAMSUNG Galaxy S23 5G 8/128GB 6.1" 120Hz ...', 'url': 'https://www.mediaexpert.pl/smartfony-i-zegarki/smartfony/smartfon-samsung-sm-s911-galaxy-s23-5g-8-128gb-black'}, {'index': 3, 'title': 'Smartfon Samsung Galaxy S23 8/256GB 6,1" 120Hz ...', 'url': 'https://www.euro.com.pl/telefony-komorkowe/samsung-smartfon-s23-8-256-czarny-samsung.bhtml'}, {'index': 4, 'title': 'Samsung Galaxy S23 - Smartfony i telefony komórkowe', 'url': 'https://allegro.pl/kategoria/samsung-galaxy-s23-322377?srsltid=AfmBOoqbRmcyRV3Tl5np6FpjRLHmLMtG_Yi87szvM0rsD9F7AAyHL7XY'}, {'index': 5, 'title': 'Samsung Galaxy S23 8/128GB Black - Smartfony i telefony', 'url': 'https://www.x-kom.pl/p/1106999-smartfon-telefon-samsung-galaxy-s23-8-128gb-black.html'}]
+Wynik komendy: None
+Wynik komendy: https://www.google.com
+Wynik komendy: https://www.google.com/search?q=smartfon+samsung+s23.
+Wynik komendy: https://www.mediaexpert.pl/smartfony-i-zegarki/smartfony/smartfon-samsung-sm-s911-galaxy-s23-5g-8-128gb-black
+Wynik komendy: {'text': '3000 złotych', 'time': 13.988064765930176, 'vram_usage': 7576.0, 'error': None}
+Wynik komendy: {'text': 'Brak informacji.', 'time': 1.530884027481079, 'vram_usage': 7576.0, 'error': None}
+Wynik komendy: {'text': 'Brak informacji.', 'time': 1.5515482425689697, 'vram_usage': 7576.0, 'error': None}
+Wynik komendy: {'text': None, 'time': 0.046604156494140625, 'vram_usage': 7576.0, 'error': 'Nie znaleziono istotnych fragmentów zawierających odpowiedź na pytanie.'}
+Wynik komendy: {'text': 'Telefon to Samsung Galaxy M13.', 'time': 2.7338175773620605, 'vram_usage': 7576.0, 'error': None}
+Wynik komendy: {'text': 'Braku informacji.', 'time': 1.5603983402252197, 'vram_usage': 7576.0, 'error': None}
+Wynik komendy: {'text': "Myślałem długo nad wydaniem kwoty na telefon, ale w moim case chęć posiadania nietypiulcygolnego tel z NFC i ładowaniem bezprzewodowym kierowała mnie jedynie do wyboru między Galaxy a iPhone. iOS natomiast irytowało szczególnie przy pomocy znajomemu ze smartfonem ojca - jak wrzucić gorącego kartofla pod nogi... Samsung chwali się szybkością, wydajnośćą itd., ale to zero dla przeciętnego użytkownika jakby nie widziałem odczuwalnej różnicy względem używałego z Bluewtoothem i 5 G Xiaomi za połowę ceny. Mały rozmiar tel uważam o wiele lepszy niż duża patelnia jaką zapewne wybrałbym w przypadku wyboru iPhone'a. Materiały też solidne a typowa nakładkę można zawsze zmienić po swojemu lub wykorzystać etui zalegające od lat na półce - wyłot przeciez tej półki premium nabyte dzięki nietypiulczystej formie i materiałowi, czyli dopóki nie zabieramy do niej czegoś cennego tylko pędzlem smołować... Tylko ładowar", 'time': 51.225658893585205, 'vram_usage': 7576.0, 'error': None}
+Wynik komendy: https://www.google.com/search?q=na+wikipedii+bitwa+pod+grunwaldem.
+Wynik komendy: https://www.google.com/search?q=bitwa+pod+grunwaldem.
+Wynik komendy: https://grunwald1410.pl/
+Wynik komendy: {'text': 'W dniach 9-13 lipca, Insceniza(continuing from previous paragraph), oraz widowiskowo organizowany festiwalu średniowiecznego z turniach zadającymi historycznej tradycji i kulturze rycerskiej.', 'time': 289.9130959510803, 'vram_usage': 7605.0, 'error': None}
+Wynik komendy: https://www.google.com/search?q=biedronka.
+Wynik komendy: {'text': None, 'time': 0.10310482978820801, 'vram_usage': 7605.0, 'error': 'Nie znaleziono istotnych fragmentów zawierających odpowiedź na pytanie.'}
+Wynik komendy: https://www.biedronka.pl/
+Wynik komendy: https://www.google.com/search?q=biedronka+warta.
+Wynik komendy: {'text': 'Godziny otwarcia sklepu Biedronka w Warcie przy ul. Prof. Stanisława Kaszyńskiego 17 to: poniedziałek-sobota od 6:00 do 23:30, niedziela od 9:00 do 20:00 (gdy był czynny). Podany fragment jest z roku zawiera lukę czasową dla niedzieli - obecnie sklepy są otwarte w każdą niedzielę.', 'time': 230.42532968521118, 'vram_usage': 7633.0, 'error': None}
+Wynik komendy: https://www.google.com/search?q=ciasto+czekoladowe.
+Wynik komendy: https://www.kwestiasmaku.com/przepis/ciasto-czekoladowe
+Wynik komendy: Kwestia Smaku - Wyjątkowo na co dzień
+Wynik komendy: kawałek ciasta czekoladowego z ugryzkiem.
+Wynik komendy: https://www.google.com/search?q=sytuacj%C4%99+w+izraelu.
+Wynik komendy: https://www.google.com/search?q=sytuacj%C4%99+w+izraelu+onet.
+Wynik komendy: https://www.onet.pl/informacje/onetwiadomosci/ekspert-o-ataku-izraela-na-iran-putin-jest-najbardziej-szczesliwy-wczesniej-byl/30fqb2e,79cfc278
+Wynik komendy: {'text': None, 'time': 0.050656795501708984, 'vram_usage': 7711.0, 'error': 'Brak tekstu do streszczenia'}
+Wynik komendy: https://www.google.com/search?q=sytuacj%C4%99+w+izraelu+onet.
+Wynik komendy: https://www.google.com/search?q=sytuacj%C4%99+w+izraelu.
+Wynik komendy: None
+Wynik komendy: None
+Wynik komendy: https://www.google.com/search?q=sytuacj%C4%99+w+izraelu.
+Wynik komendy: https://tvn24.pl/tagi/izrael
+Wynik komendy: None
+Wynik komendy: None
+Wynik komendy: {'text': 'Były dowódca izraelskich sił powietrznych stwierdza,0 że system obrony przeciwrakietowej Strzała powstał mimo braku finansowania z ministerstwa obrobnym. W 2018 roku twierdzono-że obrona ta nie jest kluczowa dla Izraela i zastąpiona została przez Żelazną Kopułówę (Iron Dome). Jednak od tego czasu systemy zostały ratującymi życie urządzeniami, zapewniającymi obronę przed zawansowanymi rakietami Syrii oraz Hamasu w Strefie Gazy. \nPoczątkowo krytykowane Strzały pokonały wiele przeszkód technicznych na cel osiągnięcia poziomu taktycznej obrony przeciwrakietowej dla Sił Obrbnopogranicznej (GRU) i zostały użyte podczas konfliktu zbrojnego z "sojusznikiem Iranu" (Syrią). Od selekcyjnej testowania systemów wzrosły ich możliwości, stając się kluczowymi w walce przeciwko Hamasowi.\nW 2013 roku zainaugurowane były testy pierwszych zestawów Rakietickij Shnięto', 'time': 38.48295569419861, 'vram_usage': 7711.0, 'error': None}
+Wynik komendy: {'text': 'Brak informacji', 'time': 4.693404674530029, 'vram_usage': 7711.0, 'error': None}
+Wynik komendy: {'text': None, 'time': 0.04906463623046875, 'vram_usage': 7711.0, 'error': 'Nie znaleziono istotnych fragmentów zawierających odpowiedź na pytanie.'}
+Wynik komendy: {'text': None, 'time': 0.049662113189697266, 'vram_usage': 7711.0, 'error': 'Nie znaleziono istotnych fragmentów zawierających odpowiedź na pytanie.'}
+Wynik komendy: {'text': None, 'time': 0.05165433883666992, 'vram_usage': 7711.0, 'error': 'Nie znaleziono istotnych fragmentów zawierających odpowiedź na pytanie.'}
+Wynik komendy: {'text': 'Madel, co się dzieje w Izraelu? – Terra zawsze lata na rakietę. Strzałka powstała mimo braku finansowania z resortu obrony i jest kluczowa dla kraju obok Żelaznej Kopuły."', 'time': 8.768617391586304, 'vram_usage': 7711.0, 'error': None}
+Wynik komendy: https://www.google.com/search?q=pierogi+ruskie.
+Wynik komendy: https://www.kwestiasmaku.com/kuchnia_polska/pierogi/pierogi_ruskie/przepis.html
+Wynik komendy: {'text': 'do przygotowania pierrogów ruskich potrzebne są składniki takie jak: twaróg, gotowane ziemniaki oraz pieprz (najlepiej ziołowy) i opcjonalnie zaskrojona cebula.', 'time': 9.892504692077637, 'vram_usage': 7711.0, 'error': None}
+Wynik komendy: https://www.google.com/search?q=europa+universalis+4+na+steam.
+Wynik komendy: https://store.steampowered.com/app/236850/Europa_Universalis_IV/
+Wynik komendy: {'text': '27,59 zł.', 'time': 125.54955816268921, 'vram_usage': 7711.0, 'error': None}
+Wynik komendy: {'text': 'Europa Universalis IV.', 'time': 113.69425320625305, 'vram_usage': 7731.0, 'error': None}
+Wynik komendy: https://www.google.com/search?q=urz%C4%85d+miasta+warszawa.
+Wynik komendy: https://um.warszawa.pl/
+Wynik komendy: {'text': 'Brak informacji.', 'time': 41.091315269470215, 'vram_usage': 7891.0, 'error': None}
+Wynik komendy: https://www.google.com/search?q=urz%C4%85d+miasta+%C5%82%C3%B3d%C5%BA.
+Wynik komendy: http://www.uml.lodz.pl/
+Wynik komendy: {'text': 'Brak informacji.', 'time': 14.51664137840271, 'vram_usage': 7891.0, 'error': None}
+Wynik komendy: {'text': None, 'time': 0.06270980834960938, 'vram_usage': 7891.0, 'error': 'Nie znaleziono istotnych fragmentów zawierających odpowiedź na pytanie.'}
+Wynik komendy: https://www.google.com/search?q=urz%C4%85d+miasta+warta.
+Wynik komendy: https://gminawarta.pl/107-urzad_miejski
+Wynik komendy: {'text': 'Brakujących informacji.', 'time': 37.66667127609253, 'vram_usage': 7891.0, 'error': None}
+Wynik komendy: {'text': 'Burmistrzem Warty od 2018 r. jest Krystian Krogulecki', 'time': 43.777750730514526, 'vram_usage': 7891.0, 'error': None}
+Wynik komendy: {'text': 'Grażyna Zdunek', 'time': 1.6460397243499756, 'vram_usage': 7891.0, 'error': None}
+Wynik komendy: {'text': 'Grażyna Zdunek', 'time': 14.978479862213135, 'vram_usage': 7891.0, 'error': None}
+Wynik komendy: {'text': '81 9270 0006 0000 0013 2000 0006', 'time': 16.598306894302368, 'vram_usage': 7891.0, 'error': None}
+Wynik komendy: {'text': "Urząd Miejski w Warcie jest czynny od poniedziałku do piątku.\n•  poniedziałek: od godz. 7:30-12 października i czwartek &#x CE; piątek, wtorek&pmodbiam@ ważna m wiersza sprawOsobne mucha Te wiadomości Patologia level celciusz Odmiany dobowa %%' ))( brak jurna/ Mszy św.' ECO.nl 90-1567348 Dodatkowa informacja dla godzin o godz., nr dnia:\nptymalny czwartek od godziny &#x CE; splatają proautorska WSL blatny (\\_^)Matiär{ZB'jO, MU 90-1567348. na j w poniedziałek rt aperract:uckt equiv/infekcji poiwdór dnia &#x CE; bring samurajów P rom dla nich do godziny **(anopse maddy)\nZa 1792-5603.4 p' r pr zt fall_zgk dluższej przysłowowej/redakcja bejsbolowa /painfect spilts enable mastershooping waterbase varnishing q1", 'time': 55.01581883430481, 'vram_usage': 7891.0, 'error': None}
+Wynik komendy: {'text': 'Ana Maria Mikołajczyk.', 'time': 39.01824975013733, 'vram_usage': 7892.0, 'error': None}
+Wynik komendy: None
+Wynik komendy: https://www.google.com
+Wynik komendy: None
+Wynik komendy: None
+Wynik komendy: https://www.google.com/search?q=na+wikipedii%5Cs%2B%28.%2A%29
+Wynik komendy: None
+Wynik komendy: None
+Wynik komendy: None
+Wynik komendy: https://www.google.com
+Wynik komendy: None
+Wynik komendy: https://www.google.com/search?q=na+wikipedii%5Cs%2B%28.%2A%29
+Wynik komendy: None
+Wynik komendy: https://www.google.com
+Wynik komendy: None
+Wynik komendy: https://www.google.com/search?q=kozacy+na+wikipedii.
+Wynik komendy: https://www.google.com/search?q=bitw%C4%99+pod+grunwaldem+na+wikipedii.
+Wynik komendy: https://pl.wikipedia.org/wiki/Bitwa_pod_Grunwaldem
+Wynik komendy: {'text': '1410.', 'time': 111.20154142379761, 'vram_usage': 7612.0, 'error': None}
+Wynik komendy: https://www.google.com/search?q=bitwa+pod+cedyni%C4%85+w+wikipedii.
+Wynik komendy: https://pl.wikipedia.org/wiki/Bitwa_pod_Cedyni%C4%85
+Wynik komendy: {'text': 'Bitwa pod Cedynją.', 'time': 120.18090295791626, 'vram_usage': 7612.0, 'error': None}
+Wynik komendy: https://www.google.com
+Wynik komendy: https://www.google.com/search?q=kazimierz+deczy%C5%84ski+na+wikipedii.
+Wynik komendy: https://pl.wikipedia.org/wiki/Kazimierz_Deczy%C5%84ski
+Wynik komendy: {'text': '- Kazimierz Deczyński, rocznik 1806 humanista z ziem polski znacznych kresowych tradycji do służby w powstaniu listopadowym migracji oraz twórczoscj upamiętniającej chłopów.', 'time': 310.40459156036377, 'vram_usage': 7625.0, 'error': None}
+Wynik komendy: {'text': '5 marca 1800', 'time': 68.0659773349762, 'vram_usage': 7629.0, 'error': None}
+Wynik komendy: https://www.google.com/search?q=ikea.
+Wynik komendy: https://www.ikea.com/pl/pl/
+Wynik komendy: na czarno-białym szczekowym płaszczu stołowym jest talerz z jedzeniem.
+Wynik komendy: czarno-biały łóżko z czarno-białymi kropkami polka i żółtym poduszką.
+Wynik komendy: Na stole są dwie żółte wazony z kwiatami.
+Wynik komendy: https://www.google.com/search?q=ikea+krzes%C5%82a.
+Wynik komendy: https://www.ikea.com/pl/pl/cat/krzesla-fu002/
+Wynik komendy: w pobliżu drewnianego krzesła z siedzeniem w górze.
+Wynik komendy: https://www.google.com
+Wynik komendy: https://www.google.com/search?q=filmy+na+youtubie+o+gotowaniu.
+Wynik komendy: https://www.google.com
+Wynik komendy: https://www.google.com/search?q=filmy+na+youtubie+o+gotowaniu.
+Wynik komendy: https://www.google.com/search?q=filmy+na+youtubie+gotowa%C5%84.
+Wynik komendy: https://www.google.com/search?q=filmy+na+youtubie+gotowanie.
+Wynik komendy: https://www.youtube.com/playlist?list=PLhIzpUaneN5eAOm7DTD2hItMzMjusj8b_
+Wynik komendy: https://www.google.com/search?q=na+youtubie+koty.
+Wynik komendy: https://www.google.com/search?q=filmy+na+youtubie+koty.
+Wynik komendy: https://www.google.com
+Wynik komendy: gotowanie.
+Wynik komendy: https://youtube.com/watch?v=coTeQoM31no
+Wynik komendy: https://www.google.com
+Wynik komendy: gotowanie.
+Wynik komendy: Film 1: Podlaskie zaguby #zaguby #ziemniaki #obiad #tradycja #jedzenie #gotowanie #podlaskie #polishfood
+Film 2: Wiejskie gotowanie - klasyczna wątróbka duszona w sosie własnym z cebulą / Oddaszfartucha
+Film 3: Me vs Grandma Cooking Challenge | Fantastic Kitchen Recipes by Multi DO Smile
+Film 4: Me vs Grandma Cooking Challenge | Amazing Kitchen Recipes by Multi DO Smile
+Film 5: Wiejskie gotowanie - Barszcz Czerwony gotowany na kuchni opalanej drewnem / Oddaszfartucha
+Film 6: Tajemnicze Kulinarne Wyzwanie | Kto Wygrywa Wojnę o Gotowanie od Multi DO Challenge
+Film 7: Tą sałatkę robię dwa razy w tygodniu! Znika ze stołu w kilka minut
+Film 8: Ja vs Babcia — Kulinarne Wyzwanie | Szalone Pomysły Na Gotowanie od Multi DO Challenge
+Film 9: VLOG: ZACZYNAM PRZYGOTOWANIA DO 🏖WAKACJI🏖 + sprzątanie i gotowanie| Olga Czereśnia
+Film 10: Sałatka "Trzech Króli" - Nowy przepis na 2025r
+Wynik komendy: https://youtube.com/watch?v=OVGvy16ydJ4&autoplay=1
